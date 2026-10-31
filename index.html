@@ -87,6 +87,7 @@ function setTab(t) {
   document.querySelectorAll(".tabs button").forEach(b => {
     b.classList.toggle("on", b.dataset.tab === t);
   });
+  try { history.replaceState(null, "", "#" + t); } catch (e) {}
   render();
 }
 
@@ -200,6 +201,17 @@ async function load() {
 
 load();
 setInterval(load, 10 * 60 * 1000);
+
+// 支持 #news7 / #news30 / #events 直接打开对应标签
+(function () {
+  const h = (location.hash || "").replace("#", "");
+  if (h === "news7" || h === "news30" || h === "events") {
+    TAB = h;
+    document.querySelectorAll(".tabs button").forEach(b => {
+      b.classList.toggle("on", b.dataset.tab === h);
+    });
+  }
+})();
 </script>
 </body>
 </html>
