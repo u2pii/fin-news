@@ -48,6 +48,7 @@ display:block;text-decoration:none}
 .nm2 span:first-child{color:#7d8699}
 .en{font-size:10.5px;padding:1px 6px;border-radius:10px;background:#2a1f0a;color:#f0be5a}
 .empty{text-align:center;color:#5f6779;padding:40px 0;font-size:14px}
+.more{text-align:center;color:#4a5162;font-size:12px;padding:18px 0}
 .foot{font-size:11px;color:#3d4352;text-align:center;margin-top:28px;line-height:1.9}
 .legend{font-size:11px;color:#4a5162;margin-bottom:14px;line-height:1.7;
 background:#12151d;border-radius:10px;padding:10px 13px}
@@ -145,17 +146,40 @@ function render() {
 
   // 新闻
   const days = TAB === "news7" ? 7 : 30;
-  const news = (DATA.news || []).filter(n => now - n.ts <= days * 86400);
-  if (!news.length) {
+  const all = (DATA.news || []).filter(n => now - n.ts <= days * 86400);
+  if (!all.length) {
     out.innerHTML = '<div class="empty">这个时段没有新闻</div>';
     return;
   }
-  out.innerHTML = news.map(n => {
-    const isEn = n.lang === "en";
-    return '<a class="news" href="' + n.link + '" target="_blank" rel="noopener">' +
-      '<div class="nt">' + n.title + (isEn ? ' <span class="en">EN</span>' : "") + "</div>" +
-      '<div class="nm2"><span>' + n.source + "</span><span>" + rel(n.ts) + "</span></div></a>";
-  }).join("");
+  const LIMIT = 120;
+  const news = all.slice(0, LIMIT);
+
+  // 按日期分组
+  const byDay = {};
+  news.forEach(n => {
+    const d = new Date(n.ts * 1000);
+    const key = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    (byDay[key] = byDay[key] || []).push(n);
+  });
+  const WD = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
+  const todayKey = new Date().toLocaleDateString("sv-SE");
+
+  let h = "";
+  Object.keys(byDay).sort().reverse().forEach(key => {
+    const d = new Date(key + "T00:00:00");
+    h += '<div class="day">' + key + " " + WD[d.getDay()] + (key === todayKey ? " · 今天" : "") + "</div>";
+    byDay[key].forEach(n => {
+      const isEn = n.lang === "en";
+      h += '<a class="news" href="' + n.link + '" target="_blank" rel="noopener">' +
+        '<div class="nt">' + n.title + (isEn ? ' <span class="en">EN</span>' : "") + "</div>" +
+        '<div class="nm2"><span>' + n.source + "</span><span>" + rel(n.ts) + "</span></div></a>";
+    });
+  });
+
+  if (all.length > LIMIT) {
+    h += '<div class="more">已显示最新 ' + LIMIT + " 条，共 " + all.length + " 条</div>";
+  }
+  out.innerHTML = h;
 }
 
 async function load() {
