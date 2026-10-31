@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#0a0c10">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="财经">
+<title>财经雷达</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{overflow-x:hidden}
+body{margin:0 auto;background:#0a0c10;color:#d2d8e6;font:15px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+padding:16px 14px 50px;max-width:430px;min-height:100vh;-webkit-text-size-adjust:100%}
+h1{font-size:20px;margin:0 0 3px;color:#fff;font-weight:700}
+.sub{font-size:11.5px;color:#5f6779;margin-bottom:14px}
+.tabs{display:flex;gap:7px;margin-bottom:16px;position:sticky;top:0;background:#0a0c10;padding:6px 0;z-index:5}
+.tabs button{flex:1;padding:10px 4px;border-radius:11px;border:1px solid #202633;background:#12151d;
+color:#7d8699;font-size:13px;font-weight:600;font-family:inherit}
+.tabs button.on{border-color:#2f6bff;background:#16224a;color:#8ab4ff}
+.tabs button small{display:block;font-size:10px;font-weight:400;opacity:.7;margin-top:1px}
+.day{font-size:12px;color:#5f6779;margin:20px 0 8px;font-weight:600;letter-spacing:.5px}
+.day:first-child{margin-top:4px}
+.ev{background:#12151d;border:1px solid #202633;border-radius:13px;padding:13px 15px;margin-bottom:9px;border-left:3px solid #2a3448}
+.ev.crit{border-left-color:#e8484f;background:#161013}
+.ev.hi{border-left-color:#f0be5a;background:#161408}
+.ev.lo{border-left-color:#3a4356}
+.evtop{display:flex;align-items:center;gap:8px;margin-bottom:6px;flex-wrap:wrap}
+.tm{font-size:12.5px;color:#8b93a6;font-variant-numeric:tabular-nums;font-weight:600}
+.cty{font-size:11px;padding:1px 8px;border-radius:20px;background:#1c2333;color:#8ab4ff}
+.lv{font-size:10.5px;padding:1px 7px;border-radius:20px;margin-left:auto;font-weight:600}
+.lv.crit{background:#3a1418;color:#ff8fa0}
+.lv.hi{background:#3a3216;color:#f0be5a}
+.lv.lo{background:#1c2333;color:#6b7385}
+.nm{font-size:15.5px;font-weight:600;color:#fff;line-height:1.4}
+.nmen{font-size:11px;color:#4a5162;margin-top:1px}
+.nums{display:flex;gap:16px;margin-top:8px;font-size:12.5px;color:#7d8699}
+.nums b{color:#c9cfdd;font-variant-numeric:tabular-nums}
+.imp{margin-top:9px;font-size:12px;line-height:1.55;color:#8b93a6;border-top:1px dashed #202633;padding-top:8px}
+.imp i{font-style:normal;color:#19c07a}
+.imp u{text-decoration:none;color:#e8484f}
+.news{background:#12151d;border:1px solid #202633;border-radius:12px;padding:12px 14px;margin-bottom:9px;
+display:block;text-decoration:none}
+.news:active{background:#171b25}
+.nt{font-size:14.5px;color:#e2e6f0;line-height:1.5;font-weight:500}
+.nm2{font-size:11px;color:#5f6779;margin-top:6px;display:flex;gap:10px}
+.nm2 span:first-child{color:#7d8699}
+.en{font-size:10.5px;padding:1px 6px;border-radius:10px;background:#2a1f0a;color:#f0be5a}
+.empty{text-align:center;color:#5f6779;padding:40px 0;font-size:14px}
+.foot{font-size:11px;color:#3d4352;text-align:center;margin-top:28px;line-height:1.9}
+.legend{font-size:11px;color:#4a5162;margin-bottom:14px;line-height:1.7;
+background:#12151d;border-radius:10px;padding:10px 13px}
+.legend b{color:#8b93a6}
+.spin{text-align:center;color:#5f6779;padding:50px 0;font-size:14px}
+</style>
+</head>
+<body>
+<h1>财经雷达</h1>
+<div class="sub" id="sub">加载中…</div>
+
+<div class="tabs">
+  <button class="on" data-tab="events" onclick="setTab('events')">未来7天<small>事件</small></button>
+  <button data-tab="news7" onclick="setTab('news7')">近7天<small>新闻</small></button>
+  <button data-tab="news30" onclick="setTab('news30')">近30天<small>新闻</small></button>
+</div>
+
+<div class="legend">
+<b>红色</b> = 极高影响（利率决议、CPI、非农）　<b>黄色</b> = 高影响<br>
+<b>绿色</b> = 利多风险资产　<b>红色</b> = 利空风险资产
+</div>
+
+<div id="out"><div class="spin">加载中…</div></div>
+
+<div class="foot">数据每 3 小时更新 · 时间均为北京时间<br>标注为一般规律，不等于必然结果</div>
+
+<script>
+let DATA = null;
+let TAB = "events";
+
+const $ = (id) => document.getElementById(id);
+const LV = { "极高": "crit", "高": "hi", "中": "lo", "低": "lo", "休市": "lo" };
+
+function setTab(t) {
+  TAB = t;
+  document.querySelectorAll(".tabs button").forEach(b => {
+    b.classList.toggle("on", b.dataset.tab === t);
+  });
+  render();
+}
+
+function rel(ts) {
+  const d = Date.now() / 1000 - ts;
+  if (d < 0) {
+    const a = -d;
+    if (a < 3600) return Math.round(a / 60) + "分钟后";
+    if (a < 86400) return Math.round(a / 3600) + "小时后";
+    return Math.round(a / 86400) + "天后";
+  }
+  if (d < 3600) return Math.round(d / 60) + "分钟前";
+  if (d < 86400) return Math.round(d / 3600) + "小时前";
+  if (d < 86400 * 30) return Math.round(d / 86400) + "天前";
+  return new Date(ts * 1000).toLocaleDateString("zh-CN");
+}
+
+function render() {
+  if (!DATA) return;
+  const out = $("out");
+  const now = Date.now() / 1000;
+
+  if (TAB === "events") {
+    const evs = (DATA.events || []).filter(e => e.ts >= now - 3600 && e.ts <= now + 7 * 86400);
+    if (!evs.length) {
+      out.innerHTML = '<div class="empty">未来 7 天没有重要事件</div>';
+      return;
+    }
+    const byDay = {};
+    evs.forEach(e => { (byDay[e.date] = byDay[e.date] || []).push(e); });
+    let h = "";
+    Object.keys(byDay).sort().forEach(date => {
+      const list = byDay[date];
+      const wd = list[0].weekday;
+      const isToday = date === new Date().toLocaleDateString("sv-SE");
+      h += '<div class="day">' + date + " " + wd + (isToday ? " · 今天" : "") + "</div>";
+      list.forEach(e => {
+        const cls = LV[e.level] || "lo";
+        h += '<div class="ev ' + cls + '">' +
+          '<div class="evtop"><span class="tm">' + e.time + "</span>" +
+          '<span class="cty">' + e.country + "</span>" +
+          '<span class="lv ' + cls + '">' + e.level + "</span></div>" +
+          '<div class="nm">' + e.name + "</div>" +
+          (e.name_en !== e.name ? '<div class="nmen">' + e.name_en + "</div>" : "") +
+          '<div class="nums">' +
+          (e.forecast ? "<span>预期 <b>" + e.forecast + "</b></span>" : "") +
+          (e.previous ? "<span>前值 <b>" + e.previous + "</b></span>" : "") +
+          (e.actual ? "<span>公布 <b style='color:#19c07a'>" + e.actual + "</b></span>" : "") +
+          "</div>" +
+          '<div class="imp">高于预期：<i>' + (e.up || "—") + "</i><br>低于预期：<u>" + (e.dn || "—") + "</u></div>" +
+          "</div>";
+      });
+    });
+    out.innerHTML = h;
+    return;
+  }
+
+  // 新闻
+  const days = TAB === "news7" ? 7 : 30;
+  const news = (DATA.news || []).filter(n => now - n.ts <= days * 86400);
+  if (!news.length) {
+    out.innerHTML = '<div class="empty">这个时段没有新闻</div>';
+    return;
+  }
+  out.innerHTML = news.map(n => {
+    const isEn = n.lang === "en";
+    return '<a class="news" href="' + n.link + '" target="_blank" rel="noopener">' +
+      '<div class="nt">' + n.title + (isEn ? ' <span class="en">EN</span>' : "") + "</div>" +
+      '<div class="nm2"><span>' + n.source + "</span><span>" + rel(n.ts) + "</span></div></a>";
+  }).join("");
+}
+
+async function load() {
+  try {
+    const r = await fetch("data.json?t=" + Date.now());
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    DATA = await r.json();
+    const c = DATA.counts || {};
+    $("sub").textContent = "更新 " + DATA.updated +
+      " · 未来7天 " + (c.events_future7 || 0) + " 个事件";
+    render();
+  } catch (e) {
+    $("out").innerHTML = '<div class="empty">数据加载失败<br><span style="font-size:12px">' +
+      String(e.message || e) + "</span></div>";
+    $("sub").textContent = "加载失败";
+  }
+}
+
+load();
+setInterval(load, 10 * 60 * 1000);
+</script>
+</body>
+</html>
