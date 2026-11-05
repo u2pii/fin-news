@@ -1,96 +1,6 @@
 {
- "updated": "2026-11-05 23:55",
+ "updated": "2026-11-06 02:50",
  "events": [
-  {
-   "name_en": "HCOB France Composite PMI",
-   "name": "PMI 采购经理人指数",
-   "level": "高",
-   "up": "扩张→风险资产↑",
-   "dn": "收缩→风险资产↓",
-   "country": "法国",
-   "date": "2026-10-06",
-   "weekday": "周二",
-   "time": "10:50",
-   "ts": 1791255000.0,
-   "forecast": "51.2",
-   "previous": "48.5",
-   "actual": "51.1"
-  },
-  {
-   "name_en": "HCOB Germany Composite PMI",
-   "name": "PMI 采购经理人指数",
-   "level": "高",
-   "up": "扩张→风险资产↑",
-   "dn": "收缩→风险资产↓",
-   "country": "德国",
-   "date": "2026-10-06",
-   "weekday": "周二",
-   "time": "10:55",
-   "ts": 1791255300.0,
-   "forecast": "53.8",
-   "previous": "51.8",
-   "actual": "53.8"
-  },
-  {
-   "name_en": "HCOB Eurozone Composite PMI",
-   "name": "PMI 采购经理人指数",
-   "level": "高",
-   "up": "扩张→风险资产↑",
-   "dn": "收缩→风险资产↓",
-   "country": "欧元区",
-   "date": "2026-10-06",
-   "weekday": "周二",
-   "time": "11:00",
-   "ts": 1791255600.0,
-   "forecast": "53.1",
-   "previous": "52.0",
-   "actual": "53.1"
-  },
-  {
-   "name_en": "S&P Global Composite PMI",
-   "name": "PMI 采购经理人指数",
-   "level": "高",
-   "up": "扩张→风险资产↑",
-   "dn": "收缩→风险资产↓",
-   "country": "英国",
-   "date": "2026-10-06",
-   "weekday": "周二",
-   "time": "11:30",
-   "ts": 1791257400.0,
-   "forecast": "51.7",
-   "previous": "52.5",
-   "actual": "52.0"
-  },
-  {
-   "name_en": "S&P Global Composite PMI",
-   "name": "PMI 采购经理人指数",
-   "level": "高",
-   "up": "扩张→风险资产↑",
-   "dn": "收缩→风险资产↓",
-   "country": "美国",
-   "date": "2026-10-06",
-   "weekday": "周二",
-   "time": "16:45",
-   "ts": 1791276300.0,
-   "forecast": "58.4",
-   "previous": "58.4",
-   "actual": "58.4"
-  },
-  {
-   "name_en": "ISM Non-Manufacturing PMI",
-   "name": "制造业 PMI",
-   "level": "高",
-   "up": "扩张→风险资产↑",
-   "dn": "收缩→风险资产↓",
-   "country": "美国",
-   "date": "2026-10-06",
-   "weekday": "周二",
-   "time": "17:00",
-   "ts": 1791277200.0,
-   "forecast": "55.1",
-   "previous": "55.4",
-   "actual": "54.9"
-  },
   {
    "name_en": "Unemployment Rate s.a.",
    "name": "失业率",
@@ -872,49 +782,49 @@
    "actual": ""
   },
   {
-   "name_en": "IGP-10 Inflation Index",
-   "name": "通胀",
-   "level": "极高",
-   "up": "通胀高→紧缩预期 风险资产↓",
-   "dn": "通胀低→宽松预期 风险资产↑",
-   "country": "巴西",
-   "date": "2026-10-19",
-   "weekday": "周一",
-   "time": "14:00",
-   "ts": 1792389600.0,
-   "forecast": "1.4%",
-   "previous": "1.5%",
-   "actual": "1.8%"
+   "name_en": "GDP",
+   "name": "GDP 增速",
+   "level": "高",
+   "up": "增长强→美元↑ 股市↑",
+   "dn": "增长弱→降息预期↑ 股市↓",
+   "country": "中国",
+   "date": "2026-10-20",
+   "weekday": "周二",
+   "time": "05:00",
+   "ts": 1792443600.0,
+   "forecast": "4.4%",
+   "previous": "4.3%",
+   "actual": "4.5%"
   },
   {
-   "name_en": "Common CPI",
-   "name": "消费者物价指数 CPI",
-   "level": "极高",
-   "up": "通胀高→加息预期↑ 美元↑ 美股↓ 黄金↓ BTC↓",
-   "dn": "通胀低→降息预期↑ 美元↓ 风险资产↑",
-   "country": "加拿大",
-   "date": "2026-10-19",
-   "weekday": "周一",
-   "time": "15:30",
-   "ts": 1792395000.0,
-   "forecast": "2.6%",
-   "previous": "2.6%",
-   "actual": "2.4%"
+   "name_en": "Retail Sales",
+   "name": "零售销售",
+   "level": "高",
+   "up": "消费强→美元↑",
+   "dn": "消费弱→衰退担忧",
+   "country": "中国",
+   "date": "2026-10-20",
+   "weekday": "周二",
+   "time": "05:00",
+   "ts": 1792443600.0,
+   "forecast": "0.5%",
+   "previous": "0.4%",
+   "actual": "1.1%"
   },
   {
-   "name_en": "Core CPI",
-   "name": "核心 CPI",
-   "level": "极高",
-   "up": "核心通胀高→降息更难 风险资产↓",
-   "dn": "核心通胀低→降息预期↑ 风险资产↑",
-   "country": "加拿大",
-   "date": "2026-10-19",
-   "weekday": "周一",
-   "time": "15:30",
-   "ts": 1792395000.0,
-   "forecast": "",
-   "previous": "0.1%",
-   "actual": "0.0%"
+   "name_en": "Chinese Unemployment Rate",
+   "name": "失业率",
+   "level": "高",
+   "up": "失业率升→降息预期↑ 债券↑",
+   "dn": "失业率降→美元↑",
+   "country": "中国",
+   "date": "2026-10-20",
+   "weekday": "周二",
+   "time": "05:00",
+   "ts": 1792443600.0,
+   "forecast": "5.3%",
+   "previous": "5.3%",
+   "actual": "5.2%"
   },
   {
    "name_en": "IGP-10 Inflation Index",
@@ -3195,29 +3105,441 @@
    "forecast": "",
    "previous": "",
    "actual": ""
+  },
+  {
+   "name_en": "French CPI",
+   "name": "消费者物价指数 CPI",
+   "level": "极高",
+   "up": "通胀高→加息预期↑ 美元↑ 美股↓ 黄金↓ BTC↓",
+   "dn": "通胀低→降息预期↑ 美元↓ 风险资产↑",
+   "country": "法国",
+   "date": "2026-11-14",
+   "weekday": "周六",
+   "time": "10:45",
+   "ts": 1794624300.0,
+   "forecast": "0.4%",
+   "previous": "-0.3%",
+   "actual": ""
+  },
+  {
+   "name_en": "France Inflation Ex-Tobacco",
+   "name": "通胀",
+   "level": "极高",
+   "up": "通胀高→紧缩预期 风险资产↓",
+   "dn": "通胀低→宽松预期 风险资产↑",
+   "country": "法国",
+   "date": "2026-11-14",
+   "weekday": "周六",
+   "time": "10:45",
+   "ts": 1794624300.0,
+   "forecast": "",
+   "previous": "3.10%",
+   "actual": ""
+  },
+  {
+   "name_en": "Core CPI",
+   "name": "核心 CPI",
+   "level": "极高",
+   "up": "核心通胀高→降息更难 风险资产↓",
+   "dn": "核心通胀低→降息预期↑ 风险资产↑",
+   "country": "西班牙",
+   "date": "2026-11-14",
+   "weekday": "周六",
+   "time": "11:00",
+   "ts": 1794625200.0,
+   "forecast": "3.1%",
+   "previous": "3.1%",
+   "actual": ""
+  },
+  {
+   "name_en": "Spanish CPI",
+   "name": "消费者物价指数 CPI",
+   "level": "极高",
+   "up": "通胀高→加息预期↑ 美元↑ 美股↓ 黄金↓ BTC↓",
+   "dn": "通胀低→降息预期↑ 美元↓ 风险资产↑",
+   "country": "西班牙",
+   "date": "2026-11-14",
+   "weekday": "周六",
+   "time": "11:00",
+   "ts": 1794625200.0,
+   "forecast": "0.6%",
+   "previous": "0.3%",
+   "actual": ""
+  },
+  {
+   "name_en": "GDP",
+   "name": "GDP 增速",
+   "level": "高",
+   "up": "增长强→美元↑ 股市↑",
+   "dn": "增长弱→降息预期↑ 股市↓",
+   "country": "欧元区",
+   "date": "2026-11-14",
+   "weekday": "周六",
+   "time": "13:00",
+   "ts": 1794632400.0,
+   "forecast": "0.4%",
+   "previous": "0.6%",
+   "actual": ""
+  },
+  {
+   "name_en": "CPI",
+   "name": "消费者物价指数 CPI",
+   "level": "极高",
+   "up": "通胀高→加息预期↑ 美元↑ 美股↓ 黄金↓ BTC↓",
+   "dn": "通胀低→降息预期↑ 美元↓ 风险资产↑",
+   "country": "俄罗斯",
+   "date": "2026-11-14",
+   "weekday": "周六",
+   "time": "19:00",
+   "ts": 1794654000.0,
+   "forecast": "",
+   "previous": "0.4%",
+   "actual": ""
   }
  ],
  "news": [
+  {
+   "title": "四款人像旗舰横评：65mm黄金焦段与自然肤色，直出成片谁更稳？ - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02aUlnTXI1NWhjWGttekt2RVJVVjRrOFpwalZ5bElZN2RlRW9teEM2THhlNWFES091cWxKMVNOQk5LOGFST1J4MnJyTDZTX2lUb3d1dkhWZ3ZGSlluVEJR?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793904328.0
+  },
+  {
+   "title": "人工智能板块遭抛售，纳斯达克指数下跌5%，比特币跌破76,000美元 - www.tmgm.com",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaDJFeGMxTWJ2Q3RIUjlfNFd2ZUtheHFFRmNfZW96dlQzT1NBRTd0Wml0LXFqWW5sYU5FSk9SVGE0VXIzZGoxQXoyTHRFZGdoWm40ZzBVNkd0Wk5iXzB1NnNZalBPV28wcmJWNkhzWFNudkpkdF9vSWw0SVJxTXBYa0NzYmVPcnNTdjlOeF9OaGpTd3lMVklneDIwQ3RwX3FhTDVxZmRtZTAxcXhGY2Z5TjN2VU5uektfVXRtZ2todVhmTm1NdGd4blVn?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793904028.0
+  },
+  {
+   "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
+   "link": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "source": "CoinTelegraph",
+   "lang": "en",
+   "ts": 1793903565.0
+  },
+  {
+   "title": "美联储在固定利率逆回购操作中总计接纳了1个对手方的1.25亿美元。 - 富途牛牛",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSzR6UFhveS0wbXRxYXJEbnFtc1VJdUJYSUxHeUxSQW9jRHBoU3pJeFJvM2hNZ3FKa2RHVlI3NmRfOV9uSWpfN1NSMkJPbHNzazVpLTBKd3lYQmdFT1oyMzU3czlBN1NVX1VFa2NJV1gwM2ktZnV1cnh1Q0NDRDU4VjlUX2pkZ1B0cjRSZk84QzlNSjBoZ0p1VjY3LUFfZw?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793903298.0
+  },
+  {
+   "title": "热门板块速睇：美股盘中5G概念走弱，迈威尔科技领跌 - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVGNia2hiMXZrV3JHcTBtRXkxeHQ5YnBJOFozbUhtTmNLYVJQTEloY3A4SW1lSEI3QzVILXBIeW9Ta1R0YWJoZVdtSlNPQzA3QUpLX0kzdXhmVkZadlBTRUJBTlo3M1VoYkFBVUhjQ1lHVFozempnalE5QTF3TEFIZUVFYnhjZmV2YV9nbWZzZEx0Ty15Z3Z6UnJGZXJvbzdNcDZIVkZBblhFem53Q1ZQeVl1ZUhKd0Vs?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793902800.0
+  },
+  {
+   "title": "Europe’s largest asset manager Amundi tokenizes equity index fund on Ethereum",
+   "link": "https://cointelegraph.com/news/amundi-tokenizes-european-equity-index-fund-ethereum?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "source": "CoinTelegraph",
+   "lang": "en",
+   "ts": 1793902178.0
+  },
+  {
+   "title": "美股大跌 纳指盘中最大跌幅超5% 费城半导体指数一度跌逾11% 芯片、存储板块重挫 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPckkya0tQVFkxM2xvdnZMcUE4YUZiN191SG4ybHdVaGtZSDhpaUVUQ3AwNWVmZ2xINk1rcTRFTHdDZDludzFYTi1hZVpPX0JtdkJWS1FPMXJmekduWGRMSA?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793901887.0
+  },
+  {
+   "title": "为了应对油价飙升，吉利银河星耀6 EF可以“喝酒”了 - 汽车之家",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kNzFvZWJrcVFYWHJsb1R5S3NTX1JQTlZTVWJlUE42UVE0dWFQUWUtVVEtTk1xWHhqLWdyTlpCMi0tY3hoSjlsMHZ0MF9UcjlocVNUMW1TRHUwTFE4bkNGeTRTNk5TaGszN3Mw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793901804.0
+  },
+  {
+   "title": "医疗器械行业经营改善 - 手机新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWTJja2pHNGpqMDdCZUN3b1dhNlJ2QUxpV2ZDTDRpaTJiRGpaeGR2MmJ3Mk5fU3R1LUZraUc3eExEbDlwRHZlZll4dmlKLV9TQ1N5ODh0Z1I0VC1ucDhBWTM2ZU5aenVxbmZTZTZnbnZQRzFQQVpMRnhMdE04RjNMOGRB?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793901660.0
+  },
+  {
+   "title": "美联储：11月4日当周，美国未经季节性调整的商业票据未偿余额减少54亿美元。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5sNjJfZF9jaVkxTC1TQTRQNkE1eHMyTThoamtpeTZJU0J1UkJlZVZxMzlJTUIzYXRkZ3JSbEs3OGhNWmZ1RU1lY2tSYw?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793901643.0
+  },
+  {
+   "title": "美联储：11月4日当周，美国未经季节性调整的外国金融商业票据未偿余额增加89亿美元。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5saUdueklieTZMemM4SlV5THd1dmM2d2Z1QW9FckhwcHZKUWhTVDdkNllKRk5MWXVCQUxicHVRbElNZGpFMmFYbGlJSQ?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793901639.0
+  },
+  {
+   "title": "美联储：11月4日当周，美国经季节性调整的未偿商业票据增加43亿美元。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1JV1YwRkZ1TWxMbVZoQ01RN1kxVVduUEZod2pHbS0taWhBa3FFc0VybVlpZDBHYkcwaG42eWdPRkloR0xxMzlkenA3bw?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793901631.0
+  },
+  {
+   "title": "美股芯片、存储、光通信板块，集体重挫 - 新浪财经",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9BOFE5Ml9SOFJMS1plOGZ0OGNzSVo1akVwQlQtMUlLSWRwYXk1OUJRVXVaejlpZlBndXJkbTBzR3R2MU5NTTlJTGZKdmZLcFZOajYyZ096dzd6a3dubXpIXzQ2NkEzRi1XLVZ3ZkYtdVpiZw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793901620.0
+  },
+  {
+   "title": "英国央行会议回顾：加息决定存在分歧，警告能源冲击尚未结束 - www.tmgm.com",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYms2SUdBb01rX0Z3N1Aza1BkZmhtRmJobmdmUHNxa0NsV3VGbFBKNlM4d0JHblVEd3NDUER5NGs0a3NTWGFjby1KSGhmeV9Sbk43VEU4Y1hYOTBtVGViREpsTTRLT3BQbTV5WEQwLTdOZEE0b1owcmxBUmhXQ1JGZDh0UF9FdUE5MWo2UFptQjg3WktiOWlTRHg2ZjRvY0JsbFBHMnpYc01CN2VyZTlYWVRKWjBndVA0dUhYMF9qR1VRSlRLR1pRM3ZDby0yN0JiZG5mMU9fNndNdjQ?oc=5",
+   "source": "Google 新闻·利率",
+   "lang": "zh",
+   "ts": 1793901495.0
+  },
+  {
+   "title": "避险买盘提振日元美元兑日元跌至157.70附近_热点追踪 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsLUp5QVN5ZXg3NU0yQnVZZVFGNHZZMTBGUEZsMFhGa01OY2RVZlJaamVsWnVNVWg5R1NyaEhMcWhpYi1oUng5b1dZR08yTUdydkxFMktnU1pBcmRqSmE0OXFB?oc=5",
+   "source": "Google 新闻·通胀",
+   "lang": "zh",
+   "ts": 1793900967.0
+  },
+  {
+   "title": "三款人像旗舰对比：自然肤色、65mm黄金焦段与防抖成片率 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tYTdTN3V3cWRfejhSbk9vN1NSeUtsa0JsOGF1UWVmeGRVcHc4NzJuN1RVVWR6NnRaQXZQS0k3Rl9tZlFDQTVGYU9hY1owZmdvT21rWGtFVkp5TzIyajBR?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793900598.0
+  },
+  {
+   "title": "四款人像旗舰横评：自然肤色、65mm黄金焦段与CIPA 7.0防抖怎么选 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GSEpnMFdrbWpLejZYeTZHTzdwVlNRSFc2VDJkUnRkb1Exa19VemRKY1hlYU5hUGJTTDBPWkExaDczZldNYURyYWYwb0hIMkQxSDZJYkd5ZXhqY1duRFFJ?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793900595.0
+  },
+  {
+   "title": "65mm黄金焦段领衔：OPPO Find X10、vivo X500、iPhone 18 Pro Max人像直出对比 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HSkNVb3FOUDF1NTU2MHJDM0JvcW5iWGU3UE9uSG1hSjVqSno5LUtpOFBOakZqLTduQXhaWThXcWVmWXh4UDVuWW9BVldXUGEyeHl1c2g0cFZwdnR6QXR3?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793900441.0
+  },
+  {
+   "title": "Paraguay president resigns after collapse of Ueno digital bank",
+   "link": "https://cointelegraph.com/news/paraguay-president-resigns-after-collapse-ueno-digital-bank?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "source": "CoinTelegraph",
+   "lang": "en",
+   "ts": 1793900425.0
+  },
+  {
+   "title": "热门板块速睇：美股盘中物联网走弱，意法半导体领跌 - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVVNReEgtN0dDRmpLMHppRkFOVGdNMjk2Y0lSYkdoSXFrQ20ycDJ4Nm5uTFlxYndLREVfOGxrQ2wwb1ROWFRTV0RTZm5uOEpidHhlN0RzeEFlczdrVUN4U2taekVGdFZidUI0QzZxQjZFbWp5eWNLVEhTMU9yRG4wRjBlYjZZanZqWlZqaWN0QlFhTnNEcUZ1UmtYclFVckVjRXFkdGlIUm5nNnNVUEF6NEZYUnRPdnVHZE9IeDMyUEtTWk5v?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793900400.0
+  },
+  {
+   "title": "华尔街突遭“黑色星期四”！“恐慌指数”大爆表，纳指暴跌超5%、比特币跌破7.6万，黄金冲上4146美元、原油涨3% - FX168财经",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMC1VY25feUlwZDVSZ1ZtRVpIQThzR25CbXZObTZkM1JTVzJOU2N3OTVYVjJYZDd1M2Fvb0dhai1SRklTNkstOUZoMHlNc1E0a3ZodUxZTC1hOWRhZFlGVVB4MF9sb0xfX0VEMlVtNi1jbnFVYUxYak9mNG1OWVQ5M3F4Yzc?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793900307.0
+  },
+  {
+   "title": "美股全线大跌纳指已跌超4% AI产业链多股跌超10% - 搜狐网",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU1VmMU9PZUNDWHR0S3FuZFJ1Y0ZZNlBNZGVVVDc4RGJkM21nQVVvYlRDcEl4dkxmME0tcHZVekpNWThrZFdUREpUZV9qVEVJbG9yMEZIdzhlcExjU2N4cjlCbHFzZGxRNjNEeF9KaGxGQW0xdGp3a0dES1FhUC1ZcHp1bU5WM2hz?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793898742.0
+  },
+  {
+   "title": "什么是TraderTraitor，这个造成63亿美元币安被盗的黑客团队 - CoinDesk",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3loc1M3ZlpXZTU5TUsybUNHNnNNU0c1SUR4UndLQ0V0SUw3LWlkV0U3YjE1alpfS3ZlNXNaLUo4R0FHTVRkOHQxVVFkMGNRb0F0a2xyem9ZbEdaWV9wN3VWOE0zYWlfVHZaVWtJbC1CbUNySS14OGJtMlV0cXRFZmpwdVgwQXhEVEt6bDFvV3ZJUjJZLW5ycEVzN3FzWDhGallwMDMtMElDZUhmaUdGS2gyOE5hSktkazlwczhBTHg3R01VRkE?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793897901.0
+  },
+  {
+   "title": "港股暴升877点‼️美股AI却出现恐慌性抛售‼️投资最重要是守住本金，两只高息ETF继续留意！ - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMWdoQm00NXgzMWlMbjcxbnRCYThYS2NnVEVGbHhpYjFzNkNHNVFuS2hLV3EzSXM2MHlmMFdNSmVjaVlhb0hRWGhFbTZXRTU1dERuYkpPZ3pHcHhWZmkzNnkyT1A2dmF6TnVqWTZqeFYxVjdhLVEzWllxc2RhRFNHU3gzSEx3YXNVVlhnZXVLTHRyTlp2Y2VyMGhnbHYzb0VrQ1QxUFFGQldGUGJYMTl3ZmVSZ29mbVE?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793897752.0
+  },
+  {
+   "title": "美股史诗级抛售 前五大身价缩水富豪财富单日蒸发1500亿美元 马斯克一人损失近1000亿美元 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXV3o3TXEzLWkzbmVibWxFVEZ0YWk1YkxfYkMyeWRqYkZWbllLMktDSUNBWlZ4U01HNTgzTk5yYWtOMWQ2ZmtRZnVRVVJzcXBvQlltYjczVUF1NTF3ZnRQRw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793897550.0
+  },
+  {
+   "title": "Bitcoin crashes 6% to 7-week low as US stocks erase election gains",
+   "link": "https://cointelegraph.com/markets/bitcoin-price-crashes-7-week-low-stocks-election-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "source": "CoinTelegraph",
+   "lang": "en",
+   "ts": 1793897321.0
+  },
+  {
+   "title": "不是战争和通胀！共和党崩盘主因：本能寺之变 - 万维读者网",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01a1hiaFhGV2hIRUFRQ0FUMTZiQXdUY3A3NWwwRWVqT3Z4eVNSZ1NtYXpVZUtTeS10YXRjWG9qTFdoUkk4UDM4LTUyTU95ZzRndEIzUXhRWXZPb2E2MDZLTnhR?oc=5",
+   "source": "Google 新闻·通胀",
+   "lang": "zh",
+   "ts": 1793897252.0
+  },
+  {
+   "title": "为何外围全线大跌，A股放量大涨！多家公募：本轮反弹非情绪炒作 - 手机新浪网",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9rVTB1Q1dSWEhJZ1BuM1J3dXFQRzFwVkxxV1hHRUxNMmNOd29BeUtDcXR6Mm5nV1liZy1qVTdpNkRTR1dlOGdpY2loMUtWMjZZdUpLY25VRUR1QUNtcHo0dFlZOHJUY1hvTHl2NkF2WTZxdw?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793897040.0
+  },
+  {
+   "title": "热门板块速睇：美股盘中人工智能走弱，美光科技领跌 - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDRfaFFDQWk5X3lNaXE1Zm9DMWl0Q05XZEVvY21ZTm1KN2xsd19DUjJ4cG9YWGVwOTlaMkdDd09nOEFSQkRzYlhMZVVmNU16WDRHQXB3TlA5bTRXNTdLTzFpUGgtM1ZEZXZCelFPaU90Rno4N2I4aEVfcXczSG5VV0lzMHpqOXlzUVNiRGQ5aGM5aFhMbHBFaUhNWXFWeUtydHl5YWRIRno1RlNGODMwMEwtbDlYUTlPbUJEczdYcG8wQmVkazJ2NGVB?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793896800.0
+  },
+  {
+   "title": "热门板块速睇：美股盘中新能源汽车走弱，特斯拉领跌 - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRkZBRUdJMGRfU1RWT0hVQVZfaWgxMEpLRDdRRDRUeE1QekJGdl96V3FwOEtlY0RoTkhEUzlIeFB3cXluR1M0SGh1czIyWHBkQTZSY3FUT0YtQXZaUkNjbW1ES1pzYVhqazdKSXlYZGFqQkxEOWw0Y3l5ZTdGWlh6Wkt4MnA2VTZWRzBBTlpGVWtDNXdXY2RWRjhwcS1nblVYTmpnckxlV19RUGxjdkVKZWc5VHlxeUQ3RjQ0?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793896200.0
+  },
+  {
+   "title": "比特币、以太坊分别重挫5%、6.5% - 搜狐网",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeldKeXJTWWRfclVHT2xYT0UxbEp0Wnk1UHR2YVZJS0p0SWJhU1Y5TkFWazN0cXc4TWY2c1h6WHVVLTQ4M2NvRFc2TmR2NTRBSzF4aGpuZC1iemR3NGU5MXVwcjZvei1kc0dpQjlGOGVQU09DVExRVC1VMjMyeURuWWhMTklJMU1U?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793896104.0
+  },
+  {
+   "title": "继续中期看好 - 手机新浪网",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9URjdRNVRlS0t2XzNRQjF0QjktY2tMa3o4bGdJMHVNRTd4a3gtdVp1aWd3N2R3NU83UlA2RnZMUXlMZFo0dFJqTFpPMGQ4ZnJiTTM3cDdZSVl6VTBVZE9UcjdUX1JIbERGMzRRNU1aMnhJZw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793896020.0
+  },
+  {
+   "title": "3. 只有黄金没跌 我想删软件了 - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWUxWTFpwaU9aWExycU1QQUtQbmF5RWIxN05yc2F0bGFpSmdUaWpwNmtISXUyZkpWdmhWMXN2dkp1eVN6cDZNTG4zQUZRY3psV0VHQm45YlNqUzVmZ0RmbWdMNzNLRnpsTzBSUmxrQkRmQjJua2pfUkdCdVk4WnZJcEhsb0VlUk9zbXhNb2ZrT3FYdF9oeVQ2U0k3clFnZw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793895623.0
+  },
+  {
+   "title": "美联储8周期国债投标总额达79亿美元。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE93WV9iWVN0VDN3MzR6RVpBSWZ0Y3BaY2l0d1JKdk0tWW1DLUoySzNXdXdhYURRT3F3Mk9xVV90N2dQVGNZY29KT01kdw?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793895341.0
+  },
   {
    "title": "美股三大股指开盘涨跌不一 AI硬件继续下挫 - 新浪财经",
    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wR19DenBsQUd4dEZPM2t2M1V5cnBRSW9WbS1uQl9DY2Q2aVZ2ZzFDWHlPSUVxb3c0bGlqQ3hkYmptbGdKQ0JWQjdCUmlCTHBYMUJYTDZjZ1ZYSHVOSUhzeDRmZE5UVi1rX1hnNVVPSjEyUQ?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793893894.0
+   "ts": 1793895231.0
   },
   {
-   "title": "A股又现“天价”离婚，分手费超8亿元 - 每日经济新闻",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRREw4RkFSSHoyZW1kcG9nTkRrSmRSbklPSS1XcUtubHlHYkJjUGZGbnZVS0pCZWc5OTQxSGt4eFp4QXRrMC1tdzFuSlJpUnN4X3hGa2J0YUpiRDMyVEJ4TW90WlB5UQ?oc=5",
-   "source": "Google 新闻·A股",
+   "title": "面向顾问的加密货币：投资者质押加密货币的方式决定了他们能保留多少收益 - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQSC1EVTZGNDZCNUhuTzYtUmpjVmJTcHFHRGwyYnZ3Y3ZmaksybS14aVJrdXR4WDhtVFhWSmtDNFhLY3hLRDRIZFpXcHBpektqMlowZFowVGxGNFRTQmNvek1FcFhnRFdmNzJWbGpmSm5QZjdDR284TF83eGZoeHRNM01Ob3Y3RjlaRmJ1aDBEQ3VTZW5CXzVoZkpHbGZtWEhxZEt6cV9NVzhWYVhOczh4aW9iZw?oc=5",
+   "source": "Google 新闻·加密",
    "lang": "zh",
-   "ts": 1793893860.0
+   "ts": 1793895212.0
   },
   {
-   "title": "美股风向突变！纳指暴跌逾4% AI概念股再遭抛售 - 手机新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdzBSdHZMd1ZBZWk3QURZcmk5VXlMemkyaU1OYWFpaldqejFkd2I4aFlkWnk5bTZ2QkFmb3pXM1lJc1BfckUxWmV1d29QSFkxVmo4VzVLNVloZ2dYYmVfam5LRTlrSWR3eTIyeEw5MmtDcjRnLWVNbEl2ZVVad29SM3Vn?oc=5",
+   "title": "美股三大指数涨跌不一，高通绩后跌超12%，SpaceX跌超4% - 新浪财经",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb3FWOUtKQU1wdEg4UkdESWhCRm1nVDQwbzd1UDJRZWJBNTdmemFmLWxOSXZiRXloNjhmY191M0N1ZVE0TzR2ZUsza21ESkNTc1AxNHdYZnlSbnNGYW0tSVN0ZVl1a0R1ZVlucnJyRUZEM0tMVmJ2N0dUekFBTzZQNTdOV2x5SXlWSF9V?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793893809.0
+   "ts": 1793894915.0
+  },
+  {
+   "title": "民主党大胜引发芯片股抛售狂潮，纳斯达克100跌超5%，费半重挫10%，英伟达大跌8%，黄金站上4100 - 华尔街见闻",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByQjRGUUR5cFFKUG8tT3d4UGdTTWE3S3Q2UkNLTng0UmJwSW1YczZCU0dUa3otNU1PaldnZzZKbmxBM1lKZW5acFN3VG9mNmdzZHZV?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793894710.0
+  },
+  {
+   "title": "英国央行行长安德鲁·......_7x24快讯_新浪财经 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9jaWVBQlFrUVVDVXFUT0JvY3lQOS1QOUsxSnhQbnNFQjlydzd6NktvVkNNTk5rZWpYRF9hSGh5NFphTFdrLWNvSnNXWQ?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793894556.0
+  },
+  {
+   "title": "英国央行三年多来首度加息 - 中国新闻网",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IcmJsel9kU3otTDdCUldGbUtCMGpkZHNmeEhpRHU2N3JRdDBGU2JTYmtORDkzTWZBM3lnTnRNN0ZZNkdzZXJjUk45bnhDY2w1MVlSWnpCZjhPTXRLSXBjME81Q2RBaGVN?oc=5",
+   "source": "Google 新闻·利率",
+   "lang": "zh",
+   "ts": 1793894460.0
+  },
+  {
+   "title": "美联储巴尔金支持渐进加息，因通胀仍然过高 - www.tmgm.com",
+   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaUFnbUNodDZGNGYtakttOU5ESk1yR2FxWVNVLW9lSV9Wajh5LUpXTUx5bjNhWWJwYWFqaVFyS0RwcUpZZVA1dmoxalB1WnNTdTNZVmFDeVRqUzl6eDFxTXNHY0pJdW52bDV5c0NGZG9yZno2NXVETTMtS21KcXhieF9XbFN2M194cHFES0JET3lnSDJTLVItdG43NWQ5U1hFejRBWmMzNlJVejgtNGxCaHkyZGVuOUlnSlNZV3hVWWQtS2UwUUpOSTl5am0td0l4?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793894453.0
+  },
+  {
+   "title": "美股恐慌指数飙升47%！ 纳指大跌超4% SpaceX、特斯拉双双跌超10% 科技股抛售狂潮开启？ - 每日经济新闻",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1seVIwUVVTX1h4bkZqZTVEZ0tXWmVQUVVreFpVcVBZSC1DTHRmMEpIZzNJbVlQb3RIT3g5SEdUN1YxVWhOb0dXOFRnYTA0OEVIb004U2owdFpQZHJVWmhicnZsU0RHUQ?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793894280.0
+  },
+  {
+   "title": "渣打银行预计英国央行将在2027年2月加息25个基点，此前预测为2026年11月后不再加息。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBWQjJLZU9wUWh0VHZlcmdNNXJIamwtLVVVTzV1dlRYOUxnTVdJdEZlYTF5Zl9oSlhTQ3d4cXNadS1vbWowTi1TZ05RUQ?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793894205.0
+  },
+  {
+   "title": "美股龙头，重挫近10%！马斯克，大消息 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4MzBwdUJ3eDlvSElzTThWYkpkekNMSzRqN09DNHNpR0hoazJMOEJ4YlFyblpVTGxKU29LV0xxamZ1b0JwUWhlRlczM3ZBcjA1aUFqYUY4ZzlwM09PRkNNY1lrdFRVZw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793894177.0
+  },
+  {
+   "title": "欧洲央行行长拉加德：美国中期选举可能会对关税产生影响，但需要时间。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBVNk1VYTFJcHBzMzFUT1gyc0hmUnQxeUFLUkh0aFFtdkZoWm5jTDVjbFRUZFowaG9hQTM5TXFXNW5mY2dJVnAyWTRSMA?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793894135.0
+  },
+  {
+   "title": "欧洲央行行长拉加德：预计美国关税不会立即重新调整。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE52cEItT2hUbUVybUdHX0VUYnpHeXJSTGVQSFE5WkZVa2YyTmk4Ul9keTFPZE5aN1VBZ1lKVklMcTdVSUtqYTB5OFFpQQ?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793894085.0
+  },
+  {
+   "title": "恐慌率飙升！美股半导体股，大幅下跌 - 搜狐网",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZG9SclI0Q0dyc3lPMi14NklqLUg2eUR1bTc1eDRLVGZKZ1g3NW9vZ1hUaTYzV05Uc0NvS3Mzc1ZoZWg0OTZWM1QwNVVxQUxDVVp3WFNjdXJaeFYza3lHdFZhTVpPaHlPTUdiNGNyWV82SkxuLWtqS1llVWw5d0VKWi1OLU9DWEdCM0xVdQ?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793894017.0
+  },
+  {
+   "title": "BTC与ETH反弹分析：动能过度拉伸，云层恢复尚未完成 - 新闻和统计 - IndexBox",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaHRESDRIejVVWW1oaUtIc01ORlJfQmFuQmRnSW9CSW52YWxINk5hNWRHUnV0SWZlY3RvRkpULWhQeFlkRUpBM04zc1Z5SnpGZHd6YXFMYmlnSm8yLXZYU2xlV3VoN1RnVjV4cXdRTlJqWjlONUhWNGNtclc4N2t6ZE1jR3djV0dhU3l0YjFMOC16VkN1V0dSTDU1UmYxWklscG80Q29MbW5EOW5wTXFyVklva0s?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793893998.0
+  },
+  {
+   "title": "希腊批准对加密货币征收10%资本利得税 提供者 Investing.com - 英为财情 Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83Vy1IdGxmQXBFU0JPSUdRaDJaTzNUU2ZYUWNURGxIYmtHaWMyM3hkZXNwb1JsaW9waEVLbEwxSXdqR0pXaDZLLWFjOWI5NjdxemZiQUE0V0t5M3B3NmY2V0FfOHlfNHVGek1nWW5ldkxZOUMzTGJfVG9n?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793893920.0
   },
   {
    "title": "欧洲央行行长拉加德：能源成本是通胀过高的主要推手。 - 新浪网",
@@ -3232,13 +3554,6 @@
    "source": "Google 新闻·A股",
    "lang": "zh",
    "ts": 1793893714.0
-  },
-  {
-   "title": "47天飙涨106%！A股，又一只翻倍牛股诞生！ - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50Ulp5T3BEREpYclRHeW9pcEhxa29FWjdPTWZlS1MtbVNudzVqMGpXUHd5OHdoQzBpd1Z4SExyYWZxbUhHTklMcXd3Y2VpaHU5YUI5UVcteXo2NzFMTU1nTHAtQQ?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793893685.0
   },
   {
    "title": "热门板块速睇：美股盘中存储概念走弱，闪迪领跌 - 富途牛牛",
@@ -3262,25 +3577,11 @@
    "ts": 1793893663.0
   },
   {
-   "title": "美股纳斯达克大涨2.3%除了科技都在涨 - 手机新浪网",
-   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Kd2JISVZ3MzBVMzFodThreF9CTTJqcHE0dko2cFBPNW8zbWphVUJHMVlYZGFuMGlkdmQ4WGdwdTZiMm03OElzQzRDWTIyc0xGSjR6QnFNbUF5SnQ1em0zSnNUbWRHbm05VGFCVkZmY0dCMEU?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793893633.0
-  },
-  {
    "title": "尽管英国央行加息，英镑仍表现低迷，美国就业数据与美联储鹰派立场主导市场 - www.tmgm.com",
    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRldieno4ZFdOOTRXd2JLV01tazMyN2pFTmpGMUZQa3BweVVta2Znc2pSOFpPVVp2cVJhMk14RTBhcFczazNLcUNIaVJHQ05SNlpXclRlNGhHTmdQUVBZYl9JM0FQQ1FJel9ObUg4TGFsNUppQjc4Vzcyc1hSemp6UG9tZG8tamFpRnJTODNxaGZiTmVacUVJTFFTYjNoeTBDSEE4dlRaSXZpQUtWZElLM2wtVFM3LVZERTJZNVZ6eTBoeHBya3IxVWRLZFNVRjNpU1pyaDF3?oc=5",
    "source": "Google 新闻·美联储",
    "lang": "zh",
    "ts": 1793893492.0
-  },
-  {
-   "title": "美股龙头，重挫近10%！马斯克，大消息 - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QYUVSbHQxN2hmbXVBSEhscGxGbHhYR1BIT2JxV0VaSzVGc3A4cFZuSlJEWjctV1RzVzdfN1BEbmJjR3F1ZDVvd2dqMnFNSFd3?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793893409.0
   },
   {
    "title": "土耳其央行外汇储备降至四个月低点 提供者 Investing.com - 英为财情 Investing.com",
@@ -3290,11 +3591,32 @@
    "ts": 1793893380.0
   },
   {
-   "title": "美股异动 | 三大指数集体大跌 Meta(META.US)跌逾5% 提供者 智通财经 - 英为财情 Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mWU1LTFc5U0FtN0tMcmlKaF8yLVpya2lnS0NkYThkVWQtUmVHTC1BdnFNMmRmUWx6TUlaU3RudHpoSXgyQ1huaElQV2gxWXZkUWRfWHhjNjE3NTFkOVAwdzNFVVlmMTA5UTIzSXEwZGU?oc=5",
+   "title": "23:53:21【美股恐慌指数VIX飙升逾62% 突破27点关口】 - 财联社",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9GRzhHSkExaFd6M0Jhb04yalZGdVUyUm1GRXpGc2ZFZXUza2NLRVZFSnEyNVQ2aWV1S014b0lHd3BOQkkxQlU1WA?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793893320.0
+   "ts": 1793893380.0
+  },
+  {
+   "title": "美股异动| 三大指数集体大跌Meta(META.US)跌逾5%_全球市场_财经 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VMXY3TWNLMXJ5cE0zczZ1U0VFYWlKa19WbXZBZXEyNk1KOFB3bjQ0RDdKUjlqSE9hNmV3X2tnSFR1cE9WY2FkRS02eWYzdEhWLXZvRldQN0dDMWFGbzhCdQ?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793893352.0
+  },
+  {
+   "title": "深夜空袭！美股恐慌性跳水，纳指暴跌4.5%，费半重挫10%，闪迪、海力士、特斯拉、英伟达等遭血洗，富时A50直线跳水，美国中选利空发酵-手机金融界 - 金融界",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HSU5henBZMjVyRnZ5Tk9LRFpjZlhLeFljS3NzQXJwNVhnS3AzS0Z6SVUxUTJrT1JkX01lejdjcFBDZFl6bzNlbENZZ01xVzIxOHRKUVREdkRqODhuU3RUbVdCV2pTUQ?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793893288.0
+  },
+  {
+   "title": "美股费城银行指数跌2%。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9KdTdMVm5IMURKcXJ5SXNNVzh1eFp6VjV5aVpzdE1NRXBEVWFLbldETTY3cngzV18xT1JKdEJrZkZ4X0hfeTYxU2dhYw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793893239.0
   },
   {
    "title": "美股芯片、光通信股深夜重挫，闪迪跌超13%，中概科技龙头股逆势走强 - 东方财富",
@@ -3304,13 +3626,6 @@
    "ts": 1793893237.0
   },
   {
-   "title": "今夜，美股“变天” - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oMEl1WTJnY0g1aWlwZGNWczJjczFkRWxCNG54VTNlM01KTEJva0VjeVh2UzZLODJXMW1nVmJnSmdUVzg1cV93Y2lrSTI4VE9rQUlDZ0xPaExNNFZKSjJNVA?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793893213.0
-  },
-  {
    "title": "热门板块速睇：美股盘中区块链概念走弱，IREN Ltd领跌 - Moomoo",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU3BrNmpUS2NYeFlxaW15ZXprTDhEUGstZERsaXdldllycXdfTGdMdHZDdm02cm1VZS0ta1dLa1hxakt2UC1BMXlkLXZER0xOd2d5OE5EdE9ITjJmYzJuYUtZUlBCVl9iUzdfSjd1OEtCMGFCN1NNaF9JMnhkVnlqVjAwOUlNQTdjWnYtMm9mY0J2ZlFtWU8xcmY1MVZTU19DUWRYdy1SdE1kaDZob1FOQ29vZldBUQ?oc=5",
    "source": "Google 新闻·全球市场",
@@ -3318,53 +3633,46 @@
    "ts": 1793893201.0
   },
   {
-   "title": "美股恐慌指数VIX飙升逾47% 突破24关口创4月7日以来新高 - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kT1VQMlRhVVhCMUZtSnNRTlMtaVNySTNsQThFa1FGUXBxRjZUNE9oRTcxVmdjazVCdmVUNEx0Um1yYmU5OTROZGdVX3I0Ql9VUFl5XzVkeUpYZV9Ub05NVA?oc=5",
-   "source": "Google 新闻·全球市场",
+   "title": "47天飙涨106%！A股，又一只翻倍牛股诞生！ - 21财经",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT0VsSGdaMl9VcFVjR2RwMnZDMXYxMFNFb3V6dVYtSm9Jby0zWURpRXVtYTFqT21uaURyWmdDUE9wRElQdE1TMDdqTzh4OXZiSFBMc2V3ZlFPNFZhMUZjb1BaTzFwLVB2WVphU2JXVktUcEFFY2xwcVA4a1FfTldBNDlwODB1ajBQV1hVSnc2bw?oc=5",
+   "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793893091.0
+   "ts": 1793893080.0
   },
   {
-   "title": "美股讯号 | 礼来股价逆势上涨2.4%，再创历史新高 ｜#美股资讯# #礼来# #股价波动# - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTlJ2MTJCXzNGRDFqTEFrc0ZuRjhBY29oQ29MRHlEc0stYWM3dGdQV0FYcDdyNG5rVVJVZ3ZHMGM0QjVjZzNkenFhQjZVZEROS2hWRWFzdm5jOXgzN3NIMjctUzlvTWVjWUFicEtHdS1wYWRQbXN2T1A4NHZqWG5EcHFrQk9vcU9vb2lmVg?oc=5",
+   "title": "美股恐慌指数VIX飙升逾47% 突破24关口创4月7日以来新高 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYQUZmZlRFSGxZWHFCSS1iemJ4WUtlNG1TQlBpYkZUTlZ5UzFIZzJCZk42ZDZucTMyZFpoWTczUm4zazBYOFA2YVVLNA?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793892767.0
+   "ts": 1793892863.0
   },
   {
-   "title": "美股讯号 | 英伟达股价下跌6.7%，市值达4.50万亿美元 ｜#美股资讯# #英伟达# #股价波动# - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYzFLZkQ4azg1Y3habzdZaUNYQVZEZF9ZcU1RdkMyd3RlRXdoZzB5bXZNUDZTQjA0WUlpX1hJQnFrdzZIdnpmNHRaSHJSdXpyNk5uWTJyNDdiTWk5V3VadmFpZll5TldrSk1tSlFwb3VtV2NZMHBVSmV0SWUwdmFzSnZZVlZLekhyQVg5ZQ?oc=5",
+   "title": "今夜，美股“变天” - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KMUVTUVlvV3FEUWQzR19lem9qNlJuZjljcUpfcGtKVExsX2dLSU9WTkRRNlhYU0JxOG96SlM2Q3djZVBzRTFaUXVIU0RyUERhQnFaZENyV2NMNDlRWlVCQQ?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793892767.0
+   "ts": 1793892808.0
   },
   {
-   "title": "美股讯号 | 礼来股价逆势上涨2.4%，续创历史新高 ｜#美股资讯# #礼来# #股价波动# - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeU9vbnM3NkZNeThCRTVIUEtpa1JGTFlleHdOQzUzWXNEYVRMMkZVeWVZSXN0LWxnOGNfaERpQzhsZmdjUE5RSVQzOWY3Rm9NbElhcTJzSENBNnNpSzNJR0laQ2k2aWVMdnMycThmZUcwUmVkQlBWVHUzc0ZzemlVZ2FWTmN5dVdjWWFrcA?oc=5",
-   "source": "Google 新闻·全球市场",
+   "title": "8.69亿元！A股再现“天价分手费”，拓邦股份实控人离婚，拟分割7%公司股份；公司股价年内下跌27% - 每日经济新闻",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MYzRmU2hDMEhoUWszcVZ0clBNSTY4V2hhRjRxWFd1dkV0RV9jZmppdU1ycFplMzF5TG5fMmU0ZWV5WEI3cjU0eEdtMmpYVWc2MjY0S2VZbUZReElNQXRFR3E4WHNLZw?oc=5",
+   "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793892767.0
+   "ts": 1793892720.0
   },
   {
-   "title": "黄金突然爆发！金价冲破4100美元直逼4150 三大利好齐聚，非农或再引爆大行情？ - FX168财经",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HOWRjTVY4QzU2RkN1dWoyYkY3SUFGbU1UWER0TkRfWE5GemtWdV9tekdVdzZGM3A0ck1FQTRkRFVZODd0NXpEX0Z5WTdYSS04TkJiUnFLcThHdGpDU2lzTzNxVUxMRlJFQ29Lag?oc=5",
-   "source": "Google 新闻·全球市场",
+   "title": "突发：希腊对加密货币收益征收10%的税，但每年前500 欧元免税 - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR21QZUhyMjZ0cDJjVG1FVHpwZmJxMmQ3U09TcjF2blptMlZLUXh4UlVuc0JnaHlBNVlvdk1fLWdCcXhkUUtSak1DSW9UUlhXWXRRVGZRbmJkOC1MOE1QblJmUVU1M0ZRVEtPVGhTaUpTNVFOWWpjZjh5TXdHRnNTMHdZWE9CcTl3UzJfTDVoSHpmU2h0QVlhZU83c21yM2RjQXdNclhMb2E?oc=5",
+   "source": "Google 新闻·加密",
    "lang": "zh",
-   "ts": 1793892601.0
+   "ts": 1793892420.0
   },
   {
-   "title": "美股讯号 | 英伟达股价下跌6.7%，市值缩水至4.50万亿美元 ｜#美股资讯# #英伟达# #股价波动# - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWENIcUJzSEtoamVUU2lvbDJ2VlFQdVNmdm82MldENmxYbkZDeE5CbDhPTHF3bWJ4ZTBBSGpqZFVtTW9JME9mTXN0T0t5TkhRVU52LURxT0NQLTNERkNoNFdCMldwOWNETTE4QUplZUpMQkozRTE0bm03ZEdVRnhsdE93SF9wNi0tbWFocA?oc=5",
+   "title": "美股异动| 马斯克或遭民主党“秋后算账” 特斯拉、SpaceX股价双双大跌_全球市场_财经 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00QnpmQVl1MkR3al8yRzV6QWZybzBTR0ZDZGk0V0dwV2pxMWZ2d0JPY3RiLXdPNEZXZ29ObGFGY01OdVlkZ2xReTB2VWFsNmVPcEhCS09iY0lDSDdnbVpnNA?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793892462.0
-  },
-  {
-   "title": "美股讯号 | 英伟达股价下跌6.7%，总市值达4.50万亿美元 ｜#美股资讯# #英伟达# #股价波动# - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYThka3hNNDRKS0xIbzVzWnE0RjdfZG1pdWxiVV9nR09jYlBUWVdwdlhYOFRaTC1WZlNzaGp3cllNOU9qdXpTUWxDQjhrc1JEdGtvQ0VsRFV6R08xVWE4d3hERUl3SGVCUDhLZmVRbEp3WUhJaFZSU181bkQ5RjRWMkt1UENRVEI0Z0poZg?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793892459.0
+   "ts": 1793892413.0
   },
   {
    "title": "4400亿资金签约 A股长期利好来了吗 政策与市场的博弈 - 中华网",
@@ -3374,32 +3682,11 @@
    "ts": 1793892367.0
   },
   {
-   "title": "美股异动 | 马斯克或遭民主党“秋后算账” 特斯拉、SpaceX股价双双大跌 提供者 智通财经 - 英为财情 Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56bms5UmJfRFllMjdYaUFKRkdTdTRHSVpILUw5QUY3V3BmQ3ZpbGFDQUZSNmpKVm5rWjV0dFp0MzRZLVBoOUMzejlkQ2NZZ0lQOVBMMkhrOGx2SlFDQjhqN1N3NFJPY2VnSDdQYlVqUGM?oc=5",
+   "title": "随着美股下挫，恐慌指数VIX飙升5点，至22.6点。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1lSXZtbXJ3R1hkWDk4c2xjSEFZcjVscDR3Z0d1bEVfaTdla1RLdXZDdE1FcEM4djFDSWpEamxKV3dwemlVQlF2Wm9NZw?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793892360.0
-  },
-  {
-   "title": "11月5日A股主力资金流向 半导体光伏等板块受青睐 - 中华网",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2c05Wa0ZtanMzcXh3Nk9fUzNJZ2NabzllX0d6WXM3ZjA5aDBuLXVDREE0alB4OU1RYnJjSUdjeVNLVzdQMzRTaGdXRm5rYUU0MUFBNUZTV2I1WVROZU5nYkFSd2JDWVF1RDNXNE9YcDI?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793892236.0
-  },
-  {
-   "title": "突发：美国比特币$American Bitcoin (ABTC.US)$持有8,427$比特币(BTC.CC)$在第... - Moomoo",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdXVrZ05YcFpadm9yOURjQ3pYZmRQRlVOWDR2T3FCaGY3V092VDltODFlNmRhX2szWktFbGl3aVk3aEVvalVKemZwQVJZNzdKS3pBX1J4bVk2SnoyUTdMS3ZPV2dxVW1QVnVCX18xWlpwQjEydE5uSEhUUWxqM25scFRVZUdSRXdveEJ4Qi01TlhWUDdpT0dwSE5raDQ4T0szck51T09QaEtCdDgtdldrMWh5SDgwSjA?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793892216.0
-  },
-  {
-   "title": "美股讯号 | 礼来股价逆势上涨2.4%，续刷记录新高 ｜#美股资讯# #礼来# #股价波动# - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVVIwcFRXOXJkbFF3SFRQaV8xWDlfMzhvZUF1SzlER0hYVzVNbUR5M0EzOUZaT3JOZmljMXNkLWlwNElCVWlaeVpIRkpCNmdDZDBlYkVrckUyZl9DcHZHQ19VQ25WOG10TGxNNHhfTG00U2ZuRzRaelhBZ01WODJ5X0YwUGtKRnExak8wSQ?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793892108.0
+   "ts": 1793892211.0
   },
   {
    "title": "英国央行加息25个基点 警告通胀升温并预计继续收紧政策 - 联合早报",
@@ -3409,13 +3696,6 @@
    "ts": 1793892050.0
   },
   {
-   "title": "日本“股王”丰田汽车，美股开盘涨超10% - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSHZ2WW9PY0RiWENpaHl3MWUteGdBS2c0dEZ3bE9kZlhteHZsSFkyUzlQek5qUldYdzB5YVhjWk5BZzV4U2FIdXZKX1k2blUyRmJSUnNIUXFZZGREWXZGb3F4Yk85T2xsdmFHNGxzR0lLdlFfRTZLcEotVU9zVWczMG5memdPY2sxVm9POQ?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793892000.0
-  },
-  {
    "title": "深夜，美股跳水，纳指重挫3%，英伟达跌超5%，英特尔跌超8%，AI硬件多只个股跌超10%；特斯拉大跌10%，SpaceX跌超7% - https://www.mrjjxw.com/",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KbGloY0pvMEdSb1VNUVRfeGcybUd6bW9yN0VZbW5DTzdEa3RYdUtUU21YdTBvczc4dHp2c0RsSWM0OVJiejVyNGtIb2w4aE5OMDFzc1RSM0FpLXhXTnNGRXJLTlI5UQ?oc=5",
    "source": "Google 新闻·全球市场",
@@ -3423,25 +3703,11 @@
    "ts": 1793891762.0
   },
   {
-   "title": "美股讯号 | 英伟达因市场抛售跌超5%，AI硬件产业链受挫 ｜#美股资讯# #英伟达# #股价波动# - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1NKZkFNTFNqRFVkQk9nV2NqNHZaeWhDbDVHLTVRVXh5OGZaSm12MVIxTHRKc3JxVTh1R2EzVURwS2xKOVYxd2xHVnhoZGRDbmptUUZieU9UbnQyM2dRX1h5eWMzSk5RYTRCQVVJbFNkVWlNWTlONHpsTEhuUm5HR1BYWmZFWVZCMFhKRw?oc=5",
+   "title": "23:15:44【美股存储板块跌势进一步扩大 闪迪跌超17% 美光跌逾12%】 - 财联社",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOSV96MXZya3FUUW9ONTVELWszUTdmRXNTbjlZQkI1bnI0Nmd6SGtZOTV3dFk5VWdOVXVMcEdTb1ptNVdUUTF1Ug?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793891762.0
-  },
-  {
-   "title": "美股讯号 | 英伟达股价下挫6.7%，市值缩水至4.50万亿美元 ｜#美股资讯# #英伟达# #股价波动# - 搜狐网",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUVQwY0RDT2FqbTFaaFVMeXpCRHFKdTFkenRHcXBPMmpra1c5T1B0Z3dCNzN6NTJtMno4cUtUNmZoT0JEdWg0ZjNkNlBSUTVyMFo2MmcwSHhJZjdyZ0s5RDJKRlJHRGh4QUxsR2o5TFUwM3FVeHBrTENKT1ctX2lHbTR2TzMtbWRGRkx1WQ?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793891645.0
-  },
-  {
-   "title": "美股AI硬件产业链全线重挫 费城半导体指数跌逾7% 多只个股跌超10% - 手机新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPakYxaXB4R25hRHVmcDZMMnJpU2NZTGpuMlVKOUtzUzdVMEdWTDNhWHBLdWVSVVVsMlhZMjZpWm9ZdkFtVFV6VFZUQVc2SFA0V3BheVpTOWxZZlZ3U0plUGNTc29TTmJJM25yRW1jRXl1cnJ0Nm14S0djdjBvMV96TWpn?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793891423.0
+   "ts": 1793891744.0
   },
   {
    "title": "美股异动 | 芯片股集体大跌 西部数据(WDC.US)大跌近13% 提供者 智通财经 - 英为财情 Investing.com",
@@ -3458,13 +3724,6 @@
    "ts": 1793891393.0
   },
   {
-   "title": "民主党大胜引发芯片股抛售狂潮，美股三大指数齐跌、纳指大跌3.3%，费半重挫7%，油价持续回落 - 华尔街见闻",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByQjRGUUR5cFFKUG8tT3d4UGdTTWE3S3Q2UkNLTng0UmJwSW1YczZCU0dUa3otNU1PaldnZzZKbmxBM1lKZW5acFN3VG9mNmdzZHZV?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793891306.0
-  },
-  {
    "title": "针对币安被盗 金管局提醒公众不宜交易加密货币 - 联合早报",
    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04VzJCc0RJRkpSSEFBVHdfdTVtYU14WjJ6akVVbV92UjV5TEJuY3FpYzIyaGl0aUlQUm03LTdRWWlja2VfQnJsSXBFM29UWUY1WmQ3VlpRR19ObjhZdmtVcnkyMUw4OEEyWkw2NWMtWTBlVGs?oc=5",
    "source": "Google 新闻·加密",
@@ -3479,13 +3738,6 @@
    "ts": 1793891160.0
   },
   {
-   "title": "美联储巴尔金：加息可以影响需求，并最终影响油价。 - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMFJNeHpKRDJ1bDdEdGE3RXFKa1hDV3o5U3ZaVTN0a2oxZi1taWZ2Qzd6M1JsNzBIcEFuTXRqcXNjZXo4WWxkN3BZTFROd0x2SElGRjdiWGlCUUgyY0tKTElwTEJ1ZVlnQmJ2ME9DNmVDUll5U0ZZbllCVHowdFdwNmlEVXZiTzhiODJwTUQ4NGwzbFY0ZjRsOHVuZWFvSVpxQXVXUURn?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793891151.0
-  },
-  {
    "title": "美联储：尽管政治形势发生转变，预计仍将进一步收紧政策——道明证券 - www.tmgm.com",
    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTWF4X3NVUF84bDZMZGgzdVI4N1dmeXhUM2o5ZlBBOFFuNjNDdDVTVkFDWHRMakZSQXhGam5WRldzMTl3Vkd3T2FTQ3FUMHlVc1ZYVlVfVjV4dHZJWXFkVXNZeEVFSE9SWWIzZEpKQ2NGQkd1RGNyS1p2cVFxZU1GMlFzTE93R01hMUVpbW5zZ20xcVo5eWRMYnBDMk9vOEZKNUhUMUlWQ0NrUThsR3hKYW9Pd3VOMEgxTkVKUUF0VDVGSkxfMDRDa2pyMy1KUHIyWURMam1EMVIzNjdEOElBeDFYV0tCUXM?oc=5",
    "source": "Google 新闻·美联储",
@@ -3493,18 +3745,25 @@
    "ts": 1793891118.0
   },
   {
-   "title": "热门板块速睇：美股盘中加密储备概念走弱，Riot Platforms领跌 - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9QNE04TFZScGx0QVRvcnM5ZnJqTGhFdGlvejR1Q1ZBWE9yMmJ5cFFpcTZnYVItMGI2OUIwa2EtblRKSzBLbVhndWZCb0NTQ0lp?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793891108.0
-  },
-  {
    "title": "美联储哈马克支持限制性利率，称通胀压力持续存在 提供者 Investing.com - 英为财情 Investing.com",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUM05HakJpZnhYQUxWcmwybGYzemowRmYwTDd5S2Z4VjB0NHppckZJbXVxV09JdV83clpWSmd6azFFTVl6R3JXaW8yRTFRS1pWOWdtT1g1RDBkUXBwaXNvQ1JQVXlfU05lZnc?oc=5",
    "source": "Google 新闻·美联储",
    "lang": "zh",
    "ts": 1793891040.0
+  },
+  {
+   "title": "瑞典央行行长泰登：10月初值CPI显示，10月通胀率显著低于我们9月的预测。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4yV3ZidFJVSmtfQzlPNy02RDZWb2lKVUd0LXc1OHF2QXhPZ1o3RFF4Y1EyRjZ3UkhlMjU2N3RHdWt3TWcxQXFsd0tuZw?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793891029.0
+  },
+  {
+   "title": "比特币跌破78000美元，日内跌3.17%。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1lZHFGbkxTMFM1eFlsNXl4Q2tnTXJxRUFRa3hubDdXYy01TUJvOW5rZzM3dHhPMkJXQ0dXZDAtLWZoX2xDQnhoR3BhZw?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793890965.0
   },
   {
    "title": "波兰央行行长格拉平斯基：波兰通常不会在12月调整利率。 - 新浪网",
@@ -3577,6 +3836,20 @@
    "ts": 1793890500.0
   },
   {
+   "title": "美股AI硬件继续下挫，SK海力士、美光科技跌超7%；广电总局：扶持真人剧，规范AI剧；春节连休9天，2027年放假安排来了丨每经晚参 - 每日经济新闻",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zS0J3Y1owQndMQm5DX0dwc2hvNjNQV01MbElDbWZEVnR2ZTljSGFkQjJwZUJ4WmpsYmpRRzVNem5iTWFqRUFQTFVnS1pvaExrQWdFLS1CeF8tT2liamtDS0V6VHBxQQ?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793890440.0
+  },
+  {
+   "title": "英国央行加息25个基点至4%，行长贝利称可能不是最后一次 - 金融界",
+   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMS2stYVIxQVhSX0VubUk0WGxXbHVlNk1uSmVFQUhBT0FKOXE4SkY0TDB6YzR2dkM4V2dsNFprRlczaDhtUG42VjJaeVNtbVd3T3IyMngxM0pzbjN0ZURwZzVFSElYN0p1WFpqR09vdVJySWFa?oc=5",
+   "source": "Google 新闻·利率",
+   "lang": "zh",
+   "ts": 1793890383.0
+  },
+  {
    "title": "美联储调查：银行放贷趋于谨慎，这对经济意味着什么 - 富途牛牛",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1oVERkUkFBM3ktQl9ySmxfcVV6UHl2UVRHMEh0bXFQUndYSG41b1hzSUZjTExuWUpPQlBGYnNSeGhMUWVRQnpCS2w1MnlUaVQz?oc=5",
    "source": "Google 新闻·美联储",
@@ -3591,20 +3864,6 @@
    "ts": 1793890248.0
   },
   {
-   "title": "加拿大大宗商品：霍尔木兹海峡油轮遇袭，油价攀升 - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcThGWVBjRXYyNGxTNW1mNWp4Z2VLc1lTNkR6Y3BGOVZUNUhMdTZyYTFVSWllT0NabTNlRm9sQ2c3RjJrVkpSejN5SEtUXzJkZjZzWVpNaUk1LXFsMmgtbXBXckdERHlyVnUxcVdocjVIcjdVbENLcTRjQ0J3eHdRSjFQWXNydkVlREZuSTZSZ284MndYOWktUVg4OEZoT1dRR3VnZw?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793890214.0
-  },
-  {
-   "title": "热门板块速睇：美股盘中ARK ETF合集走弱，基因进化ETF-ARK领跌 - Moomoo",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVmJmNy11dkdfdmlXU21HaDlFc0FQNmtHbks2Zmg1NUFUY3BFdlVOQ1RZNUl4dzA2Vm81U0owOU5XNXNHRGg5UDNHVmpPZFdSRlBfb0diWWZzRWpqdXg3LXpOcXNHZ1NNOFVqZHVfOWRITzAzUklnVUNNallUd19XTVh2R2owSnZmZWMwMVZNYkZpODFKcXotNDl2MUxyaUxqMnFUYjBRbWpNZFhWcERFTlRlQ3RIZw?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793890200.0
-  },
-  {
    "title": "美股开盘三大股指涨跌不一 道指涨0.58%纳指跌0.89% - 观点网",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1tUWdDTW5XYko2NkgzQk1vR1lwX2RBWXNFYXBIZElnU1hlS2dpM01ZOXpCMlRCVTVzS0RGZ3NnaExEWi1JVTdhcldwNkduZlBWc2w3dnltRG5Dd1pRZFJsalZR?oc=5",
    "source": "Google 新闻·全球市场",
@@ -3612,18 +3871,11 @@
    "ts": 1793890166.0
   },
   {
-   "title": "美股开盘：三大指数涨跌不一，存储芯片板块重挫，闪迪跌超7%、SK海力士跌超6% - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NS0VpNlY5T0xtOVNXWl9odHM5SDhIaXQ2LXE5amJmNEp2ODkxc0o4eGJBNmtFZFRMWHM4LWVmVldpWktwTFdrODRwOUJPTWlpUWdSeUFqeXk2NnVuN1FXNDFhSQ?oc=5",
+   "title": "美股存储板块跌势加剧 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YcVlqOW9yZjZaeEh2SjBMekZ0REU4anNsU1c4ekpjRzJ6TzhCWW5QcUxqUDlRdThJazJkbGNJTE5LaG45blpRd0N4NlV3azA0OTMtR3NjVzYyWXNHbGk1dg?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793889937.0
-  },
-  {
-   "title": "美股纳斯达克100指数期货跌超3% - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hb1JrLXhUb3JNUjg5TjJMQ3QyczA0Rmo0TE14RzVjZmJISFVtcFJ2VWNQeS1FVkNrTlhRbGxIRkFEdGlfd0p2YjNuYw?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793889920.0
+   "ts": 1793890037.0
   },
   {
    "title": "美股异动| 光通信概念股集体大跌Applied Optoelectronics(AAOI.US)大跌近11% 提供者智通财经 - 英为财情 Investing.com",
@@ -3640,18 +3892,18 @@
    "ts": 1793889869.0
   },
   {
-   "title": "波兰央行行长格拉平斯基：我们并不担心兹罗提走弱。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ESVZGWlhSLWVqcmwyN01JSDZTSEprQXBRTndrcVVWcDljQ240MTljX2YwNnd2ckRZRndueGR0MHRTTlJ1UXRJSGRKTQ?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793889852.0
-  },
-  {
    "title": "捷克央行将基准利率上调至4%，核心通胀压力持续 提供者 Investing.com - 英为财情 Investing.com",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NLUVFQ3NqY1d2WGNuYTZsRUNJUW1Na3pmLWJMNlBwcWUtSkZjNnN1WEJkR29sRi1DYldzcGJXb2V5dUNDMzItdnBZX1d6a2FNZjRYaU8tZ29ORmx6YmFWWXJ5ams0QUk?oc=5",
    "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793889840.0
+  },
+  {
+   "title": "美股新云股价跌至多月......_7x24快讯_新浪财经 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YbTRlemlqcHZpTWhPR2cxdGM4T0NQSHItbXh5Z0d5VTR1amFRbGI0d2p3MUZGYnFubXlJaDdoY0FJeVd6TDB3dllmaw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793889746.0
   },
   {
    "title": "比特币跌破79000美元，日内跌1.94%。 - 新浪网",
@@ -3661,39 +3913,11 @@
    "ts": 1793889641.0
   },
   {
-   "title": "波兰央行行长格拉平斯基：我们不会推迟决策，也不会突然采取行动， - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA3Q0ZWSkFFRzlFSS1qSTFkNGM0QzdHX25sR0hHME9Ua29xTmxIOXY0MUIybDQxSnhvYWFKV2FzUklEeElpdGk5clJiYw?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793889628.0
-  },
-  {
-   "title": "22:39:26【美股存储板块跌势加剧 闪迪跌超11% 希捷跌近10%】 - 财联社",
-   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NY3QyZnpnWkNxYjREMnIzdFpKeVlHTEU1NFVYaGFzWVNPaXVmN1dUTHllaXk4a3pzU19kdzl2VDExbmsyWHpfVA?oc=5",
+   "title": "美股三大股指开盘涨跌不一 AI硬件继续下挫 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ocFp1TVROMzhld1NqMU9nY2Q0eXNMRk5iTFc2SXZScHROaW05dm1vLTB0ZWFmNEhjSFB2ZHZTNmFTUklfY1M3a0trQ1EwUEhQSEM2NnNZdC1HQW1Xa3hsRw?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793889566.0
-  },
-  {
-   "title": "波兰央行行长格拉平斯基：1月份的决定存在很大的不确定性，我们将拭目以待能源价格的走势。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5LTU5ITGhZeGhmc1I3RS1WWENnaFRVaFBwNWo2QjNKR1JLSzA2cXhfekpHbHNxeDhfTWZDdUVYdVdreGhpaTU0TnBvdw?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793889553.0
-  },
-  {
-   "title": "美股AI硬件继续下挫；广电总局：扶持真人剧，规范AI剧；全球首个仿生人形机器人新闻主播亮相；春节连休9天！2027年放假安排来了丨每经晚参 - 每日经济新闻",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByVExWNW02YWZjc2hrQklnMDhUR3ljX2JyVkdNQmdYQjBsaVpSRk1wTUctTlU2bk54Z2Z0X2wwdEl4VDVkNWNTSU9CTE5xeERlZ3MzNVpNakhtXzRZa1hXZEJCTUQydw?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793889360.0
-  },
-  {
-   "title": "赞比亚央行行长：债券发行规模扩大不会推高收益率。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82Y2lEMDR4aEVxRWNKa1ZEM2I0azN0RVNnRWNOYWVNZ2RfdjZKem9fdUt5bWc4S0hTQkIybTMyejJDWmV3OG1tMUJkOA?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793889354.0
+   "ts": 1793889320.0
   },
   {
    "title": "回购增持按下“加速键”：A股三天冒出千亿回购盘 - 21财经",
@@ -3703,11 +3927,25 @@
    "ts": 1793889300.0
   },
   {
-   "title": "美股三大股指开盘涨跌不一，AI硬件继续下挫 - 凤凰网财经",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzem14OXBhZEtlZTJubUYyaUxJeXA1Y3lvVHhlWklBOWJsY0dhOUl5ZzA5YmxhNEtwblNBMTNPN1BoeDZ5cjdlRTNMYnA2RG5T?oc=5",
+   "title": "美联储巴尔金：AI 建设在短期内肯定产生了通胀影响。由于缺乏员工，数据中心在其所在社区没有天然的支持者。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBscmgwbWJVWFRBV0I3QmdQT0NUeUpKc1pJSzlqUFpfby1NYy1zc3lUMHdnVFdwMWpiX3hTRjlUMjc5V1RCNlI3WVUyYw?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793889238.0
+  },
+  {
+   "title": "美股风向突变！纳指暴跌逾4% AI概念股再遭抛售 - 财联社",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1ydEIwYzJOb3BqdU5ENS1UbklpUU1WY3dFXzB3UGVhZExTeXY1Z0Q5MzBfcW1aa2hIcl9RRndjTHJPZ2VTV3R5RA?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793889269.0
+   "ts": 1793889180.0
+  },
+  {
+   "title": "23:29:41【美股恐慌指数VIX飙升逾47% 突破24关口创4月7日以来新高】 - 财联社",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9VcE1lOGY1LVZOMnMyTTlWbjY4elpKeVVZdVdoWmNkbU1ybERPWDdlMjBDeE91cUt3MDBCSnpjc0VpdmQwS0R1MA?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793889180.0
   },
   {
    "title": "以史为鉴：A股大跌后的反弹，通常能走多远？ - 手机新浪网",
@@ -3717,11 +3955,11 @@
    "ts": 1793889120.0
   },
   {
-   "title": "美股三大指数涨跌不一 AI硬件继续下挫 - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBPckkya0tQVFkxM2xvdnZMcUE4YUZiN191SG4ybHdVaGtZSDhpaUVUQ3AwNWVmZ2xINk1rcTRFTHdDZDludzFYTi1hZVpPX0JtdkJWS1FPMXJmekduWGRMSA?oc=5",
-   "source": "Google 新闻·全球市场",
+   "title": "英国央行三年来首次加息，警告若伊朗战争持续将继续收紧政策-市场参考 - 金十数据",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DNWtkQmhLV3lzTHJ4bVA1a1JRemVFc1B4T1ZyWXNYemI0ckxtTFJCTHNrVjNkLUt2UGFyMGE1VnpZUkNuR0N4c1RkY3hfZEE?oc=5",
+   "source": "Google 新闻·利率",
    "lang": "zh",
-   "ts": 1793888998.0
+   "ts": 1793889070.0
   },
   {
    "title": "A股放量普涨！各路资金买了什么？ - 东方财富",
@@ -3731,11 +3969,11 @@
    "ts": 1793888955.0
   },
   {
-   "title": "美联储巴尔金：通胀是目前美联储面临的最重要风险。 - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONXczZy1nUTBNU1RDMERpLThZMjZRckRCNTlKZWVWM1dfMzk2clVRM3A2akd6aGhRc1JkMUpaMi1QSFhERHRyMWYzV0lwdGZOMkRqNkEzd0lKOWUxLTVQUnVWOFo3RXhOVVRnUmlTejRlLUVINWUwMHd0U0h5clhpNXU3NUxXVEwySVZCNndmUlNXaXREcGdQSzBXdEJzRVluWWg2UA?oc=5",
+   "title": "巴尔金：通胀是美联储当前面临的最大风险。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14dlFWTGVhT2U0bHV5b25fYm1yaEx2LW16WjQ2NC1aZkZOSHFkcDhPY29HalE1UjhKOXJyeDRDamZnNnUyWHpLVkluMA?oc=5",
    "source": "Google 新闻·美联储",
    "lang": "zh",
-   "ts": 1793888792.0
+   "ts": 1793888875.0
   },
   {
    "title": "欧元：欧洲央行加息前景提供支撑 – 德国商业银行 - www.tmgm.com",
@@ -3745,11 +3983,11 @@
    "ts": 1793888677.0
   },
   {
-   "title": "美股异动 | 百济神州(ONC.US)盘前涨逾6% 前三季度净利润同比增长431.8% - Moomoo",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTVJsbTU1Y2RCY1F1Ny1FYWFtQ2NDTURzSjR2ZzA5aUxTWXlHTVNQdVprb2JieHJ5aWdERWtldnI0ZFZQMnV0WUxvZFlBXzBsTGxCVmdZUFZjV2NFUjVaYkhCYmdYUjhaZzRNc290MW9keFFDZXBINkp5UnlfTEQwRDJucGxzcWJzbW5RZW92Q3k3RjVaZzY1UTRhYzJ5cUk?oc=5",
-   "source": "Google 新闻·全球市场",
+   "title": "潮州三环集团回购515.69万股A股涉资约4.00亿元_滚动新闻_财经 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZV2duVmwwR0JqZjcyTjFWZ05BZVFUZGF4LUlUQWY4UGwwRlJTWGVnOEc5ZTZiWDU0clpsajNkV0Y1ZlRSR1F3Q2tDNkNQNmVwVVVVZURETGwtVUlGdm1MSA?oc=5",
+   "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793888646.0
+   "ts": 1793888628.0
   },
   {
    "title": "美股异动 | 热门中概股盘前普涨 网易(NTES.US)涨5% 提供者 智通财经 - 英为财情 Investing.com",
@@ -3773,13 +4011,6 @@
    "ts": 1793888378.0
   },
   {
-   "title": "巴尔金：通胀是美联储当前面临的最大风险。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14dlFWTGVhT2U0bHV5b25fYm1yaEx2LW16WjQ2NC1aZkZOSHFkcDhPY29HalE1UjhKOXJyeDRDamZnNnUyWHpLVkluMA?oc=5",
-   "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1793888366.0
-  },
-  {
    "title": "美联储巴尔金：我认为逐步加息的节奏仍然合理。 - 新浪网",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1TbTNWME5WUVR5Y0YyRmRLNENLQ2UxbGZiN1AyYUF4NVYyYkdzUUJ2LWcwY0VRYWNVeDgwN0NDOGM2RW02eDJkeVE3Yw?oc=5",
    "source": "Google 新闻·美联储",
@@ -3801,18 +4032,11 @@
    "ts": 1793888161.0
   },
   {
-   "title": "美联储巴尔金：政策路......_7x24快讯_新浪财经 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50SkNkVEJLMVRBWWRZZ3JzT1NENWZjN1NEOG5HbXdVcmtqTEFqcVlXNWZjcmQ3ZDJsOWFWTWtNWmNDSmNrRDdkeUR5RQ?oc=5",
-   "source": "Google 新闻·美联储",
+   "title": "美股异动| 百济神州(ONC.US)盘前涨逾6% 前三季度净利润同比增长431.8%_全球市场_财经 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tLXNnZndPQURZTWFva0NVOWJtV2Z3akFlRzhwVEVHSjdTaXVneEIyMVlkOURCS1g5TFh0QWZMdy1ONktnbGs3b1NQTEFSdmlRYkFLa1paUTBEMzVudUxIcw?oc=5",
+   "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793888150.0
-  },
-  {
-   "title": "波兰央行行长格拉平斯基：我们预计2027年GDP增速将进一步放缓。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1OZnUtcXhtQUxwcjg4aGxsREJwcWtYRFRueW45dmFOeWlFZ1FNcjN6cTFIaXZMcG80ZkR4eW1VeEZRZC11X1lkM19GUQ?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793887988.0
+   "ts": 1793888064.0
   },
   {
    "title": "今晚，又有一批A股公司宣布拟回购、增持 - 京报网",
@@ -3820,27 +4044,6 @@
    "source": "Google 新闻·A股",
    "lang": "zh",
    "ts": 1793887957.0
-  },
-  {
-   "title": "捷克央行行长米胡尔：反对加息的理由是，我们在限制性政策、长期高利率和严格条件下遭遇了成本冲击。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qZjZmdU5nU1BaOEhDV0JZeFhNS0xPVkxVUEVCdy01ZDZxZWx0WUtOOERGQklwWWtiRUJNRlM4d3R0RHZJZ3ZUYnUxZw?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793887954.0
-  },
-  {
-   "title": "捷克央行行长米赫尔：不对货币政策相关的政治声明置评。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0tU0VZUzk1MlpzbjZUdzctYkNfeXE3WngyTm1NeFNzbzRVNUluaHQ3OHlXOGRfcGwtQVdpUHp6ckhFOWxUdmVuajFGOA?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793887859.0
-  },
-  {
-   "title": "波兰央行行长格拉平斯基：前三季度数据显示GDP增速放缓。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhaTVFeGR6dkJJS2lLQ05sSWVCa3pfSS1uNnQxbzQ0dDZuMTV0VktlTTJEUTZESHctb3hleGhtUDVEdHNCeTF6M29PWQ?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793887837.0
   },
   {
    "title": "英国央行或迎三年来首次加息，市场已押注明年再加三次！-市场参考 - 金十数据",
@@ -3862,13 +4065,6 @@
    "source": "Google 新闻·美联储",
    "lang": "zh",
    "ts": 1793887534.0
-  },
-  {
-   "title": "捷克央行行长Michl：我们将在未来的会议上评估数据。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE45UTB3dnNXLXFnRTFJQ25yMUZ2cTFORXJCTlMwUGtkWkZKakZSMUlOZjdpQzdzZlhWOVlkZlNKX2RCbWN5ZUo1aU40Yw?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793887483.0
   },
   {
    "title": "瑞典克朗：通胀受挫令瑞典央行政策路径存疑——野村证券 - www.tmgm.com",
@@ -3899,39 +4095,25 @@
    "ts": 1793887380.0
   },
   {
-   "title": "白宫施压即将失效！美联储主席沃什迎来“绝对自主”时刻？ 港美股资讯 - www.hstong.com",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lcHZ2ckUybm1Gc3JWVC1BQ2xjMWxiTTYzbUJZcXAxNkZUUFBFMTEtLV9FdTU5NmVBanlPdmVtVmFtdG0tR1JlaWk5TW5aSkIyUzNLWkxqVTluRUZ1SVhJRzBB?oc=5",
-   "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1793887320.0
-  },
-  {
-   "title": "迈威尔科技美股盘前跌超5% - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5UbF9hdGYzQzlDbTR1LU9TZUlCYzVPOWI2QmpveUdrMTd3cWlYZWxVUGs0cXloNWtBNmJGLWVHMWVVVzhGOV92RUpBcw?oc=5",
+   "title": "黄金在两周高点后反弹停滞，美债收益率回升暗藏何种玄机_金市直播 - 黄金网",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE84dm8zclBIZGxqTkQtbWRHNzNtOU5VMGNmTW1FUkNZdXpRcUxVRkZnTUZNVnduYzZPbmUzZmVPZC15OGFjNENtMVM3LW12dGVOQmNrLVZDeVhBX0x4Y0ljdlY5M0M5QV80?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793887319.0
+   "ts": 1793887321.0
   },
   {
-   "title": "捷克央行董事会认为整体风险偏向通胀。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96aEpvNmtra19KOUZzblRIR2lIQUZrM09LSDUybVVTVXRJY3VSSmhFNVdKbEVqUlZyajJZVjVvU2VfcHFNUFE4ZkNGbw?oc=5",
+   "title": "超威半导体美股盘前跌超6% - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE92dHIxVndFRU91bVlSRFF1XzZTN3A3eVF2RDZwZTVNejY1T2Y2TTVMU3oxOWthVVVQSkRla3NNZ2toeG4xc1FIUlRUNA?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793887156.0
+  },
+  {
+   "title": "分割超8亿元！A股又见实控人离婚 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Ra0tFLXRmNGszSFBLR3RZMDFHNHVOMlhoeG5Cdm1jX0s5RHB2T2hiUlJWVUFUTHZlMDlVUzdDZnlnT25jaFUtUFdLdzRLLXA0ZHoybGVYLXR6RHM2S3JORQ?oc=5",
    "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793887218.0
-  },
-  {
-   "title": "捷克央行周四以4比3的投票结果决定加息。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5KQmxRbDBpSGdjRDZZcklRdXBzbU4wVGgtUU1xanpia0UzOUNGVk1sWW81dm9iRkY5Y3phck4weXF3SXl4UVRmWHFVNA?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793887216.0
-  },
-  {
-   "title": "美联储哈马克：货币政策需要转向限制性立场 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5veVpqTjFJUVo2dURrLVBXQUtxMTEyTFJELXdiTW1WdEtHa0RWaUh0WUgzTldfMEY1VVNzdUtNSXprMDhzX0NDUmRnNA?oc=5",
-   "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1793886671.0
+   "ts": 1793886877.0
   },
   {
    "title": "美股异动 | Q4手机芯片业务收入骤降26% 高通(QCOM.US)盘前大跌逾11% 提供者 智通财经 - 英为财情 Investing.com",
@@ -3955,11 +4137,11 @@
    "ts": 1793886446.0
   },
   {
-   "title": "分割超8亿元！A股又见实控人离婚 - 21财经",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNk9vWk9Bd3hFU0xpRVZqUnk0dC1tYzJZWUpheWREQUVzMEJJeUk3M01leUNPb3pCNzJydm9LLXZlalZaRThrOHBwS1QzRUpEX0dHdUlBeDYxbWRFYTB2UXpqRlQ5b3l2SFYzOXBmZ09LOXdWR3pYOHdyYm9fZDdlcHhOeHR6d2pBYjNmd0oyOA?oc=5",
-   "source": "Google 新闻·A股",
+   "title": "币安遭黑客攻击后美联储与OCC致电银行，恰逢网络安全新规生效 - Cryptopolitan",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONDBzVm5SeWZVWmRTSm5DZXB4QWhPRzJiVVlxMWY0Z0ZMT0RnWTlHUFkyRTJaYzA0TkdDTy1ESFhnR2VDOWxkaWZuN1h5aFNKbFByWTV2UGI5eHFaalQxU0FpemxkbnJGT0ZOaW1nallGNTRueHBSbjdjeWV1cGp0MQ?oc=5",
+   "source": "Google 新闻·美联储",
    "lang": "zh",
-   "ts": 1793886420.0
+   "ts": 1793886398.0
   },
   {
    "title": "Here’s what happened in crypto today",
@@ -3969,11 +4151,11 @@
    "ts": 1793886361.0
   },
   {
-   "title": "黄金在两周高点后反弹停滞，美债收益率回升暗藏何种玄机 - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWGx6MDl3THpTeEpVeXNEb0FKSHNJR1B0ZkpiZnkwRzVMNm1pbHhSMUFxckNyM25Rb2JGNGM4TjZ5WndjanpFOG5lazJoVmUwaGZtQmZZcUdfY2FUR1dtODZTclFRSE9rMzBGbmRjaW9McTdGZkJzX3BiTlpQSEFDa1dCc2pDN2lPRWNiTXNScUwySHVjNVE?oc=5",
-   "source": "Google 新闻·全球市场",
+   "title": "印度央行将于2026年11月6日在流动性调节工具下进行为期三天的可变利率逆回购拍卖。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9veVpOcFkxNGZTQldMdlQtTUprbi1SYTdfTmQ3QjF0bkFoX3lsMUFsSWdST2JYdFlFUEFvdFJEWnBsV0l4cy1nQ3YwMA?oc=5",
+   "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793886356.0
+   "ts": 1793886354.0
   },
   {
    "title": "11月5日更新： #比特币ETF： 1D NetFlow：+208$比特币(BTC.CC)$（+1656万美元）🟢... - Moomoo",
@@ -3986,13 +4168,6 @@
    "title": "突发：🇺🇸 美国现货比特币ETF昨日净流入7460万美元！🚀 - Moomoo",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaWRaQ3JzNS1JTXRUd0ZTS2RfamRxTU41QUdsa0R3YlY0TUtBYzY3VVJPYVpVSHhFVC1MQTNtb3lVZWxUeWoxTGQ3cnVwRXNoNk9lVEN6VkFuOGxYTWNEYWFDOV9OZERvOXFSUS1KWU80MDRCcFdFOE9yc1JiRnZlMVRJcVFjSlJ2Q1gtUmtUbnBpeFU4bGozVVNCdDB5QQ?oc=5",
    "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793886114.0
-  },
-  {
-   "title": "湖南黄金(002155):中国国际金融股份有限公司关于深圳证券交易所《关于湖南黄金股份有限公司发行股份购买资产并募集配套资金申请的审核问询函》回复之核查意见- CFi.CN 中财网 - 中财网",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0SExteHpYWEFaSUppWWgzaS1fN0RHb2c5S0s5OFRDdVhnLTlqUDNONHRzZnVjelhLeEFHRjlYQ2xSR1dFM1ZWdTg2ZXJHVnpZRlYzMEVR?oc=5",
-   "source": "Google 新闻·全球市场",
    "lang": "zh",
    "ts": 1793886114.0
   },
@@ -4039,13 +4214,6 @@
    "ts": 1793885697.0
   },
   {
-   "title": "特朗普中期选举受挫 美联储主席沃什或卸下政治束缚 - e南洋",
-   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hUFNmdmRIQ09kcjhUclNHSVc2MWtBR0JMdTNyLV9Tb09nU1Q0X3YxWHJTOHIzZ1M5NXBzYkc0Yl9NdDJsbHh1S2VheVMzclRIN3lGd1htalZ4SFZUTWItQUJLOA?oc=5",
-   "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1793885604.0
-  },
-  {
    "title": "特朗普中期选举受挫 美联储主席沃什或卸下政治束缚 - KLSE Screener",
    "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxPUDV2SWY0RHhuOGdPRTVmUFBvU2JrQWhCczRCQXpTWm04Ym83ZjVLUHpzR3VhRjAwTmI3djJPUUhCNm14eUo3SDU5RWUxYkpDS08wS1VwTFV0clU1eURaNEdfckZpYVVtWWM2bVc4aHRGdndQRHhZcDIyenkyb0IwVHh6cVBTTXR5NExFeEI3ZDlCZG45dXNfU2NKMHZsX25iWllCT3Nac0xwRzhoZFFJUVlkMnhqbk1QYTFGRllFb3FXYjJ1cjZDSG1PWmc2TVF5cGhWYko2SmJobUw1Smdqdm12LTJJSENLSDE0SW9IaXktT3dERmtJeHhyOFIwTnZlbmxNMm5CQVREQVMtSHRaVEJzMHBlaW5VZ2toRkliUDQ3QVBwUWxwQ0tUUGRxZWp5UnZuazFRUmozTkE3YzRQbFJQWFRHZDdIb0wtdlF0V3gzNzhONGMtM1BNWUthMEFDb0pmRHY0X1FaUWRKdndXWHQwS2Q?oc=5",
    "source": "Google 新闻·美联储",
@@ -4065,6 +4233,13 @@
    "source": "Google 新闻·全球市场",
    "lang": "zh",
    "ts": 1793885579.0
+  },
+  {
+   "title": "白宫施压即将失效！美联储主席沃什迎来“绝对自主”时刻？-市场参考 - 金十数据",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zWGRUcE9xYy1sOVBhbUVkNnl3T3lGcTc5MkhFRGRPOEhIQlpULTEzcEtySWtTYzd1Rmo4SnBYRzdBc0x6UXBlU1Vnc01lVlU?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793885565.0
   },
   {
    "title": "据报，众议院民主党人正在讨论赋予SEC 更多加密货币监管权，同时削弱CFTC 的角色。我在独家消息爆出前约一小时就在... - Moomoo",
@@ -4102,11 +4277,11 @@
    "ts": 1793884870.0
   },
   {
-   "title": "国际油价重挫超8% 战争恐慌撤单引发市场调整 - 中华网",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JUktiU3dCUHFleUxrZnRIMG5RcU9WOWdaUnYzUzZjT25PVDU3U3JqUjc3TWlTTVJ0QVhtdW9YV3Mxd2VkWGkyTEFXcUFhdlE1TE5EOV9fUmM5S2VpMnpLVEJvVkppRWZGd0ZIUVNReFU?oc=5",
-   "source": "Google 新闻·全球市场",
+   "title": "英国央行贝利被问及英国通胀持续高于目标时表示，我们一直处于一个供应冲击非常大的世界。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1vNlJzSEx0dnJSdDBPQ2pWcF95Y1JKNWJfX0ZUcUZScGlsWlFiUk1RM1E4cWZULXM0R2VCSl9ZUjJPNmZveXlBTmZ0MA?oc=5",
+   "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793884782.0
+   "ts": 1793884740.0
   },
   {
    "title": "终止减持计划！A股公司，密集公告 - 同花顺",
@@ -4123,6 +4298,13 @@
    "ts": 1793884400.0
   },
   {
+   "title": "11.5晚间：黄金连阳冲关，原油回吐承压_国际原油市场 - 黄金网",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MT1hYdE5VWk1BUlFFSTRDYWFKek83SEx2TEpRZmt0OEVrOTdrMlNDMFVSMjA3eFV5M2JtdnZ6ZjhKTnhySTFENzZSMnVJckZrd1phRFhwb0xxRXMxamhibXR4a3NsUVlrdG56aQ?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793884331.0
+  },
+  {
    "title": "男子花光积蓄买7斤黄金，9个月净亏114万元 投资错配代价惨重 - 中华网",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YbHl1MTBMZlVtUTBOS3BEX3ZLaEowU1pwVmVoeVViR3ZaQjA1cUxKNDBpOE1XZVlfcjZyczFKZlB3ZE1jSkx2UTVSRk9WMC1yUHlmMjExX3JhNjNjOGJZVk9vaHZsSlBMamg3YlNaWWk?oc=5",
    "source": "Google 新闻·全球市场",
@@ -4130,18 +4312,11 @@
    "ts": 1793884291.0
   },
   {
-   "title": "郑氏点银：黄金初见短期底部，不过后市仍需一个回踩确认_名家点金 - 黄金网",
-   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10NWF6akprbjhRcDFXT2J2d3NLTm1PWWNKYTQwYTRVTVBCbFpRMTk3czdoWDFJLWMyVnRJcmYwMWE4LTh0NmgwUU93NzZSYW5jUHZSY1R4c3B1ajVpeEgzaGxCLWZjWnFzeDdvZw?oc=5",
+   "title": "轩锋—黄金一步一个台阶，原油反弹还是空！_名家点金 - 黄金网",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1BOXlaTDRqa1d0NTRnWmtDRldpZEN6YXowLUxJanBFS2xJSmtGX3pGRFcwM05pRUk4aVJENm84WkNHT1NfcUNmem5tY3ZjS2tQdnpRZ3hobGM5ZWhlQmRaV0k3MGxMSG5pcHpLMA?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793884263.0
-  },
-  {
-   "title": "最高5亿元！A股公司董事长们纷纷提议回购股份 - 手机新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPanFxVmo2SHdfcnR6MmlBVlN5T0Rxa3g3eFdnejMzSGpYWVNXQXA1RTdqaVdVeklRX1pJMzJaZXhPaTFvbFFXaUdrSmNiR1FHQnh5dnRlai1IXzlRUkIweHRuclNmRDBfcEx6WjhneUtGV0ZkeG5tSE9UcFpTbGlDazBR?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793884080.0
+   "ts": 1793884261.0
   },
   {
    "title": "业内人士回应A股黄金局势 - 手机新浪网",
@@ -4151,32 +4326,18 @@
    "ts": 1793883962.0
   },
   {
-   "title": "英国央行三年来首次加息 - 新京报",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYMWgyU1NFUFhENHVXUDQwV05vQWpINU1wYzRuU0JNdVNQdjgyNzF1R25DUjVhTDI1TXJEeGNzVUtTSXdPWlNNaVNCcDFCa1lSZjN4N2FqQzl5ajkxR3lBdWlCOEE?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793883947.0
-  },
-  {
-   "title": "现货黄金重返4000美元 金价强势反弹 - 中华网",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fd2s0UUE2bmtYaFJ5bFQ2MkluVUN4MkFlOXlmNWFKc3BmSW40VGdvLVpLME1HZGt4TmZWUDFiM3c2VHB6LU05MlluU0JiMVh4bjhDdzRKb1ZxbkdQUHlnNVZXOXJfNjJZUkNRSmFWbkc?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793883940.0
-  },
-  {
-   "title": "2026年前三季度我国黄金首饰消费量178.612吨，同比下降33.86% - https://www.mrjjxw.com/",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vSmQ2TmcxdWY1eXRQU18xVi1sVll0OFVzOUg0Q1FNTnNQcmhqWjduNDkwVHVVcXFDNWQxRFZQUGxOY0NvcF9VOEM5bUp5cjNjV2E1UFlqLTJLTVFlSTIzVVBGaDBIUQ?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793883878.0
-  },
-  {
    "title": "A股显示面板企业三季报业绩分化：TCL科技盈利高增，京东方单季转亏，OLED厂商再度亏损 - 中金在线",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5BN25FR1hqVWU3alBWSGktS1dEbDRxWjVFQ29jeWhJZzdxeFFCOVdqQkFGRFJkUEotSV9nOWdmR0JORnlBQlhpOFZpelZJSURQNFcxdnpuSWxOMDBmeUVkVGl6bXlLeC1YeHc?oc=5",
    "source": "Google 新闻·A股",
    "lang": "zh",
    "ts": 1793883755.0
+  },
+  {
+   "title": "英国央行三年来首次加息 - 新京报",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYMWgyU1NFUFhENHVXUDQwV05vQWpINU1wYzRuU0JNdVNQdjgyNzF1R25DUjVhTDI1TXJEeGNzVUtTSXdPWlNNaVNCcDFCa1lSZjN4N2FqQzl5ajkxR3lBdWlCOEE?oc=5",
+   "source": "Google 新闻·利率",
+   "lang": "zh",
+   "ts": 1793883720.0
   },
   {
    "title": "英伦银行加息0.25厘 逾3年来首次 符合预期 - 香港電台",
@@ -4200,18 +4361,25 @@
    "ts": 1793883306.0
   },
   {
-   "title": "英国央行加息至4.00%，英镑兑欧元基本持平 - www.tmgm.com",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZG1NajJBMk9ZS2lEdU82cEVud2lLVmMwOHlwc3hfTV9mUGhYUkFORlhTaVVnS21xMVFobUJqYmdXb0x0MzhEQjl5dmloUVFfeklVa2dqNzNVd3RKaF8xV2llenF5OWVaMnRUVU1uRDl0cXBUVVFSSkx1ZnhzN1pOTlBSQXBfYVRVOTZPRlZzMndKLS1jNExxek1kMTlocWZwNV9MZ2w4QVR1SExJeG8wN2piQV9OX1ZXRlE4d2p4QnFyUUIzeDFHeFFEUU1DWDF5blpJeA?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793883175.0
-  },
-  {
    "title": "九票支持收紧! 英国央行加息至4%释放鹰派信号，明年通胀峰值料达4.9% - 富途牛牛",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORXV6WGFma3k4dUtUVFdQSTNtWmlwUnBTQ1pVcHQyVWMxYTNkWmhIOXVpTEFIX09ETGI5YW83Y1l5SmVNYkRWN3pITG9EWnFuamU1MHlvcW0yNUU3cWJpZjdVOC00Sy1BMW5zUXBrWHB4SUF3Mmhkd3NxclJXZjRINGJuUFZaQzVpTjhrVGhiYVdMU2hwclhObg?oc=5",
    "source": "Google 新闻·利率",
    "lang": "zh",
    "ts": 1793882845.0
+  },
+  {
+   "title": "A股三大指数低开高走，沪指半日微涨0.1% - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE04WUwwY2tPMW1HOHd4Yl9hbW5JTmF6aDNmdTVZekVkVHVvYUVPc3BvX2hjOVVfWGxaQS1hN0hPbGgxeUthRWhpWjVWbVhveHBrTWl0d1V1dER6dUItckI2dVhWMlBpZw?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793882775.0
+  },
+  {
+   "title": "英国国家电网上调全年盈利增长指引 但负债攀升之际迎来英国三年来首次加息 - 财联社",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0zTjNuc3haeU9zcFI2OTdsNV85QnJvaUJIVTJGTVZqSy1LOGZvVnNqWGxxcTJ0NVlKNzJLS09uMXRrU1VHelhBOQ?oc=5",
+   "source": "Google 新闻·利率",
+   "lang": "zh",
+   "ts": 1793882524.0
   },
   {
    "title": "英国央行行长贝利：近期GDP增长中略低于五分之一由人工智能驱动。 - 新浪网",
@@ -4228,18 +4396,11 @@
    "ts": 1793882376.0
   },
   {
-   "title": "龙旗科技累计耗资3.22亿元回购A股股份 - zqrb.cn",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CRXNwclJIN3pXVjZDc20zMzN0bFJ5U19wOE9uaHp4YWZqWkNnUGlYVFJaTDU0RVVONkZLN3ZVbXpZRi0yMjhheUFlVnZTTVhac2g5OW1WNUFQTldSUmtmZ2FCanVqMS13aWhZ?oc=5",
-   "source": "Google 新闻·A股",
+   "title": "美国10月裁员规模骤降71%！明日非农大考将至，市场重新审视美联储加息终点 - 富途牛牛",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaEk5Nl9PS3dKU3FkZnF1VW11eEFkY3FtTnNmRFZJWkpoNC02dGliNDlpWlN4Xy1vSmMxbHJPM0lVZXpwd1hEQmh1cFVobUFHODgwUy1yb01oQmh4YndXb25Ga1RpLThFbFBTdlY1ZXltcmZORERXVmI3OUYyelJHQ1YyeXhSbzVxSEJKUERLdw?oc=5",
+   "source": "Google 新闻·美联储",
    "lang": "zh",
-   "ts": 1793882340.0
-  },
-  {
-   "title": "超威半导体美股盘前跌超4% - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBZREJ3aTEyZjEwX2xJUzVVTGN1OTJERHd6UTdCSHlQTHVEQjc1cUJhUjNZTHJCTUhLU2ItSjFLYzkzOXpqNzZYSHlZTQ?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793882168.0
+   "ts": 1793882247.0
   },
   {
    "title": "A股，又有重大利好！这些标的已确立右侧反转，一只大涨60%！ - 证券市场周刊",
@@ -4256,20 +4417,6 @@
    "ts": 1793881816.0
   },
   {
-   "title": "英国央行三年来首次加息，警告若伊朗战争持续将继续收紧政策-市场参考 - 金十数据",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DNWtkQmhLV3lzTHJ4bVA1a1JRemVFc1B4T1ZyWXNYemI0ckxtTFJCTHNrVjNkLUt2UGFyMGE1VnpZUkNuR0N4c1RkY3hfZEE?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793881639.0
-  },
-  {
-   "title": "11月5日A股公告投资合作一览：侨源股份、华勤技术、佰维存储等-电报君 - 金融界",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81aElLSkEtUno2eTFLUm5rclBlVF9pajJNR2I5OGtTcGdQMHdYaFU5T19JT0szcUpNeU5fbV90dEVPQnM4SU9fR0MyTzFPSkRZMXA0SUxXX0tYUmxUa3BPeVVuZWU5V19TbF92Qm5pRy1PQVdJ?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793881636.0
-  },
-  {
    "title": "比特币展现出韧性，但杠杆资金缺席，需求依然疲软 - Moomoo",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNWREMVRmeWczVWR6QmR4VHRmR1FhelNhQnRvUWtmRlZReFgxVjhsYWlLNGQxcllIU1hVVjVJTGNHTTRUanQ1RzFhdlBqZGtUc2RabVZYSDJqZjhLMVdqckFEcU1KR2Q0angwbUJSRm12TUgyd290M1lxc2NDamRIUzMyQi1rVzlHNjVoZXhtc0JxMmw2dWZXSFZURGQ5T1dBcG9WVTdNRlJOOEpVZlRn?oc=5",
    "source": "Google 新闻·加密",
@@ -4277,15 +4424,8 @@
    "ts": 1793881620.0
   },
   {
-   "title": "A股上市银行三季报扫描：净息差企稳回升，营收、利润增长再加速 - Jiemian.com",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wSHlJdk9Gb3JhbzNuWndhdFdUTlo1enQ0dENHMEZfU1NBVnNwOWh2dldWdXQ5R1ZRNGttZ0kzV1hod3pBU19HcUx4aDVJS2twNUthaGo4Vmw?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793881581.0
-  },
-  {
-   "title": "今夜，A股公司密集公告：回购！ - 证券之星",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4ejlhMDk0cF9rLWZzT2MzSERFOW8zU2J3Z245SnRkeW1Sa0pJZjNzZWJHajd2NzdsOHhsek80V1V1XzJhUGtnVmdQR2JmYzBJb0hka0NBZU40WE1fLVZoNQ?oc=5",
+   "title": "今夜，A股公司密集公告：回购 - 凤凰网财经",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5Pd3d3OFhnTW4wRlIyZ0RpVkphczdpSTNGdzBKQURGYS0yT0NiZkJlYzVCMUlTSnBQNzRXVUtaT2RjUHVNbVdXN090ajIyNHVh?oc=5",
    "source": "Google 新闻·A股",
    "lang": "zh",
    "ts": 1793881518.0
@@ -4303,13 +4443,6 @@
    "source": "Google 新闻·利率",
    "lang": "zh",
    "ts": 1793881388.0
-  },
-  {
-   "title": "黄金、美股、美债一起跌，市场到底在怕什么？ - 财富号",
-   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hLTc1d00tNjUtcE1YUS1OS2VFdEdnTTJpZEJHYU9ZNngyOUszcmRjOERWYXV0ZFpxSW5mZnlaZEoybTFFbGJvSDVSZDNFYmlSTi05cTdHakdZUXoteUJEYmJHQWVlYkJEV2Y4?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793881380.0
   },
   {
    "title": "美国AI叙事新裂缝，却给了A股新机会 - 金融界",
@@ -4333,6 +4466,13 @@
    "ts": 1793881253.0
   },
   {
+   "title": "英国央行自伊朗战争以来首次加息，警告通胀率将接近5% - 搜狐网",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORHlxbE5ucVhMYk5qYlRwaVNIZ3pPU2RXRWIzeXRNa1QwNmQ0QkNyZnRPOEVINDZkcGVqc3NVb3FRdDh6eHlqU3FxdVVFZlg0VXpMdU5IbzRNV0pvVTFyeFl3bmdqSnA3MGRta1lnNE5WcWFScVoxSThVak5DTS16RlJRc3J4Z2tJSjV1QQ?oc=5",
+   "source": "Google 新闻·利率",
+   "lang": "zh",
+   "ts": 1793881248.0
+  },
+  {
    "title": "英国央行加息25个基点至4.00% - 京报网",
    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MSFB5clRTUHhjOEsxYWNBTHRWUEZHYUMyb2o3aVFzeHVzSG0wNjR6S0RUVm9YSnZOX0lsdERuREhIaThFVWR4UWR4cnBlR0JZdU4tbFdxZEVnYi1QX2c?oc=5",
    "source": "Google 新闻·利率",
@@ -4342,7 +4482,7 @@
   {
    "title": "英格兰银行加息25个基点，明年通胀率或升至4.9%，穆罕默德·埃尔-埃里安指出 - Traders Union",
    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc1NWVXBMSElPellhM2l4VlJ2SlNRWjNXbkdmX0FBYWZrZXdaM0g5S1JvbXJNM09PMUlXMHNIdGVYYndzblNuTVI5c2wzWUNFTDNuOS1ISEVNbXQ3dE9aTHNiXzFQSzUxbmg1SWIyZXpkUnpjSTZkZTVObHV5ZEwzOU9iLXB0bDZoOUlVcE9n?oc=5",
-   "source": "Google 新闻·利率",
+   "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793881017.0
   },
@@ -4361,32 +4501,25 @@
    "ts": 1793880892.0
   },
   {
-   "title": "“A股史诗级大涨” - 手机新浪网",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1Hc05vcEVtOEt4ZmlyOW4zaExjRTdWN2YweThNa0h5ZEJaY29LNmU2clNpXzJHZlA1MjB0akxySkRPN1pDbHBSYkZUQ1FZSEltUHllQjR1dWlfX0hpalVQZkNaZFVUcDlRdjJGMmFPMTRSZw?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793880780.0
-  },
-  {
-   "title": "英国央行三年来首次加息至4%，未来还要再加一次，英镑短线冲高30点_外汇动态报道 - 汇通网",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvZkRuT09EQ3JmTWFndHBuQXpUS1V3cHNkMjlSbEhCa1daVXEweWNkV05OM2syOWNfMEstWDdUVTFUdjFpNXlfYkRnMzBpVEMwUjBad2xCY3RWdw?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793880538.0
-  },
-  {
-   "title": "欧元兑英镑在英国央行决议后下跌0.1%，至0.8320。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1IbXhYSW1Kc05YUGZSOTRmSFJuanJvTzNJdnB1ZTFzWkt3TWdCRHpUTGNTQmxaY0xUUTcxcEt4aWloM2xZLTVac0NVVQ?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793880507.0
-  },
-  {
    "title": "台湾CPI连续六个月突破通货膨胀警戒线 - 中国新闻网",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAydllVa29Fc1c3cUV1SGI3Mk9jTFJwZFA2U3VDXzctVDJoUHdxdXQ2OENSZTJILU5yMS1yQVFrbmExSFRyVEtZeHFFeEFoRXZaYmg4dkw4U05aX3pibWlwd0tsVVdrbThT?oc=5",
    "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793880501.0
+  },
+  {
+   "title": "英国央行三年来首次加息至4%，未来还要再加一次，英镑短线冲高30点 - 汇通网",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pWF9odGtxZDBHN01ncGo5bmVnYUY2cW1HUGM2RF8wak1nd2RjMlc4LS1xZUdMalFuYU9CbkhVMk1JcmM3MXN4WXIxR2dnLVZidmt1NTBRYURXM0k?oc=5",
+   "source": "Google 新闻·利率",
+   "lang": "zh",
+   "ts": 1793880480.0
+  },
+  {
+   "title": "英国央行暗示可能还会再加息一次，但后续采取行动的门槛更高。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XSmYtdjVhcW1XMENKejROS205cHl6Rjh3cDM4OVVwMjZtczdkV2R0OElqM3VaOHRxQk96aDhJMUpYVE1nMHN5MDM4Yw?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793880446.0
   },
   {
    "title": "捷克克朗：尽管捷克央行加息，CZK仍承压——德国商业银行 - www.tmgm.com",
@@ -4410,14 +4543,14 @@
    "ts": 1793880358.0
   },
   {
-   "title": "英国央行暗示可能还会再加息一次，但后续采取行动的门槛更高。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XSmYtdjVhcW1XMENKejROS205cHl6Rjh3cDM4OVVwMjZtczdkV2R0OElqM3VaOHRxQk96aDhJMUpYVE1nMHN5MDM4Yw?oc=5",
-   "source": "Google 新闻·A股",
+   "title": "闪评 | 欧元区通胀持续承压 下月将迎最后一次加息 - 搜狐网",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdVctVEtRZ2hXRjZFNEpQd3VMNjdLRVhYSkxqVXhzeERDLTFseDVNRWZwbzFWdGJjQkt6Y01HNml6M3l2ZDZsdWR5bXJkcldqZzR6djNuYW9oMG1LRl9TS0c3bk1nQUZnVXlRNWRGR19jUmpDZDlUX0tfYmpjTUdCaWYtYVk4LURh?oc=5",
+   "source": "Google 新闻·通胀",
    "lang": "zh",
-   "ts": 1793880327.0
+   "ts": 1793880358.0
   },
   {
-   "title": "英格兰银行在通胀压力加剧背景下宣布加息 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "英格兰银行三年多来首次加息，将利率上调至4% 提供者 Investing.com - 英为财情 Investing.com",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPSXdaLTVDem1ETmhKb1N0c1RRSTh0bll0WXN0RjZsa0ZyVlktWGNOQXFfdEo4MFhWUTlDdktGeW5MQmkxN2dXMlBCSTZ0TDJHc29xNlNLTGlIbmM4M0htSjFFaVVTN2ctNFE?oc=5",
    "source": "Google 新闻·利率",
    "lang": "zh",
@@ -4431,13 +4564,6 @@
    "ts": 1793880138.0
   },
   {
-   "title": "英国至11月5日央行利率决定 4%，预期4.00%，前值3.75%。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1GRjBaLV9tOUlIUU1mSWZmeUtBMTV0bkJJdDlwQ1lCVFY1am9JU1AzbEZ5c2tMbkJWVUVGZzFsSHNCMThNN2FuNzhzOA?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793880127.0
-  },
-  {
    "title": "英国央行首席经济学家皮尔：单次加息25个基点不太可能足够。 - 新浪网",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9TWFc3WmNURmtZckk0RHJpWjRCSTY5MzgydzJJWlJzQzhBZmlnUnRocllTQWQ2d1Q0NVdoSlJPRXNWMVNPcGRHRkw3WQ?oc=5",
    "source": "Google 新闻·A股",
@@ -4445,32 +4571,11 @@
    "ts": 1793880098.0
   },
   {
-   "title": "英国央行三年来首次加息，英镑兑美元GBP/USD短线走高超30点，现报1.3468。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HZXQ3LW5ydFRSaVBhdy1aamdVaW8tZFhvaW9kNjN6eUk5eTF5MmU3SVg3SGlRQUFzWjBjZUJ1bDdRMWs5U1gxNFFHaw?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793880069.0
-  },
-  {
-   "title": "监管问询突至，OPay美股IPO“临门刹车” - 手机新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUmVFSjlxdk93U1NkbWpIRWFVc003Qnk0TFlnLUlJSW9QZ2MxNHB0NE9oQkNpTG9id09uZk5OeWxDSmdpMUtEdWwtenViWWZjY3M3VUxidDZFQ2JmMFVzOWFqSkxjejNkS2RDRUpLdjdZdVBuUk5YeFhab0E4ZDR0VHJR?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793880060.0
-  },
-  {
-   "title": "英国央行加息25基点，行长贝利警告：除非伊朗战争结束，否则这不可能是最后一次加息 - 华尔街见闻",
+   "title": "英国央行加息25基点，预测明年通胀升至5%，行长贝利警告：伊朗战争不结束，加息就不会到头 - 华尔街见闻",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0yblRqcUNTNFZrdVFjMS1rY0lnMFlYTklfSElrN29od0lndC1wd2xxUzFQX2JZMnFlS3dudnJnOTZVQXlvdzJ6UHJ3aW9wZ0Zpdzdr?oc=5",
    "source": "Google 新闻·利率",
    "lang": "zh",
    "ts": 1793880018.0
-  },
-  {
-   "title": "中期选举后美股怎么走？一文看懂 - 21财经",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUXlPVVNHQmlfLWdjUjFBZG5WTWdJdk5XNXZvWFVHWmF0Nm1nU3RyeHRwX1pLQWVnX1BFeTdjTThYRE9LYzdzbFljMTJFaUFkdE9RZjZRRDdrRmR3WEdfTTJRZHBMVURmVE81RVVEYS1VOHdqOERVV0NrdlhzUVZoZDB4VUhMWU1BbDVFNWJqaw?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793880000.0
   },
   {
    "title": "韩国再度推迟加密货币收益征税至2029年 - Moomoo",
@@ -4485,13 +4590,6 @@
    "source": "Google 新闻·加密",
    "lang": "zh",
    "ts": 1793879597.0
-  },
-  {
-   "title": "科创50涨9.92%！A股放量反弹，后市怎么走？ - 21财经",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMGZBY083TEg3cVFvcmFOSV9VWmlCU3hJTmxlOV9vOVdZX1NmSGsxbTlRa0tRM1BzMFo1Y05idlJtVF9ZMl9qRy1VaWFhTGhuaFpkd3YxdHZLcXB1bUpST0Fld2YxV3J1cmkyc0dmdW94SzlFX1hNSFJCcWZkbDhCU1BaZWdGS0FCYkh5RFJwU3lvaVBn?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793879502.0
   },
   {
    "title": "英国经济韧性叠加加息预期，英镑升至2016年来最强，市场押注年内再加两次 - 同花顺",
@@ -4564,39 +4662,18 @@
    "ts": 1793877780.0
   },
   {
-   "title": "山东黄金拟3亿元-4亿元回购A股股份 全部用于注销 - 观点网",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE84VG9vaUZXQWV5ejdxdlBtNHlvdk5UT2JOa1VOZHJQa0dTWHF4LUdjSjBacmdka0duVUwwV2phbTA2cTZYQ0dhQmExVnpHRDFuSTF1Q2JXbEIzZ1dsVV9NQllR?oc=5",
-   "source": "Google 新闻·全球市场",
+   "title": "山东黄金拟3亿元-4亿元回购A股股份全部用于注销_公司新闻_财经 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XR2l5Skk3cGhVaGFfNTJKeUh6YmUza1RYNnRnYmUyNzZ5NTUzZDM5S1BKUlVrRnhfcGlINU5fc2p2SmJ2LTJTWlFkWWR0ZmVKYkxLSVpIRnVrU0FSRzVkbg?oc=5",
+   "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793877594.0
+   "ts": 1793877540.0
   },
   {
-   "title": "American Bitcoin三季度净赚1.26亿美元：全靠比特币升值，挖矿成本飙至4.21万美元 - 区块周刊BlockWeeks",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZVDJzOHZTR1VvTXI4RkxDaTVEampBdXJSLXB0RWFnSWkzemQ4UjVGZFg0QWNZNjRoSjF5ZGlxMVdQenR0TmNxbFVyZ1dEMms?oc=5",
-   "source": "Google 新闻·加密",
+   "title": "英镑持稳，英国央行加息25个基点，美元在非农就业数据公布前企稳 提供者 Investing.com - 英为财情 Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9LTFRqZ2dFd3B3aEVob2JBOTRNYTJJUy1rYkRfRWlqQXhEWURzTEs5ZEd0WnNYZ0Y4RXpOZmZkdGFqSGJJS01ZVzVnLTZhOWI4QUJOM0ZqWjBLV1V0U01TSTd0aUZwT3c?oc=5",
+   "source": "Google 新闻·利率",
    "lang": "zh",
-   "ts": 1793877507.0
-  },
-  {
-   "title": "黄金ETF管理规模达1102.6亿盾 OJK：截至10月底共有7只产品上市 - Shangbao Indonesia",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE83d215d1Z1T3piaXdoeTB0c2Vzc2RTSzlDNTZ6LTlzVWNFaWhodWdQQUxnb0JvWFBpX2ZkdVJES2dWWEZQM1ZyaExPWWZoS2dmZDF1aGp5NHNFV3UyNWRIYVljeHpyY3Z0aWNXUU8zUmdDNElTaFZjSURR?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793877240.0
-  },
-  {
-   "title": "美股盘前，中国资产又上涨 - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56OHFKY2szWW5VOUhtNDg5NFA1cXA5akthdWJPZEZNUjN4RzBGYmZSTzhUOGl1cUdWaV9BbDY0OXYxcDZuTDFvckVGNEtwS0R1NFY2YjkwMk9nczVBWWYybnhvbnp0UQ?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793877036.0
-  },
-  {
-   "title": "法国阿尔凯亚银行遭网络攻击，约1亿欧元被转为加密货币 - DoNews",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wNUUtcXdaenRLTmR3YW43YllKdUZxMTRTeWRUZzBRX1NSZVJpLWhHdl9yUUFCX3Y0R2xMZ0wyUjZuR002LThkcUVUS256ZDR4UVVWWmJ1SERHT3ljU1E?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793876283.0
+   "ts": 1793877120.0
   },
   {
    "title": "实时动态：民主党横扫选举后市场反弹，比特币在$80,000附近企稳 - Moomoo",
@@ -4606,11 +4683,18 @@
    "ts": 1793876231.0
   },
   {
-   "title": "A股超级赛道，超140亿主力资金净流入 - 凤凰网财经",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9oSktiaFhBbzhUbVZGTU9aZWNKNXNFX2xZeVYtaF94dGt2ZnVtOWpzYnVlMlZiemYtVXNqN3lnNm1qelNodzBRRVZIcGtNUTdD?oc=5",
+   "title": "哈萨克斯坦向加密货币基金投资1亿美元。 - 新浪网",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE44YV8wT2JBcnhVMEE1YWJlb2RRUUxSb0ZkS2dmNFJlUDVIYUxGTjBHa2tFakRyN3VZek9nVDR0RDhmeUFUNl96NndmWQ?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793875977.0
+  },
+  {
+   "title": "“A股中期向上的基础依然稳固”！关键时刻，华泰证券重磅发声：未来市场上涨有望更多依靠企业盈利改善 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiTFNQZ3dvenZtZU45S01oRkFfZmdmVG9xRC1CTzJjaUVTXzNNclJvZjktS3RESlh4bjQxZnd3b2s1RWZPYXp2N0wzMEQ0THFVS25VLWdHeWhKb1VSX1VEYw?oc=5",
    "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793875943.0
+   "ts": 1793875728.0
   },
   {
    "title": "今日加密货币市场：资金重新流入，比特币、以太坊和XRP反弹势头降温 - www.tmgm.com",
@@ -4641,6 +4725,13 @@
    "ts": 1793875494.0
   },
   {
+   "title": "台湾10月CPI年增2.33% - hkcna.hk",
+   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBmLUdqenhucE1SY0VBek1fc0FXSmFzRElxblhKQ2pKd3UxTHVOaVpOWU1wTXd1cXdGcFlxNktoVzdldm5hTl95Uld4RVBodmZ5RTg1MlZVVVN3cFJoR0NzaVdEdkUxSmFqQWRZRFlnQQ?oc=5",
+   "source": "Google 新闻·通胀",
+   "lang": "zh",
+   "ts": 1793875260.0
+  },
+  {
    "title": "华尔街策略师Yardeni认定通胀将降 称收益率在5%的美国国债颇具吸引力 - 新浪网",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PVVZrM0hSRVlLZGo1VWppQ0hJaXVibDgwWnZHNjlya2dES0E5Qk9mX29wb0NmWVBvZHFlZ1VrdDFqQVNEYmFxV2Q5cw?oc=5",
    "source": "Google 新闻·通胀",
@@ -4660,13 +4751,6 @@
    "source": "CoinTelegraph",
    "lang": "en",
    "ts": 1793874506.0
-  },
-  {
-   "title": "国际油价拉升，布油站上95美元，比特币涨破8万美元 - 21财经",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN2otZEJpMGJlYU5XZ21hQnYtQkJvX3hFQktlM2NubGEyYVFKNkc4TERxTk1ETlJ6N3FIaEFKV0hXX0pIck1GMWN0ZlhKQU1lSlZwXzYxMDlHWTMtZWNCdWg1Y1dqbjVGdHQ5TzkzX2I3c0dIa0doR0FLMHhLYUpyUFBhR2lXejVTT2JIUllXYw?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793874360.0
   },
   {
    "title": "美股光通信板块盘前继续下挫，康宁跌近4% - 新京报",
@@ -4732,25 +4816,11 @@
    "ts": 1793871608.0
   },
   {
-   "title": "蓝潮重塑AI、加密货币与科技行业的六大路径 - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAyU1ZOaVVTR2N2YXFJaUpFZlNGN0FSRjV2d3NCMXA1bVNjNDE1T1FmMnBLMUh6Y1RzZkdZSGQ5ellQdmNwUk8wNmQweVlNcHpR?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793871540.0
-  },
-  {
    "title": "欧元区10月通胀率创2023年以来新高 12月加息预期升温 港美股资讯 - 华盛通",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhQkp0SnRaX21LbjVDMGEtaGdnN2p2NW4wQVdWVG1hbWJCNUl3UmpKRFpwVGRjak93cGozamRvQUFQY284TzRHZUwwNXFwbng4R3lDTTBHcVRKMmtHU3JsMHpB?oc=5",
    "source": "Google 新闻·利率",
    "lang": "zh",
    "ts": 1793871480.0
-  },
-  {
-   "title": "假加密货币爱情骗局 13中国男女落网 - 国内 - 即时国内 - Sin Chew Daily",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02Sk5Jb1hBa2p1Z25BbGhOdUh5dURES1VkcjdlT2tsVnY5d2xXNUtSSVNKcF9GeV9YcV85U0xXVGtLUnBBMmdjc3UxVHJVUkRoRW1tamE1WkNNeW5qc1ExOE05X096UQ?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793871402.0
   },
   {
    "title": "比特币矿工Riot可能根据价值280亿美元的人工智能协议向Anthropic支付12%的利息 - CoinDesk",
@@ -4765,6 +4835,13 @@
    "source": "CoinTelegraph",
    "lang": "en",
    "ts": 1793871329.0
+  },
+  {
+   "title": "一文看懂中期选举后美股走势：大涨大跌板块中仍有例外！ - 财联社",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBFWWFXMWlLdkllMm81S2JVZF84T3NhUExuUVV5T0tCVjlNQS05RGYwNC1DX2ZBUXhNQlNDdGgtd0drYVA4cEdDQg?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793870896.0
   },
   {
    "title": "A股量价齐升 126只湘股飘红 - 新湖南",
@@ -4788,18 +4865,25 @@
    "ts": 1793870340.0
   },
   {
-   "title": "港股上市半年后，曦智科技启动A股上市辅导 - ThePaper.cn",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xRUd6eFlZbG5rZEM3ZWJuX2U3dFBRZ1ZqMlZxWjJDVzJFN2o1aHBub2ZlT0dkWmJyU2ZuLS1iWGhmRGpXQWZwUTdQVXV2Si1waWd4cXc3VzlhVUx6RHVHRA?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793870209.0
-  },
-  {
    "title": "分析指厄尔尼诺或推高美国明年通胀率 - 联合早报",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxdkpMbkI3VlVKT1M3Y3gzTTZsbGxQcWQwbFpuMjA5eVIzdTJhZHozako5TUc5a21HRzdqMlczRWNhdVpVeXRYbU9peEVmemQ3eURWVEViZ0dMRkVoMjN5QTRlSHlraUdHNFE?oc=5",
    "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793870117.0
+  },
+  {
+   "title": "安德利（605198.SH）11月5日回购12.10万股A股_滚动新闻_财经 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ldFg2YzQwM3QyZ2JoTENSaXpXRk5qOHNGdC1hREhlUzJaaW8zOUJkZE1SbTBsSTBJWWEwZjZrZUQzRWhKU3hSYk5uZkY3QXB2YTA2N2F4b1ZHYmMweDBQRw?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793870102.0
+  },
+  {
+   "title": "17:06:00【高通美股盘前跌近10%】 - 财联社",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HUHdXZGxSejVEN0hlMmpQOV9nVmdHcFdvWDk2X0pWRmExOS1SdV9TaWdDOHF2elhubmg1dFVocDBfZ2hRN2dlUw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793869560.0
   },
   {
    "title": "France budget rejection sidelines stablecoin tax, wallet reporting",
@@ -4816,25 +4900,11 @@
    "ts": 1793869275.0
   },
   {
-   "title": "欧元区10月通胀4%高预期 12月升息几率升 - 财经 - 国际财经 - Sin Chew Daily",
-   "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4aWJLUGdvclhfNW12TjAzR2tfekx1X1NFZWlZcXltaWpMdHVTZDR1clhNSHcydHY4WkUybEt0ZHpzOEJUNFVXb1RFRzB2ZTVnbUdNd3MzZGJUQ1VnbzlrVkxULUVnY1k?oc=5",
-   "source": "Google 新闻·通胀",
-   "lang": "zh",
-   "ts": 1793869147.0
-  },
-  {
    "title": "欧元区10月通胀4%高预期 12月升息几率升 - KLSE Screener",
    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOTzNURzdlSHJfZnZWT1hOU2RESmo1aC1DaFJQTTJHdWJZSC1rV2QwblFIVml1MmFEa1pld2VmdE5iWnFzWmVXNm5vNm80X2gtYW1kd3hja29fdTF3cmYzVDJIM0hYaVdIYjN0RlRLVTlhdHg5dlAteTVtdElMeVQwY0pqdUNMS25OakNNQXR5RkVQT3dkamlaLVg4U0owX0phcDl2cGM5OWtCT2NYRG9VVnZxTWxGZDZqRklGQ1oyZF9pVy1qcTAtd1NBYjdGaUc0ZGtpOWNzMl9aelNHUXFGY0Q0TVlobWNIWGZfMjV0N1lFOWVNNjhWbDFXdjNRMzFwSFVBY09LQlZpZnZSckRWUGlhRXZmWTJRSDBRSw?oc=5",
    "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793869140.0
-  },
-  {
-   "title": "中选靴子落地后，华尔街集体转向看多美股 - 华尔街见闻",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRb180bUJ2RjhtQ1lQZUFDdS01RVNvT2I1TEZyeFRQSXhwMXRUdndqbDVodTJIMjhtcEIwQlVJRTBkRURYZGpkdzBhQTh2U2Q3SkRB?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1793869106.0
   },
   {
    "title": "日经指数收跌1.79% 背离美股走势 - 共同网",
@@ -4844,18 +4914,18 @@
    "ts": 1793868540.0
   },
   {
-   "title": "11月5日A股全天84股涨停 封板率64% - 观点网",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xWnZhM3g2emdHN19Kd1d6akpaRzNWOU5obXRjdWxjbE9UdHd3MVRNUE94Uk9OMGlXR2NfOUFQUWlXWHdlM2lXQUgyaF9mTGFNUjdFRGpsdE82ZjUzWjVaczJB?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793868515.0
-  },
-  {
    "title": "香港通过法案，要求加密货币交易所自2027年起报告税务数据 - CoinDesk",
    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT3BnUldWWC04UmgwRy1EOFdDMF94bE0xSF9pUXhtY3ZKeEhYeDVWMGtmN2dnaG1uaUFiNlpkclNGek44bmRXa0ktRHEtMEs0bWxiajJRaFBOM1NjQ1hadEV3cC11TjFLejVwVlZibFJDZUFneXA0bXFWeEZHZmJSNG9YNlNBRzMtQ1lseGhWLXFrcDgyNWx3RmU1LWJfRWZOY2U3QXVHeVk3Y19tZVY3SFlmYnVhSjJVcm81NWdELThSUGpTSWNndjgzUDdGTG0tWWxpeWNsdHliRURF?oc=5",
    "source": "Google 新闻·加密",
    "lang": "zh",
    "ts": 1793867737.0
+  },
+  {
+   "title": "A股超级赛道，超140亿主力资金净流入！ - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBncjZxZ0xDTHBzTjJCM1dGcVhuZWFvVVQ4QXgwc2ZqUVZ6RTVzeGRzalo5bFlLMGNtSlZ2RTc4aEs4WHV1M18yZjZ1T0dFV3VCczJROWpZV3hWak4wa01kWQ?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793867400.0
   },
   {
    "title": "OpenAI 表示其人工智能可以大规模攻破 Linux 系统。这对加密货币意味着什么 - CoinDesk",
@@ -4865,11 +4935,25 @@
    "ts": 1793867186.0
   },
   {
+   "title": "华宝基金丁靖斐：A股当前位置或具备一定反弹空间 - 新京报",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBTOW13R2R2VjhwWm1HZnR1S1RQMnlRaTdvYXVhQUdKVS1ncHZ1TlhESWRrVVJMOWRkbkZHa0ZmNUxRNjBJUktCa1NrTXZGdWtoR1B3eExGS0RMdzdCRHlnVTF0TEg?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793867160.0
+  },
+  {
    "title": "Bitcoin, Ether ETFs draw $128M as crypto rebounds after midterms",
    "link": "https://cointelegraph.com/markets/bitcoin-ether-etfs-turn-green-post-election-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "source": "CoinTelegraph",
    "lang": "en",
    "ts": 1793866950.0
+  },
+  {
+   "title": "有色金属行业周报：宏观承压，关注年底加息预期_行业研究_研报 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsMzNwNmhTelNUWTFTSkllbDBHQjRTbWVpa3loRXlLanRUaEp6b3ZVbXBTeHNsR3BmQnJXLWJsZmRFX2szRlVhX3o4REpvMlJVWVFGMFZKUEhkS0E0Smw3OVpB?oc=5",
+   "source": "Google 新闻·利率",
+   "lang": "zh",
+   "ts": 1793866800.0
   },
   {
    "title": "比特币矿企奔赴 AI：跳出加密周期，又入新的风浪 - 深潮TechFlow",
@@ -4879,11 +4963,11 @@
    "ts": 1793865663.0
   },
   {
-   "title": "英国央行料加息至4.00%，英镑兑美元维持高位 - 汇通网",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zNmpGMWhSM0YzUHEyLU82RGFHQ3A2czE0UlMtNGpGWmUtTXNEenNCN1doeEt6U0h2YmlScU9LZHJQbDhYU29HLTdsOEFLWGlZb0NNa1M5VERKeWs?oc=5",
+   "title": "英国央行料加息至4.00%，英镑兑美元维持高位_外汇动态报道 - 汇通网",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Qd0t5MU5TNlhCYmZoMFN5eFhSLXBzM0cxNXdjTllEQ0hUUGFTanFOcXd3cjZYd3VZUUcySTdKbExlVDRFUHppS1N2WmFHTUhmUWx3cmZBZ0szdw?oc=5",
    "source": "Google 新闻·利率",
    "lang": "zh",
-   "ts": 1793865600.0
+   "ts": 1793865637.0
   },
   {
    "title": "“A股暴力反弹”冲上热搜！博时、国泰、招商、中欧、兴业、摩根、财通、东吴基金等紧急研判 - 中华网财经",
@@ -4891,13 +4975,6 @@
    "source": "Google 新闻·A股",
    "lang": "zh",
    "ts": 1793865567.0
-  },
-  {
-   "title": "A股普涨行情延续，4800只个股飘红 - 京报网",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BMWZ4LWFITlFfbmxlYXRIeFE2MTUxRVFhTGt0OFkzRGI3RDFtbTVGT01CTzdiZnBnTUJXOEtaSHBnNEFJR2RNdHEyNUFGdkVvZWlmQlRyRjRtYjVYTHc?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793865410.0
   },
   {
    "title": "央行降息创造套利空间，高分红个股获险资与券商自营盘青睐，中线配置价值凸显（桂浩明左剑明） - 第一财经",
@@ -4949,6 +5026,13 @@
    "ts": 1793863029.0
   },
   {
+   "title": "三季度产量环比劲升69%，自由黄金-DRS(06228.HK)蓄力2027年发展_公司新闻_财经 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TQnF1anpuYVdDZ3M5R2xDaERmODE0RkZHVTFtZVlyTTFEaHZOc2tRcWg0RUJqcDctYmFYdjhWTU5sWGxVaFNUM2tMUE5Kc09zNVhBQ2JTaDhyTnYxMjZxNg?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793863016.0
+  },
+  {
    "title": "预计英国央行将加息至4.00% - www.tmgm.com",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSWh0YXVCMXZiS2RmLXF6VU5CS0d6Sy1CRk1kUXU0Z2pOcjM0Nmw5WDhmRnFjam9kR2ozWU9zVW9YNUY5TWJaTGM2bkRRUlhndFRwcHBYd0wxNEhSdGwyVVN4WVFtVWczN0RfMzBROWhfbHotRlp5X1d6N3U2MjZ1anlmX3k0Y3JBMjcyYlZYMlRkVmRGaHhpUWhjS2xzT1JZRllGYVB6QnAzeXhXSVJmZHVR?oc=5",
    "source": "Google 新闻·利率",
@@ -4998,13 +5082,6 @@
    "ts": 1793861580.0
   },
   {
-   "title": "英国央行在伊朗战争前景不明之际加息至4% - Mezha.net",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcUZ5ZVNpUkJuRkRZbG9HODQ3eHVCV0ZIYk1pQ01Sd3VBa3dWWG4zUDE2bkt1SjRmYjNZazFxTkZyYTcxRjFBUDhwc3R2X1R6NjEzYW1hc185T2hwdVJfMnc5YmJyTnozeFVkUktkb2NSUFF3aFJGRUFmTmZFVGRialdmaEVXMzZNaG15NXBiX1BuTXM?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793861460.0
-  },
-  {
    "title": "今日比特币：比特币反弹至8万美元上方，但监管前景仍存疑虑 - Moomoo",
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxT2VFTkFRV0M3MVdMczFIVE5HSENiS0lubkI4T0dtSTIyenVpSEw0UzdrN1VObUFrMEZwRUV4dnltM3YzVWsyb1BUeDhTc3FiOHpwbUZ1SGZObFc1?oc=5",
    "source": "Google 新闻·加密",
@@ -5033,11 +5110,11 @@
    "ts": 1793859313.0
   },
   {
-   "title": "欧央行行长预警：极端天气正在推高欧洲食品通胀，放大能源冲击 - 汇通网",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FeFNaV21zd09zUlRpLXc5c21lWUN0UzNkc3pabnZ2bWNrTGhsdG1ZbEpjQ2IyaGM5ZFVneE5ZNlBzTnVpSVdsVTduQW5DWGtPNzByOXA2MFBxbjA?oc=5",
+   "title": "欧央行行长预警：极端天气正在推高欧洲食品通胀，放大能源冲击_外汇动态报道 - 汇通网",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSTTNUOVY4WGZVaGtBX1lTZ1F5QVA0c3NYSWVwQ012d1dOSUI2RGoydjVSSWNieElpcDMtQ2QxSlctbV9KV2FmZ0NBZXd6dG5YNUN1cnFsazAtQQ?oc=5",
    "source": "Google 新闻·通胀",
    "lang": "zh",
-   "ts": 1793859060.0
+   "ts": 1793859075.0
   },
   {
    "title": "黄金牛市命系中东！花旗：局势缓和冲5000美元，僵局持续恐跌至3500 - 华尔街见闻",
@@ -5082,11 +5159,25 @@
    "ts": 1793858100.0
   },
   {
+   "title": "黄金下一轮上涨，或始于中东局势缓和！花旗给出5000美元目标价-市场参考 - 金十数据",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DUzJQWU9jTjlJNUFFcHRtMWhGWk9yRUFKTGE4dGY5UDIzczFjUDJNSThJbVktbmxRLVlLekZKb3g2THBYSzl5aUJwSGY5Z00?oc=5",
+   "source": "Google 新闻·美联储",
+   "lang": "zh",
+   "ts": 1793858019.0
+  },
+  {
    "title": "特朗普媒体科技集团(DJT.US)转移 4,259 枚 BTC 至 Crypto.com - Moomoo",
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qT1lfR3ctWm9GZzdxR04tTkQ3SmZsdVowOC1VT0QwbW1kVG82RDlaXzRWU3RDVlZGRE5tNHY0Q2RIRmxRODMwcEx0OXEtYmYzS2xhcU9ab0txWmph?oc=5",
    "source": "Google 新闻·加密",
    "lang": "zh",
    "ts": 1793857469.0
+  },
+  {
+   "title": "央行设立新稳定工具，阻断债市资管负循环_公司新闻_财经 - 证券之星",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0ZXA5aGl1ZHp4SC16UGdFeU45bFh1Z2xVMGJwbm5LVzg2Y1ZXS1pwYVEwWmVCMlMtdW95Y3JoYnFHMFprN1ZUOXJhZUwyV3JkWl9LZ01XR1hHOHJZWXl2aA?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793857320.0
   },
   {
    "title": "Block(XYZ.US) Q3 增持 120 枚 BTC 法国互助信贷银行遭攻击 - Moomoo",
@@ -5145,6 +5236,20 @@
    "ts": 1793854369.0
   },
   {
+   "title": "2.13万亿放量、近4900股飘红！A股冲高回落，“后劲”成市场焦点 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UdHNfTXRhWktxQTlFTEUybXhaSGgwWWEzNENjd20wcWpOTUhxYTNtaWJGc2tVNGQ3anpQZjJPNER6Yk13UXg1V1hDOE1xQWJMLXdPSWVLN3JreWgxZVBLS0FaN3RsUQ?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793853363.0
+  },
+  {
+   "title": "A股主要指数全全线飘红，光伏板块涨势扩大，锂电池、电工电网、互联网等板块涨幅居前；港股主要指数暴涨中国基金报 - 中国基金报",
+   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8yaFlaZVdFNnFZYjlWNWF5Y2gzNzVGQWhVQUdOd1V3Z3Z2MWM2QmVTVWVjMHZkV2Z1eUR3QWNNS3ZISk1hb0ZLcmlVRnk3clBNYmN4R0hQSDlFQjlaYnRacld6b3NrbXVZV2gtc1NGcEVzYkhNLVg4Q3N3?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793853120.0
+  },
+  {
    "title": "油价上涨比索走弱 菲律宾10月通胀率创三年多新高 - 联合早报",
    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CcnlZb2s0U3VIb0EyRWpqSEhscjcxTUE0MFVEMEhWVUFzMk1oVk9ZajE0Qm5ZYktOaHZ4WjQtcmplRUV6TFJtZTdBc2ZNNGpLaGJ5eWlYcVVGWk9jT1l5dmJBb0Q4VlE?oc=5",
    "source": "Google 新闻·通胀",
@@ -5187,25 +5292,11 @@
    "ts": 1793851320.0
   },
   {
-   "title": "英国央行加息后，英镑自日内低点反弹，逼近1.3500 - www.tmgm.com",
-   "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTGxlQXFWZmhwZjVpUzdGemlUTWFsUXlJQ3Q3SVNOWERKOUFpVFkzbVpTcHc0SEJ3aENkbWsxTlVxNzRHZHF6aEFUQmpoX3ZnRnUzclp4c0U1LThMOF9BTUZaUmpTYjBoMk1uZ1JTRmVIdGFhejFvbTRaSkVqRDEwS00xLTFQTktrVEt5VXZoUjR2RUdlQ3E3ZHRNUE8wMkxnVUtDSHlvV1B6WUx3aTNBYkFkemdRUUxyS3JjendrRnRuVENoeHgwWVRSZnBiMDdpZWR4ZW9TeFJDUXBCWTZjbUFDVQ?oc=5",
-   "source": "Google 新闻·利率",
+   "title": "油价暴跌超8%，金价大幅上涨！ - 新浪财经",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84VGV5dllpSmFSNmUyT1JiRkhmclZUR3VZbTV4WXo1aUoxUFZQdmxTdUxyVWMwamgtRFp4TVdORkN6bVd1dThhMWhkcWdJV0czeWs4MVhOQ3NXcXNvWGpWRlQ1Y3c4U2RoMnZJNXNnR3NDV0hlR0I3aWt2Z0plUQ?oc=5",
+   "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793851200.0
-  },
-  {
-   "title": "日本央行释放重磅加息信号！12月或再度出手，甚至不排除加快加息步伐！ - 金融界",
-   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JaTNkTkJKbGVlTHdlWF9zWTdXY0VOR2psVTNMdkx2YXVfS1hPRzBjcV9Sbno1SkhZZFp2dGFqak95ZEo0MTVSX0M3X3d3YUN0bXdkeFAzOHVGaUx6YUVvckxzN0t3MDEwZEFkOWhLQUN4UQ?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793850686.0
-  },
-  {
-   "title": "金价连收4000、4100美元两道大关，为何仅被视作“修复”？机构：加息预期尚未回落 - 财联社",
-   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE43WUh5c0xqNlVsZ2NtRXNXRUlqVkF5Zm9NNDBVUEl3UGowZXZxUUI0cHZ3TXFXTm02YVJTWDlrZFR1aHBLQUVNaA?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793850328.0
+   "ts": 1793849946.0
   },
   {
    "title": "选举落地+央行购金共振 黄金股集体爆发 年内4500大关可期？(附股) - 东方财富",
@@ -5213,6 +5304,13 @@
    "source": "Google 新闻·A股",
    "lang": "zh",
    "ts": 1793849134.0
+  },
+  {
+   "title": "最新：《富爸爸穷爸爸》作者Robert Kiyosaki表示：“当黄金、白银和比特币暴跌时，人们惊慌失措。我反而加仓了。... - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLTkwQ0o3eTl5T010LUFmSFRSWElmYWZSSko1S0dZOTJJZVd6SG1zaFNUVUlkMmxaSE5UYmJ1bXFrQUdCdmplNlVZVzR1TEhCOXp2bXBPci1TN012dTFkRVpBMnZqRGNsV2t2dW9PdTduSk9wRDVROXZETEFBZWlQa2duc1BWQkNDckgzSnpKRU5iU2hWYmJYZlBVNlJtc1IyOGpoS0w0bi15cU1Wc3pKempHVFhsdw?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793849100.0
   },
   {
    "title": "美国民主党计划在中期选举获胜后提出新的加密货币市场结构法案 - www.tmgm.com",
@@ -5243,6 +5341,13 @@
    "ts": 1793846711.0
   },
   {
+   "title": "跌到位了，高盛喊出：逢低买入A股，尤其AI - 华尔街见闻",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DNGNMUXdXOHRBUkNETDN3WldjNUdWdHhIR2h1aURGcTR1Z2FFY2hUc0pRS1hvaGVFVE9tSDNaVllTSkw2a0pUYXNsRGs5akpoT2Fz?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793846503.0
+  },
+  {
    "title": "美中期选举选情致金价大涨、油价重挫 - 新华网",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwcWE0dEJ0WExCX0xCMS1VYXhvM1ZibFVzeUNXS3ljVmdvN05senZWanJrV0NGVnZEWXhMdjBTeEkxMXlzaF8wcVpmQ2Q1SUx5OXY1UnBtLXF0UGhZTU5HS0FweGZ0UzlwWDZDbF8tRVVUc0tmM0gxQ1A1WWJXM3M?oc=5",
    "source": "Google 新闻·全球市场",
@@ -5259,7 +5364,7 @@
   {
    "title": "人民币兑美元中间价报6.7156，上调24点 - 手机新浪网",
    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMUNlVVg1UkVrQWZOenBDNWdCTWxYVndDMmQtUTZyMTMxdm51cE8yaHJRUUQxY3E5c1JRN01fWW14V1ZEWWRURjZzbXFrVUxJTWhZVDljUHV4dHVBZVFTTTFWVzBYSDNCeVJnWUNVc0NfTjR2Tkp5WmJHRVV6cWp6NWVIRQ?oc=5",
-   "source": "Google 新闻·美联储",
+   "source": "Google 新闻·利率",
    "lang": "zh",
    "ts": 1793844720.0
   },
@@ -5285,20 +5390,6 @@
    "ts": 1793843481.0
   },
   {
-   "title": "瑞典10月通胀率放缓至1.1%——The Local Sweden - UA.NEWS",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVXl3bUMtSFptbVJIYl85Q2lHM2pZbWhMMmxMclVjYWZhdFFKWTJhcDEtOWp6ZHdQQWR2ejNTaVUxNzFJZEJQZ1V0aENmRTMxbW0tbHQxVXNDZHlTNlp5bnZqODJPdkxlVmpGME5NRHNSVU83NkR4YlZZci1GUW54NDNhMzFRUlFyb0k4QzZTOV9qcjBfckZQZnhLVmxtLVE?oc=5",
-   "source": "Google 新闻·通胀",
-   "lang": "zh",
-   "ts": 1793842680.0
-  },
-  {
-   "title": "2.13万亿放量、近4900股飘红！A股冲高回落，“后劲”成市场焦点 - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9UdHNfTXRhWktxQTlFTEUybXhaSGgwWWEzNENjd20wcWpOTUhxYTNtaWJGc2tVNGQ3anpQZjJPNER6Yk13UXg1V1hDOE1xQWJMLXdPSWVLN3JreWgxZVBLS0FaN3RsUQ?oc=5",
-   "source": "Google 新闻·A股",
-   "lang": "zh",
-   "ts": 1793842563.0
-  },
-  {
    "title": "日本央行会议纪要凸显通胀风险，进一步支撑加息预期 - 金融界",
    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VZG1reEdXV0QyczYyTFpXNm54YlEtSnd4SC1CQ09ENlVtRXpEaWo5N1I0TkppUnQwRXNtZGZrMElTalE4N2pfV2hvaEE3SzMyRndoZUc2TGFsVWR3R24zRGoxQVpfSjloVFhiR0FLVQ?oc=5",
    "source": "Google 新闻·通胀",
@@ -5320,6 +5411,13 @@
    "ts": 1793841308.0
   },
   {
+   "title": "美股恐慌指数VIX飙升逾62% 突破27点关口 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE53Zm5qUUhZOUNmdzNQaDVxcW56WlRNZFNHZC1pdE9kQU02RTFNckNXTnJfUHFCbkt1SXJ3dUFXb2VUdnUtakNzNTd3VGNXV1J2TW1UaUpDc0Rud3A4R3RJNjZhUQ?oc=5",
+   "source": "Google 新闻·全球市场",
+   "lang": "zh",
+   "ts": 1793840793.0
+  },
+  {
    "title": "黄金暴跌竟是“错杀”？华尔街大佬警告：AI交易太危险，别指望美联储出手救市！_金市直播 - 黄金网",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSNEtKQWVjd0wzOXdIaUp0RmxUczNEYzF0NUxtUkpzQ0NmMTdtVkR3SUdxOTJIajhuUXk5VXJYdDd2UlpUWndZN0NldUR0RXdlSDJpcDdJcTN3akVMU2dsOHowX2hCdUdq?oc=5",
    "source": "Google 新闻·美联储",
@@ -5327,18 +5425,18 @@
    "ts": 1793840712.0
   },
   {
-   "title": "黄金下一轮上涨，或始于中东局势缓和！花旗给出5000美元目标价-市场参考 - 金十数据",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9DUzJQWU9jTjlJNUFFcHRtMWhGWk9yRUFKTGE4dGY5UDIzczFjUDJNSThJbVktbmxRLVlLekZKb3g2THBYSzl5aUJwSGY5Z00?oc=5",
-   "source": "Google 新闻·美联储",
+   "title": "美股盘前，中国资产又上涨 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56OHFKY2szWW5VOUhtNDg5NFA1cXA5akthdWJPZEZNUjN4RzBGYmZSTzhUOGl1cUdWaV9BbDY0OXYxcDZuTDFvckVGNEtwS0R1NFY2YjkwMk9nczVBWWYybnhvbnp0UQ?oc=5",
+   "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793840024.0
+   "ts": 1793840354.0
   },
   {
-   "title": "A股放量上涨，“0”个股跌停 - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01WENrM0ZTY3ZkUVNKUlBjdHBNMGlCeXFjZTVPdXljU004RV9rek1VZDB2NC13blc3OFVHSlpyNVNhdHdaR3VMNlhESHFoOHRia2ktdElaMjR0aEVHUnZoM3Nwblc5UQ?oc=5",
-   "source": "Google 新闻·A股",
+   "title": "中选结束，油价暴跌！市场的“止战预期”会实现吗？ - 华尔街见闻",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE05QzdzSWx4X2tkRFZKZlE1V1dycWNQVnV3NVpWQUdka3VsRWdOUFkyY2ZmVUsxaTBFNG00SWtpcGNST3lZRXdCam85SE1oc21SQlpB?oc=5",
+   "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793839279.0
+   "ts": 1793839251.0
   },
   {
    "title": "BTC 破 8 万：美大选利好与监管审查交织_滚动新闻_财经 - 证券之星",
@@ -5348,11 +5446,11 @@
    "ts": 1793839207.0
   },
   {
-   "title": "做空平仓 5.3 亿美元：比特币反弹真相 - 金融界",
-   "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OYVgxMEJTSUM0SFRNcFNsdzdrUkExcnRUZmt5TThXdlZXbERXR204Q2pwdWN3X1BDOEtIN25lMVNULWJxLUVzUnhxazZJME1SS01lYjlwVm8yRGNLNHR6cTVoWnZScHZid1hvU1JxVWFJSEtO?oc=5",
+   "title": "做空平仓 5.3 亿美元：比特币反弹真相 提供者 智通财经 - 英为财情 Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16Q2xRSDBZYW02YllsX2FYZUFoaDl0MUt3c2dfVzQ5cTdOZGpDd0cxZ1NIVGxWc21BZ2FzREJHR3QzZGQzaEFkWElPVWhzMHpGWmp1c3pORVJVTUw4OFEtdEo5MkVXYVk4UjNTT2p3R3o?oc=5",
    "source": "Google 新闻·加密",
    "lang": "zh",
-   "ts": 1793839177.0
+   "ts": 1793839140.0
   },
   {
    "title": "中期选举定局，BTC 反弹破8 万，监管新局待启_滚动新闻_财经 - 证券之星",
@@ -5383,11 +5481,11 @@
    "ts": 1793837460.0
   },
   {
-   "title": "日本央行9月纪要之后看12月：日本央行加息节奏与油价走势成关键 - 汇通网",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBleFFDLXA1cW1yZ0Y5NFlMMGthelVGeGRsNXdPNzBHSi1DYkZieHdIOThLZVFYUGJtQ3NMQnI2dlVBVXljNnRucnBOQ3p6M05BbEcyWUJBLTE5MTQ?oc=5",
+   "title": "日本央行9月纪要之后看12月：日本央行加息节奏与油价走势成关键_外汇动态报道 - 汇通网",
+   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yckYzbDdvaFh5YnVKTmJwWlNGdTJlZG1qLVhOcXVCc3pxczRJNm1NMjA4VlZOcm5nZkhlMnRoUHZveEVscVRGU0Nyc1FXM0dEYkdyZHZpVndKdw?oc=5",
    "source": "Google 新闻·利率",
    "lang": "zh",
-   "ts": 1793837400.0
+   "ts": 1793837446.0
   },
   {
    "title": "美股半导体板块遭遇重挫 费城半导体指数跌超5% AMD、闪迪跌逾10% - 东方财富",
@@ -5395,13 +5493,6 @@
    "source": "Google 新闻·全球市场",
    "lang": "zh",
    "ts": 1793837299.0
-  },
-  {
-   "title": "日本银行的2%通胀目标反响平淡 - Mezha.net",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSjRzVXVOUDd3NTBXSXRCS1l1cmRaZGczaTdBeXFCOWVud0tmZEtfbkhRMFhqcTdzbXlVNkY1SUVzRm02QzV3SS11N3hRcGtKYnRMTks4MkNWSDFvdEdDa2VHTzhWQU1EdGpsaWZHNEZwTWhTVGZGTGQ5SXNhUkJCWlpxeHV3RkRQX25MZnhB?oc=5",
-   "source": "Google 新闻·通胀",
-   "lang": "zh",
-   "ts": 1793837040.0
   },
   {
    "title": "美股光通信股续跌 - 东方财富",
@@ -5488,18 +5579,18 @@
    "ts": 1793830653.0
   },
   {
+   "title": "$比特币 (BTC.CC)$ - Moomoo",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZZ092ckxJNlQ4N0RER2lMZkRzTzdOVnBvYWxDbDRHcm0yRnhCaUZMdDFmQjBEZFBBN0lEZWc2djdqeGctcUd4Ti1aUVUxRTV6d1B6SnE2LXRnOEM2ekQ3WUxFcmJYa2xjZk5uZkFJYnNNeDUyRV9tM1QxNzRCdw?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793829480.0
+  },
+  {
    "title": "欧元区10月通胀率升至4.0% - 新华网",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaVFublNkMWVmVlZRdUpURlp0dGNRNm5HUjFZd3RqU2RIMkM0Tl9oTDZndHJ5bUJQR1BlWFdvZE1EN0JyYnd3amRhUUtRQ3V1ZlhkUk90NW0xckhXNWhENnZsb3VNWWxmMm93LVl6MzRnVDNvcURpY3dPU3VIQ3lSY04tb09rQQ?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZbEtUMjAxem5QZDhoLXdGSDdnUXBYaGtQSEJUZEplamhLX3czWTFYeDdLUGVfTTVIdWZ2UThCc0dxLWI2RHFKNDd0WXBCVGZUaFZlSTI2eXBQSlhMUDdKR0VKSDNiOG9jekoyeVllR2x1UjU2X1V0X1p1RHNfZHM?oc=5",
    "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793828559.0
-  },
-  {
-   "title": "American Bitcoin公布2026年第三季度业绩 - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQUhyc2d4VHNiZHJBeGctOTlCcHQ1U1d5X3dncGxuajhCMDFZeHNEYUY3dkU5N0hoX3Y1eFZqNEZGTUdFSXZxeS1DeURSaC1Ca2NjUVRBQ2o5TWRuN2UzYTRDRFk0bkVWMFd4NzZYdDZaWkNVbmpRMnhYQUpocXFOai1xZWc5d3Faal8zZWZCTEI3bkZ1bEE?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793827800.0
   },
   {
    "title": "How Aussie Bitcoiners can avoid 2027’s shock CGT hike",
@@ -5551,18 +5642,11 @@
    "ts": 1793812140.0
   },
   {
-   "title": "高通美股盘前跌近10% - 财联社电报",
-   "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAtNG45d3pPR3lNaTBWdDBrTnM4ak5OUTdReE1UaUNwMkJ5dmQ1bVNmbU4tVUU2b2IxQV9USUtlTl9yYV9YbWc?oc=5",
+   "title": "从草原到全球 内蒙古牧民的“软黄金”生意 - 新浪新闻_手机新浪网",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByRG1VTWNuaUdlVUl1eXJSZk1hTHRBVlIzR20zeC1BTTJpWEJsYXo1OWFsdHk1U180QTFfcVRSdDFpaVpnMVVuLUJSWGotM2xZZW1tX0h4Wk1BXzRTdUJsV0NWZ0N6Vk1zaDJyMU0tZ1NPWTloVUE?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
-   "ts": 1793811960.0
-  },
-  {
-   "title": "加密多空：洲际交易所（ICE）押注零售投资者对快速结果的需求 - CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcFpZVWVMQlVhLWw2LUZDYlBJdnptc0p4SjhNNmRkNW5TdVAyUU93MzBJNzAwemQ2MGozWDZNZG1tOTV0enVhWE00X3lfQUxVcG1JZGExeGlhQkQxQ2dyQ0R0TF9kSkNnZzkyS2w1X1RJQmpCd3YzZVNSZzR1ZFM0cHVHMTA1TzRkaXZDVW5mRzBNZjI4SngzOWNpczdJQmQ4Q3E5WDRvN0hva1NNOHAwYkJOQm1xNHg2Q0ZBblZxQVBHWXZISWRPZHE3eGw?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793811025.0
+   "ts": 1793811127.0
   },
   {
    "title": "欧佩克：原油运输及保险成本飙升 加剧全球通胀压力 - 新浪财经",
@@ -5584,13 +5668,6 @@
    "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793809166.0
-  },
-  {
-   "title": "美国10月ISM服务业PMI创三个月最低，售价涨幅创四年最快，加息预期上升 - 华尔街见闻",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xVDRrdm5ucGJ6bFdPWFJra2NpRlZpeFgtYm9TeWkyY21oYzYzUXJneTZ6ZFdWQkNNR1hkVGxDbnM2eEZjSlBPN1pOLXFnbGRVSGdF?oc=5",
-   "source": "Google 新闻·利率",
-   "lang": "zh",
-   "ts": 1793809120.0
   },
   {
    "title": "重返2万亿！A股再现“大奇迹日” 双创吹响反攻号角！发生了什么？ - 东方财富",
@@ -5621,6 +5698,13 @@
    "ts": 1793807700.0
   },
   {
+   "title": "科技股领涨A股 - 新浪财经",
+   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBJM000NkRUYUt1ZXpFYlk1ZWJKald6SGFfeWNrUERSZHA1UmRZaFNoS1NfbV83M3l3WTN1SE1DYzJmVG9zcjlhWGNtTEk5cWxDSlZZbDhqY0F3Q1ZYXzBubnVOc2xxTFlzeXZtcERiMkc1ZWlIWWNPNQ?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793807617.0
+  },
+  {
    "title": "第517天：加息 + 特朗普2.0 第652天 - Moomoo",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNXNtWkdfRDVqeTlmRWNrR0g3RkI2ZWVUTV9UVDE2clZHQ2Rvdm9WWWtwcnloV2lhWEd6dUd5cDdINDhiVXNlUkZ5aVF2NzY0Yk1Uc2RJdHZxV2tzQ1V1Rm9DcUU0U3praUdKRlFLdUFGOTlsQVBMenVXMFBUdXF5Q3pUZHNHcjkyTDhGYS14ZHNyR2ExaHFmaXJR?oc=5",
    "source": "Google 新闻·利率",
@@ -5642,32 +5726,11 @@
    "ts": 1793806020.0
   },
   {
-   "title": "民主党赢得中期选举，对加密货币行业意味着什么？ - 富途牛牛",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSjV5YVVSeFo4R3RUcklmRXlkeEJQaXkwc1pZcVZxOExkRUtEZC0wcGZwSkhZM3pVclF0ZjJGbWItNDB0SmI5LVFRaHdpWFBYeEJOU0FLS2FrZExrM3V1X0EyQzd2OXp0N1dyTksyaVB5cTc2WmVpN2s5Rkg4QWwxSnRUX0Y2T0F5WjFlODktNWFnSkc5M1lzWlo2cw?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793805840.0
-  },
-  {
-   "title": "比特币升破81000美元，日内涨4.59%。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mdmpfeDBHVl9YTUVpZ21ZMDJpZm5aTnVvb3QxU1BpV0tWRTdkR2NtSEpuMXhPSXVHSDcyWFBHUFhPN1RLQy0xeFlKbw?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793805413.0
-  },
-  {
    "title": "波兰央行预测2026年通胀率将达3.1%至3.2% 提供者 Investing.com - 英为财情 Investing.com",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wNjN6YjlCYm8xWUI0cndnTWhCdE9kX19uMTNSZTlpdWw5OTBubE5Nc3JNRGt3Uk83bzNOakpPUVlRbjVZeWVnVGJ4a2FwcHJaNXN1ZXRERjdsNFRuaGRlaWFJZzlSV0c0a2Y2ZG1WZGc?oc=5",
    "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793804880.0
-  },
-  {
-   "title": "比特币升破80000美元，日内涨3.60%。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Xby1ZQ3VjVUM4RFJoSkxDdVBXeWROOFpXUHdlVFBDMzFuNUxTY3pSbmxpdUpoZXdjV2pBSW1qakJNSTloME1DTDRYYw?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793804713.0
   },
   {
    "title": "前美联储“三把手”警示：10万亿AI基建投资或为金融动荡埋下种子-市场参考 - 金十数据",
@@ -5684,13 +5747,6 @@
    "ts": 1793803207.0
   },
   {
-   "title": "美联储数据显示，11月3日美国有效联邦基金利率为3.88%，成交规模1130亿美元；11月2日为3.88%，成交规模1080亿美元。 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE96ZFh2MENXRzZkM0RneGNwenF0YlJGNm1VeEx5YmgzN2R6WEIzYUdROG4yX1JSTkJxQy04bFgtcU9Gbmdxc2RILUdQMA?oc=5",
-   "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1793800767.0
-  },
-  {
    "title": "France backs reporting for self-custodied crypto worth 100K euros or more",
    "link": "https://cointelegraph.com/news/france-approves-amendment-self-custodied-crypto-wallets-100k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
    "source": "CoinTelegraph",
@@ -5705,6 +5761,13 @@
    "ts": 1793798046.0
   },
   {
+   "title": "近20家A股公司掀“回购潮” 最高拟回购10亿元 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xRENEVGNTb3piVmx1VEdKdkRmWkFwdEZJUGhoOF90dHhYZTI1VTlLS1B0QkhZNGZtU2l1RFM2RW0taUtrVjhPT285WnFtQXVxNjlPTUlnS29mMG1JejBQWQ?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793796727.0
+  },
+  {
    "title": "欧元区通胀创三年新高！能源冲击未退，欧洲央行12月加息板上钉钉 - 华尔街见闻",
    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1NGlGNkUxbkxrV3p6c3hGMDFueUlvc0FUOGU2elRTRGpHUkN6d3BOT0F0TG03QlozeG14VnE4RmhfZWttRThNaXNCeEF0RUhabGJr?oc=5",
    "source": "Google 新闻·利率",
@@ -5717,13 +5780,6 @@
    "source": "Google 新闻·A股",
    "lang": "zh",
    "ts": 1793795340.0
-  },
-  {
-   "title": "CPI Card Q3 每股收益 逊于预期, 营收 超出预期 提供者 Investing.com - 英为财情 Investing.com",
-   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LMFJuaThqNzN0eXJxek0zVDhjYUxtbHg4czRKVTlLaW9yWExQSl8wa2k4eGozLVQyY1NZcUlKU3M5SkRzOWU4WEVlNjVWRWlLcmt4S3oyUHZfamVrS2xBSUQ2VnM?oc=5",
-   "source": "Google 新闻·通胀",
-   "lang": "zh",
-   "ts": 1793795160.0
   },
   {
    "title": "Canton’s CC rises 4% as SEC staff view it as ‘digital commodity’",
@@ -5789,6 +5845,13 @@
    "ts": 1793790717.0
   },
   {
+   "title": "【环球财经】欧元区10月通胀率升至4.0% - 新浪财经",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWmtXTWsza1I3NTd2aW44MURQck14SWktMlQzaGFFUTFnSGxOYm1XM0ljTGlXV01vWHI2ZlpsWHlGbXB6SzFZcmJZNTJpa3pBSF9FZ2dfaFVtRWR0b3RxSFVSalNFTGxTN1lhSDNlcm9zc0JtejVvdmtLV3lndGtoWA?oc=5",
+   "source": "Google 新闻·通胀",
+   "lang": "zh",
+   "ts": 1793789952.0
+  },
+  {
    "title": "DeFi 代币在中期下跌后引领加密市场反弹 - CoinDesk",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVVl5ZlVoU2hmNGV5OFdKLV80Vk5SOEdyNXFvcEl0QmJKMkRLUU5rREpYdzlTdl9RamItb3gxNG05UDNhMHF4U1cxQTFxYnA5Zld4WFdNbXRya0tydnNVcmI1Ymo5TVc0c0Rra01oX0ZXakJHQlRTeWVoWWZaOGxTV3VwWXNtRm5RSDE1eXZVZDBrSm1YMTNzSm5vOGg1NmV3alE?oc=5",
    "source": "Google 新闻·加密",
@@ -5831,13 +5894,6 @@
    "ts": 1793785067.0
   },
   {
-   "title": "US midterm elections 2026 as it happened: Democrats win control of Congress",
-   "link": "https://cointelegraph.com/news/us-midterms-2026-live-results-and-what-they-mean-for-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "source": "CoinTelegraph",
-   "lang": "en",
-   "ts": 1793784454.0
-  },
-  {
    "title": "币安披露：黑客用虚假求职面试及恶意代码盗走加密货币 - 联合早报",
    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13VlJYOTRxb1JxWklfRmxuUnl4VVZmVWFkdV9WZWFqV043Z0FWOE1Pc2Z1d09iaVpncmttMjhaaXJ6MGdKNnQ0UDlNREI0VXlITWZRc0FUSEsyaGxnN0paZkk2ZC1sakhCd1E?oc=5",
    "source": "Google 新闻·加密",
@@ -5845,11 +5901,11 @@
    "ts": 1793784060.0
   },
   {
-   "title": "Binance hackers move 81% of stolen Solana, route funds via THORChain",
-   "link": "https://cointelegraph.com/news/binance-hackers-move-81-stolen-solana-route-thorchain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "source": "CoinTelegraph",
-   "lang": "en",
-   "ts": 1793783755.0
+   "title": "央行：11月5日将开展3000亿元买断式逆回购操作 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fZEJMdGpuY3FoenNaMVJTZTB3UFp3bzZENTJLY2ZnbFRyU0pRcUJJY1g4Y1BvTXQ3RzU5b0E5bVlGY3J3YU5HUjJtNUtHZVFuQmtScFZBZ1E1TngxVVNkSQ?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793782970.0
   },
   {
    "title": "瑞典央行因通胀担忧将基准利率上调至2% 提供者 Investing.com - 英为财情 Investing.com",
@@ -5880,6 +5936,20 @@
    "ts": 1793779200.0
   },
   {
+   "title": "科创50涨9.92%！A股放量反弹，后市怎么走？ - 21财经",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMGZBY083TEg3cVFvcmFOSV9VWmlCU3hJTmxlOV9vOVdZX1NmSGsxbTlRa0tRM1BzMFo1Y05idlJtVF9ZMl9qRy1VaWFhTGhuaFpkd3YxdHZLcXB1bUpST0Fld2YxV3J1cmkyc0dmdW94SzlFX1hNSFJCcWZkbDhCU1BaZWdGS0FCYkh5RFJwU3lvaVBn?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793779200.0
+  },
+  {
+   "title": "午后A股迎来大反攻！科创50大涨9.92%，可以入场吗？ - 21财经",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWkpQbFRnRXFTU2Nkd0RhN1NYNHg5bUhHUHNuVlc4ek9kVnlDNlFqYXQtaFpJRHVvQXBGdjBPTzl2RlNhWXRDUC1GWWt5U2V0RGxlU09UZGVDdUU2RDBKOU1MZlFiSkhrMEhWWmJvaXV4eVd0SlBXRm82MVhYN3N6Zk9YRENibEpHU29TVjR2Q2pJNUV3?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793779200.0
+  },
+  {
    "title": "营收增长、市值缩水，A股美妆企业怎么了？丨美妆财报观察 - 21财经",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNb2FTRGtjbGhLaXJUaE9yOUFIWnFab3dMUkVSeFZ5TzdLN0NBb3BZektjdU1GNk1QS2JKeUdMeG1SWHV1MzdvclEyNU84YXlwREdFWmF5RFlIT3Q0RWJ0Uk4zQ1hJU0FxUmFieV9hTTZ6ZmtndFhxaXNrMjA2cXZiZjVZY3lPMDd3bDE4QzhTSDVtLXJL?oc=5",
    "source": "Google 新闻·A股",
@@ -5887,32 +5957,18 @@
    "ts": 1793779200.0
   },
   {
-   "title": "比特币矿工遭遇重创，11月正延续10月的跌势。 在我们数字资产领域的整个板块中，很少见到如此强劲的估值支撑。 - Moomoo",
-   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNenhkMmZiME1CcUFPbkVsRjhybDdmZ0JCNThObUl2cmJNNnJhU3ZrSnlEMTZQT1RXdUMxWjhseTkyZkZSX2poN2ZSejA4QVQwNWVLRGhYUTdrUWZiaFNETGJrLVFESjN6c1dNZ216cWRSRHNFQXBXUWZsX1RxekxQSjMzQkhpWmdscG9ENTlRMzA3UGNlTWZUMW82a05lcHVCVVRKcWVldnpyelFVYXNzVllGZWs5QXdIQ3c?oc=5",
-   "source": "Google 新闻·加密",
+   "title": "黄金重回4000美元，五大黄金矿企日均赚超5600万元 - 21财经",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGtoaTZGMVlHYUF6d1JxcU1LZV93dk1QZkhzYXVFSnlNNFNIMXZ3QjlKa3RNLXlDZHg1RHQ4blJzdFpVcFp0S1gzMS1YMWh6ZERvdHZTVV8wNWF0bTliWVRORTBJMEdXSmZjQWZMZjlpSEtWQWlEUURkSzhoMk9uT0ZfbWlPd1V2MHBjbTMxY2F4WGVC?oc=5",
+   "source": "Google 新闻·全球市场",
    "lang": "zh",
    "ts": 1793779200.0
   },
   {
-   "title": "$比特币ETF-iShares (IBIT.US)$ - Moomoo",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYnNNbFk5VTJjR1kzTXhNNnctN0lzcXpBc1N6eEtKT1o5bHpqbjRMNFhaVnpuTjVkekE0bEFPckRmRUUxdWdfamw0WVNvN1QzUVFLMFFvbEVlaVpSR0xGcmtXM2I4YXlYdzlpbWhEUWxJQzVLODFYc0J6RlRNWDFralQwdGNYTTZOUTRiclQzbEdtQQ?oc=5",
-   "source": "Google 新闻·加密",
+   "title": "13:15后A股突然大幅拉升！“群里又恢复了欢声笑语” - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yMWMtNDhqcHZEbnNqbExxaFZKb2twS3owYmVtRzFEc080djhfQlY4LUFob016Z0tlMVNrcWNOZWlEZDNhcVBPQUQxNzlTcmRmQzFoM3F4T0o3d1p5V0ZYcGx5WFBIZw?oc=5",
+   "source": "Google 新闻·A股",
    "lang": "zh",
-   "ts": 1793779200.0
-  },
-  {
-   "title": "Democrats win US House to secure control of Congress in midterms",
-   "link": "https://cointelegraph.com/news/democrats-win-us-house-congress-control?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "source": "CoinTelegraph",
-   "lang": "en",
-   "ts": 1793778627.0
-  },
-  {
-   "title": "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress",
-   "link": "https://cointelegraph.com/markets/bitcoin-bounces-from-7-week-low-under-76k-as-democrats-eye-congress-sweep?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "source": "CoinTelegraph",
-   "lang": "en",
-   "ts": 1793777147.0
+   "ts": 1793778308.0
   },
   {
    "title": "比特币突破$79,000，民主党横扫国会中期选举 提供者 Investing.com - 英为财情 Investing.com",
@@ -5950,13 +6006,6 @@
    "ts": 1793772074.0
   },
   {
-   "title": "国家银行：白俄罗斯通胀低于上限指标 - 白俄罗斯新闻",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwNkZwOG5WUUpoTXFBNnRHcmtseVI5Wk56R1lBLWk3Uldza0pPNFp1WHpVYUNyNm9TQ3RubDhSLURSdm9RWWtqeWNPRjhkMEE1NXJFTGlXREtNaG4z?oc=5",
-   "source": "Google 新闻·通胀",
-   "lang": "zh",
-   "ts": 1793770380.0
-  },
-  {
    "title": "美国中期选举民主党取得进展，比特币难借美元走弱之势上涨 - www.tmgm.com",
    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPY0ZiSVpLQ3J1ZlVvUWhWRkJ2NllRMmx5dmhtTHZ2am9NWURhLUdxbnpKbmFZcHRtWjlmNXdzdFJaQ1NJclpuREtqcldHN3hVRHgya0VNUnhzUmJldkJKRERaQlNrM2FUbTNfUkVFS2JIOGNTTTdPWWp6WEQwQk9Sa1EtR0ZzUjNFOElCcENETnZsNDZHckw3T0R0bXhKT29KaTc1OFRBaTdvcEhacVVtb3FDMm1pTFlrTmJueDBUaVRBVkt6X21QMklINXcyTzV1cWhYWXFDN2xqWkhrQ0dtZl9WNFRlaG5IaEtwTGZYNG05QQ?oc=5",
    "source": "Google 新闻·加密",
@@ -5969,6 +6018,13 @@
    "source": "Google 新闻·加密",
    "lang": "zh",
    "ts": 1793767231.0
+  },
+  {
+   "title": "币安披露史上最大加密货币劫案细节：内部防线毁于一场“面试” - 驱动之家",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LdEpDUHhXa3YtOFM1RkVDeVBDUjFWYmozZ0VqVGV0X3FrcEIxN0ZWbExWRGpTYzFQYlU5S05uend5dmNhUnFOZ1BfdUN5MzZ2NFl1VDVfaDA?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793765820.0
   },
   {
    "title": "AI抛售潮冲击美联储加息预期！投机资金转向押注12月暂停加息 - Moomoo",
@@ -5999,13 +6055,6 @@
    "ts": 1793760240.0
   },
   {
-   "title": "汇丰CEO艾桥智：黄金是对抗长期通胀的优良避险工具_公司新闻_财经 - 证券之星",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5HdWhpRkVGTFY5RUhZS0I2U1llZUpDN2otNWR3ZWV4ZkJHUkhvTzVyX2VuVGF1WEpkZnZYVnBpQlZIYmdiVmdpS053ZzBzckJyaTJva3hhcUZYaFV5clVScg?oc=5",
-   "source": "Google 新闻·通胀",
-   "lang": "zh",
-   "ts": 1793758740.0
-  },
-  {
    "title": "【财经分析】澳大利亚货币紧缩加剧经济下行压力 加息周期或近尾声 - 新浪财经",
    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Fb2I3b0w1QmZFYk5hVnJpZUlNME9DcVRyTl9rc3NFT1RUZUxUdjJubDB5T1dLWGp2amFQTU10ejJBQnpDWmh4MUEzaHRyekYxY3dDUEFseUVoU3BKbE9JazFtSFlnV2ZralRVVHdya3hvWXNWNXpDQw?oc=5",
    "source": "Google 新闻·利率",
@@ -6013,18 +6062,18 @@
    "ts": 1793757010.0
   },
   {
-   "title": "韩国执政党领导人据悉寻求推迟加密货币税收 - 新浪网",
-   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE44MHA5NlRQaUZlYUtaNGFmZXdqbExyQ2IzOGEyME9PbXRSNDFqN01pMEh5NUM3T2lRYUkxZ1FhWnZVUkIzdU04bTJMUQ?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793756246.0
-  },
-  {
    "title": "BTC/黄金比率跌破 20 倍：中期选举后风险资产调整预警 - Moomoo",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORS15Wk01T3Rwd1hGN2o4Qlp3ZThMMDlqN054NEtIV0t3UUQ4NXNBQ0dlTlhLaFZlVW1hNFRpRE42LUpadG50MFU0WEJHR3Q1bkRWWW9MNEJFUVRKZjM1NWItVUpNZElMWWw2MkZUOEJrLVlFOUlkUkJmRVVuYUtnaWFlM2JVbk9ndnd0QnhVR1lOTGpFMXRpc3R6NXJOUWc3T1E?oc=5",
    "source": "Google 新闻·加密",
    "lang": "zh",
    "ts": 1793751895.0
+  },
+  {
+   "title": "10 亿美元遭赎回，花旗逆势推比特币 ETF 提供者 智通财经 - 英为财情 Investing.com",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10Q1BQellnOER3bUdqRlNsa0s2Z3lpbS04T2daUklrY3pPemstWnVIX1g3N0hUUmxaeTluYk9oUFM3VGc3SGRuMjB0dEJDN1NYdFhmQXN2b2V0b0hnR0o3RFhzanFJLXlndUFJbks4Ym4?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793751600.0
   },
   {
    "title": "半导体领涨纳指反弹，比特币回升 7.7 万面临支撑考验 提供者 智通财经 - 英为财情 Investing.com",
@@ -6055,6 +6104,13 @@
    "ts": 1793750585.0
   },
   {
+   "title": "比特币和以太坊ETF面临资金外流浪潮 - IDNFinancials",
+   "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPRDE3NTlESXdyMXBNX0MxZTdpVmZFLUFIWVRKV0ZHLUJjVFdDQV9qV2VhamlrRGZ6Sk14bDVTNkVvT1NEdDl5S3BWTTdWVVRJbFJrTFN6c0RtRHN3TWZHXzBRQU9OSGRlRExMMjA0aGxYTHdmdHp6UGhNUC0tRWJNWmdOVGItVnlEWUpSVnoxelVka2ZaUzZSWTQweGdza1pVeHdSS3N5WGUxMEpsTmdUdGo0XzhZYXBrZ2F4dXV0bjJQN05Xbi14ckstekduaHhMazBzZjl0Z3ljZDhpQ0FCd3lJMmVxelV4TG5oUWtMWERtV1Q5dmxXZzJDLVZtSFIzcUF2bkZ4WVZHTlhCU09wQndVaHh4TjQwSUdJ?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793749200.0
+  },
+  {
    "title": "菲律宾央行：货币政策仍处紧缩周期 通胀预计数月后见顶 - 中国新闻网",
    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UVVV5UkIzeDhjT3NzdlRhdUVJRERBZE1POTNrT3BZM0R5ajdnNTY1YWFjcnJxUjZTRWxDb04zT2hGUmdHbURodXlJZ1J0YTRia1JPUFNIOU1zcFJPMTNCWkl1VVFmYzVo?oc=5",
    "source": "Google 新闻·通胀",
@@ -6062,18 +6118,18 @@
    "ts": 1793746933.0
   },
   {
+   "title": "美国商品期货交易委员会在已为加密货币期货版本开辟道路后，卷入股票永续合约的法律争端 - CoinDesk",
+   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNm1BNi1UU2ZkTGM1UVlOcXRzX01tQ3lQaTlCandRLVFmMTZ4U3lrVHhYTEpPR1M5ODNCQmJPR005RHVOSmczTG4yZHhpMVVvaDFSbkVvYXBFNXRPblJudVUybERxR2Q1TFlKX0VtSXZPaXJ4TDlDX0lOQzRvcE9tUV9SZkRPSVNKWW90ZVFSR0NHZjB6MDJYQlFQck1LNFdqanBqLTJwOTVCaDJfRmZnbFJsLWdDSTNMb1NjOWs4V1VVUWt2M3NVOEhwX0VLOTg?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793744084.0
+  },
+  {
    "title": "美联储12月加息的概率为78.9% - 新浪网",
    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9DdGZobXpXUEt2RDc3czVxb0k3aDZJREdqaTdlWjdYbTJkNVBlSS02VGpJc3NPc1ZkVjZlaVJUN0Rud0RrY1lOaWpKNA?oc=5",
    "source": "Google 新闻·美联储",
    "lang": "zh",
    "ts": 1793743304.0
-  },
-  {
-   "title": "新消息：比特币正经历其历史上最浅的一次熊市👀 BMTV 分析师Sean Hagan表示：“随着我们进入本月尾声，有... - Moomoo",
-   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPam05LUM1cnp1QlNpd2lVMkZiMjh4Rm0zdmZqTWowV0pETkZXRlhjTUh0QWNEUWhMQUpmU3ZHWC1XN2E4VFdKVzJOQ1VSRU1EWFJXRXdqZy12Y0ZzOHZHU2hnXzhrY01lM1RGWlh5VjUyNzk0UXdFT01vTDd3QzhQRGhZVUtnSVY0N3c4bFlkR205bjV3WWZHOGRldlVacG5LN0gxVHJjTFRpT2VJSUJvajRiVUpGR3dFYU9n?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793736219.0
   },
   {
    "title": "美国国债收益率上升、市场对美联储鹰派立场的押注升温，金价跌至3,900美元附近 - www.tmgm.com",
@@ -6097,6 +6153,13 @@
    "ts": 1793724780.0
   },
   {
+   "title": "韩国要求其最大银行评估重大加密货币黑客事件对其的影响 - CoinDesk",
+   "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdkdxcERhNEpXZ0h2UEpqMFMwRk9hdjVTa1RZbzhfZ0dNZmZoU0t5S1ViMHlaY3dzZEMzbTd4TkhEOExWWmhQMFhfQjJGSWdtNGhsZ1E3X1VoOURVaHJzZEVUR3A2RVFYWmJ1blJremgxYUlQWVhrUU9SWnR1TVJSWmVlNHVUMldMT0JOWnlzTXFFQUxrS21sZmgtQWNENEp0VHV4M29fNE9OTkNuOWF5YWJEbnRXZllweEl0ek5R?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793716950.0
+  },
+  {
    "title": "比特币正在打破自2014年以来的中期选举模式 - CoinDesk",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa293ZVpBYl9xVXQzNDc0UkhrdTFrZnZWanUwamVvYnZUMUJZLXk4enJBMVRYbDFPTWM0MnVfd1dNanUxWTB6WlhTWVBtLV9CTnJHNm51d1N2TmtZRFFwQ0c2VXlFR1JURGdBVHNGNThZaENPTHEwQWkyV2R0NmZUNGsyUWpnZ1NzMElEMFNuQzd5ZjlLRUgxYzg3NEoyaGR1eHZMYVpsNkJ4WE5LV1ZHeTlRSjNRUQ?oc=5",
    "source": "Google 新闻·加密",
@@ -6104,18 +6167,25 @@
    "ts": 1793709374.0
   },
   {
-   "title": "在经历3.2亿美元的安全漏洞后，Liquid的比特币债权凭证再次实现全面背书 - CoinDesk",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ1d2WUtDbjMzaWM4OVBDQ1ZCOVBmNjVpRC04eDdPS19XM3J3RDQ2RENSZVFTV0wyQjhWNFdOYWhQZk9NU0t0MUlrejNJMm1IZEF1YlFpakJJTGo2bnBpbjlEUDlPU2w1UFdwN0ZKaUx0ZXNfVUhLbFVjVWxTeWFOU2JxN1ZpMkJ0eUktMWNPdDBxNEZJdG0ybG4yRjBHQktmV1A0V0NtWlRLSWpKd2pDcmpidkZVX29MVDFGaEJQYw?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1793704332.0
-  },
-  {
    "title": "有色金属行业点评报告：通胀回升强化加息预期，风险资产共振压制金价_行业研究_研报 - 证券之星",
    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIRHJjMUx6V1BXc1JuMG9JWkFGS1ZWVGdLUDlZODdnbTJPaTYtUjg3R0R5TjZPZW9lZVBnNDRTaVFjdmQ2cGNoUzR0aTVrNzlMTnRxSUtnVGp6blRKSHFRcDZ3?oc=5",
    "source": "Google 新闻·通胀",
    "lang": "zh",
    "ts": 1793703660.0
+  },
+  {
+   "title": "近五年首次上调！央行罕见出手 专家解读 - 东方财富",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE43QlplWmNKX2U5OW56UnMzSmZQOUNfbXRSMmd4UlFXVXdGMUpYcEFQWVJyX2RzSno3MWUtSWgzR09IWlFfMkpZcGFPSGlJU04wbXZqZ0lpRmpJc3dRMWpBeGNPT3BLdw?oc=5",
+   "source": "Google 新闻·A股",
+   "lang": "zh",
+   "ts": 1793686430.0
+  },
+  {
+   "title": "朝鲜驳斥美方加密货币盗窃指控 - 财联社",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9oSEx0Uk1HY2lWcXY4REQ2S0llc3BxZ010aHd2R1RTWmJTT2gzclZEMnlnWEE5Qm80ZHVnZXlDMllZUmJ1aDlvUg?oc=5",
+   "source": "Google 新闻·加密",
+   "lang": "zh",
+   "ts": 1793680376.0
   },
   {
    "title": "朝鲜驳斥美国加密货币盗窃指控 - 中国新闻网",
@@ -6153,13 +6223,6 @@
    "ts": 1793651221.0
   },
   {
-   "title": "美联储主席沃什两个关键词在华尔街引发回响，令投资者心生不安 - 新浪财经",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRWR4OVRGNGN6bGVKNUlGSEtYOWQyWldoQ3JYcmthY3JMT1lqVXlLeE1uVHFVaHZjcW9rY1gxb0FRWGRwU0NXcm5UUlJUMHdTc0FubUEzc3VScmxvNl9XMlZBcnRLQ09KcGFVaXprU05YckZtcEhrWC13b2dVbUxXZ0dGMEE0UFE?oc=5",
-   "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1793615683.0
-  },
-  {
    "title": "央行将开展第三次证券、基金、保险公司互换便利操作 超30家机构表达初步意向 - 东方财富",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83VnZZZnYzVnJwZ0hUeUxTZHdCUzBSQ2haWHRWdktLUkQ2aDl3bjAxRjgzZXpmdHZYNlpCTi1teTFEQWVwWURkNGVfU0NSZS03cHdldjlKbFoxYVpDTzVmcHoxX3FiQQ?oc=5",
    "source": "Google 新闻·A股",
@@ -6186,13 +6249,6 @@
    "source": "Google 新闻·加密",
    "lang": "zh",
    "ts": 1793521638.0
-  },
-  {
-   "title": "谁能阻止科技股下跌？野村：中选没有用，只有美联储！ - 华尔街见闻",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5icVdBYXdHMllYeFBHOFIwdzBLVEFpTXYxUnhVWTEya05wWVpqMTZobFhlNHRpLXFsNGJnRlJJM3FIOUp3NHUwbDVwbmZYTTVXU1Rn?oc=5",
-   "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1793515937.0
   },
   {
    "title": "美联储宣布维持利率不变 - 新华网",
@@ -6277,13 +6333,6 @@
    "source": "Google 新闻·美联储",
    "lang": "zh",
    "ts": 1787900400.0
-  },
-  {
-   "title": "“史诗级”轧空！比特币暴力拉升 18万人爆仓 - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5QdXpjdm1Rcmk4QlV5Z1llMnNFaXQzcW5hdnR3YXRUc01FbzFYOXVscGY0ay1YUzZFaE4yLXljdTI4WUJ5bk9MMHNhUFJBd2xIb1NxYkZmSkdKS1RYblBucg?oc=5",
-   "source": "Google 新闻·加密",
-   "lang": "zh",
-   "ts": 1787209200.0
   },
   {
    "title": "美国7月CPI环比上涨 - 新华网",
@@ -6447,25 +6496,11 @@
    "ts": 1777532400.0
   },
   {
-   "title": "新一场的金融危机或正在酝酿——但不会重演2008年的景象 - BBC",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9JTnVHOTRfc2IxeW1kdkswN1hwQUxibS1GeU5RSm9tYkktMi05d3ZzRDZOcE1Xek9oaVZLVWYtbE1Na04xZmxjUU12bFZ4TGtUTDRHTFVSQmJHclNlQkVZV3c2Z3V3Z9IBa0FVX3lxTE1faHJjcDZ0ZFpJRTl6aHdpVVJmZG9UNzhyLUktTUEwWW0xODZhc2hxTHN1VWRmRy1uNjIyVnJzLWI5RUVyUTFLaU4zdmtrd0I4TG01eTNBQXZsTFNtbWM0eDlxT093c0E0UGJ3?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1777532400.0
-  },
-  {
    "title": "为什么阿联酋退出OPEC会带来深远影响？ - BBC",
    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBORXdkX0ctNzFScktPZFVNdUJ6b0QxblNmZEgxVWtDTngyWDcyWnJRYng0TEFGcFZXdmZWN2lfYWRkbnN6Q3FUMGF6OUIyNENJRlYxaXZjb1ktUGNUZThKUWlySFI4UdIBa0FVX3lxTE5fLXF1NEl2MUYxeFNtMzdRTXZjYnZtUlpqZHkwMmVqeGlnSHEyek9RcGd6RUlVTzFpR2drbXRISlFSQS1fZ0g4ekoxVDlFVXJGcHp0Q3FMa0ptbDcza3gzRldjd1Z1RzlFQThV?oc=5",
    "source": "Google 新闻·全球市场",
    "lang": "zh",
    "ts": 1777446000.0
-  },
-  {
-   "title": "中国车企比亚迪：没有美国市场，亦能蓬勃发展 - BBC",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Wekl4cXRJUW1JQ21xVDBTNkR6QzNWTGpYRkM5ZERreDhpaENZMWtiaGx6UEd2RmdiTDY1R2lleXA0T2I1VEExMk0wUk8xcFc5dW1kTXRqQ1dRakdPeExJdWhuT2J4d9IBa0FVX3lxTE9kcjIzQ2JyUkp0Z0E4Z3NxdzZpMmxRTGdGeXIzbTB4VE9sYVZHUGhtTXZpUHR2S29IcGl6WG9PcFNpOXEzUlF0RlJvR3V2WTBlVjZ3NUlYZFRoOGhsT1VJaVp6NmRBdFIwZmhR?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1777186800.0
   },
   {
    "title": "霍尔木兹海峡重开的消息令油价大跌 股市飙涨 - RFI",
@@ -6524,20 +6559,6 @@
    "ts": 1772611200.0
   },
   {
-   "title": "霍尔木兹海峡：伊朗“锁喉”的可能方式及后续影响 - BBC",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4yTlB0akdUZ1c3WHBoXzE2c3ZGVkVBVk9mWHhTZU9IbWpDR1FIZTk0RkJSN0Vsajdybkt6NmtVcGU1X25oZ1JWelQ2ZWJ2Q1dNZTFFQ3BIY21TSDdjVVExd2ZyV3N4UdIBa0FVX3lxTE9JT2pQUjctR1dmNDAzVWowWnNpYnZYcWEwTEVoUVlFRnR1WlJRWmxHNWJ1STZmZmVTX1RPOWZRVFA2X0ZISm1faHpQMlF6dm9DNzl3clR0NXR4X2FHT1VTNnVCb2RZR1lPMnow?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1772611200.0
-  },
-  {
-   "title": "特朗普国情咨文夸赞美国步入“黄金时代” 一文看懂关键点和争议点 - BBC",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vTHpDbGNhQ2xQSWNxOGxMMEd3a1hyYTBmazRaMjFvZ05xNTVseUJPVGZXOXMyVHZ4R3BFc25qOWZmWVhVbV9IdUlLU0lyUEt1THVCYUNHVmRLLU1ycjFna3gwZWNBZ9IBa0FVX3lxTE1yek9KeFgzY2xzQ0VHUTRzZzRvNGJHSDZXQTU0VHZnY015LWQxWV9feG1McGdLYkZJcXl3TUdyZnc5MFhoaldRZ3EyTzVUMjl4c3EtSXRwWUUzb2RIWkVWNHBXbENmZ2V3dFg4?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1772006400.0
-  },
-  {
    "title": "澳大利亚央行两年多来首次加息 - 新华网",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pVmhGaGwtMWxyNHU2MVQ1N1cxOFVTLURjNWloNmdTZnZHYTUzNDBDcTlPTzVHMm9FMzRrRmNEb1RhQ3BMNjlTZnBLWXZWc1lBbmdzUlY1SEtLWGdCNkZJalNLempOdDNnUUZDeXlIdGdTYlBXQVZFSHR5aWVxNGM?oc=5",
    "source": "Google 新闻·利率",
@@ -6576,13 +6597,6 @@
    "title": "美联储维持利率不变 鲍威尔建议继任者“勿卷入选举政治” - 新华网",
    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE54dWJWUEFZaXNqY0VYQnNfTm80Ty1hcjFBTzlCSzVhMzl5RXRvRXpqamdaRTdDYTJmMG12UHh6WUNuWGt4ZVpMMlZiOEY4WGJaalo1N29kSmNTbkZCTkRpVnFRYzhrRlZtbGcyQ0RsazNmSWhqQkg4?oc=5",
    "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1769673600.0
-  },
-  {
-   "title": "基尔·斯塔默访华：为什么中国将英国首相来访视为更大局面的一部分？ - BBC",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xeG1HUU9fa2xhSFVGdEtxWFBPa2R6dWZmYldRbEc3MU5rWWJYZERoQ0VfNU9oaGs3V3BQeWxIWkpHSGV1MjRwWVFaajZBS2ZRdS1RcDlYWjZTMkZvdERHZjlSZmp1d9IBa0FVX3lxTE5CT2o0cW1kbTdNcmphQ29wMXpVYjdqTkF3dEJTOWxmVXNZMnpzSktzVFNvc3pGQ1RtNEpLdFhDU1ZMNHBlTHZBQkZYNm5HeERjOXRmQWVHSkFPdGxkNURKY3ZvQ1lBRS11RDdv?oc=5",
-   "source": "Google 新闻·全球市场",
    "lang": "zh",
    "ts": 1769673600.0
   },
@@ -6688,13 +6702,6 @@
    "title": "在“不同寻常时刻”宣布降息 美联储这次能“满足”特朗普吗？ - 新华网",
    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2cEVyNThFQTYyQnk2WkJtdlY5R3UzYnUtZFRFQ282ZUVCSWZPLVRIbFYyY2U5NUtCY3lzTzZ3RThaOWRLb0ZhYXRMOFJWbWx6VDJjWEhIRHI2d3VvMHp2VmdiZERWZG4yOWZ6LVNsbkkwUXJxTWlxTkNaSGZsakk?oc=5",
    "source": "Google 新闻·美联储",
-   "lang": "zh",
-   "ts": 1758178800.0
-  },
-  {
-   "title": "美联储降息25个基点 - 新华网",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5tT2xqZmQ0SGhuM0FhVVByTFpfR3kyRTZackdodURQM0hwZ2tCQTMtNWxkb3NLRG5vTmRldzdJazl3d0pzeHJKTDdVcWpDNjlMTXg4WXhRb1MxTDdZWldVSHRnaGtLWFRLNmNxYngwWUhKY2Nsdlpn?oc=5",
-   "source": "Google 新闻·利率",
    "lang": "zh",
    "ts": 1758178800.0
   },
@@ -6942,19 +6949,12 @@
    "source": "Google 新闻·利率",
    "lang": "zh",
    "ts": 1644307200.0
-  },
-  {
-   "title": "COMEX黄金 - 东方财富",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1DWDh0ZWF4SDA5YTZSNnpud2dJcXdvSTF6TENNNzJKWWlEWE9oS2JlcGlIdXlHMzZ0dkRRNG85RXVfSEI3R1NqbzBDd1RSYXdOVGpoRy1odEh0dTBkSjFGNDJR?oc=5",
-   "source": "Google 新闻·全球市场",
-   "lang": "zh",
-   "ts": 1593256128.0
   }
  ],
  "counts": {
-  "events_future7": 31,
-  "events_high": 31,
-  "news_7d": 428,
-  "news_30d": 431
+  "events_future7": 29,
+  "events_high": 29,
+  "news_7d": 436,
+  "news_30d": 439
  }
 }
